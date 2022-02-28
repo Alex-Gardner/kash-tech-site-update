@@ -1,3 +1,5 @@
+// Header template to be appended
+
 const template = document.createElement('template');
 
 template.innerHTML = `
