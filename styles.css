@@ -36,6 +36,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  line-height: 1.1;
 }
 #root,
 #__next {
@@ -90,6 +91,7 @@ html {
   --dark-bg__medium-contrast-color: hsla(0 0% 50% / 100%);
 
   --major-accent-color-blue-1: hsla(195 95% 33% / 100%);
+  --major-accent-color-blue-2: hsla(195 85% 95% / 100%);
   --minor-accent-color-orange-1: hsla(27 94% 49% / 100%);
 
   --header-height: clamp(60px, 19vw, 75px);
@@ -142,6 +144,8 @@ body {
 .site-header-holder {
   position: fixed;
   box-shadow: 0px 1px 5px hsla(0 0% 0% / 40%), 0px 1px 10px hsla(0 0% 0% / 20%);
+  width: 100%;
+  justify-content: space-between;
 }
 .component-site-header {
   width: 100%;
@@ -191,10 +195,20 @@ body {
 }
 .company-name-and-slogan {
   padding-top: 2rem;
+  line-height: 1.2;
 }
 .company-name-and-slogan .company-name {
-  font-size: 1.3rem;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
   color: var(--minor-accent-color-orange-1);
+}
+.company-name-and-slogan .company-slogan {
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: hsla(202 30% 83% / 100%);
 }
 
 .main-page__title-question {
@@ -205,6 +219,8 @@ body {
   margin-bottom: clamp(30px, 4vw, 40px);
 }
 .hero-section__title-blurb {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.3;
   margin-bottom: clamp(30px, 4vw, 40px);
@@ -217,23 +233,48 @@ body {
 /* 
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
-
+                     Who We Are 
 
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
 */
 
+.home-page__section-title {
+  margin: 2rem 0;
+}
 .who-we-are__sub-title {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  color: var(--contrast-color-medium);
+  color: var(--major-accent-color-blue-1);
   font-size: 1.6rem;
+  margin: 1rem 0;
 }
 .who-we-are__serivces-p2 {
   margin: 1rem 0;
 }
 .who-we-are__services-detail-holder em {
   font-weight: 500;
+}
+
+.core-commits-article {
+  background-color: var(--major-accent-color-blue-2);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.core-commits-article h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.core-commits-article ul {
+  padding-left: 1rem;
+}
+.core-commits-article p,
+.core-commits-article ul li {
+  line-height: 1.3;
+  font-weight: 300;
+}
+.core-commits-article.core-values {
+  margin: 1.5rem 0;
 }
 
 /* 
