@@ -74,6 +74,9 @@ h3,
 h4 {
   font-family: "Manrope", sans-serif;
 }
+h1 {
+  line-height: 1.1;
+}
 
 html {
   --base-default-bg-color: hsla(0 0% 100% / 100%);
@@ -82,23 +85,50 @@ html {
   --contrast-color-medium: hsla(0 0% 25% / 100%);
   --contrast-color-light: hsla(0 0% 50% / 100%);
 
+  --dark-bg__max-contrast-color: hsla(0 0% 100% / 100%);
+  --dark-bg__high-contrast-color: hsla(0 0% 80% / 100%);
+  --dark-bg__medium-contrast-color: hsla(0 0% 50% / 100%);
+
   --major-accent-color-blue-1: hsla(195 95% 33% / 100%);
   --minor-accent-color-orange-1: hsla(27 94% 49% / 100%);
 
+  --header-height: clamp(60px, 19vw, 75px);
+
+  --hero-section__background: radial-gradient(
+    52.91% 51.06% at 95.34% 91.73%,
+    #0d3b55 0%,
+    #032436 100%
+  );
+
   --link-button__standard-rounding: 0.5rem;
+
+  background-color: var(--base-default-bg-color);
 }
 
 body {
-  background-color: var(--base-default-bg-color);
   color: var(--contrast-color-high);
+  position: relative;
+  /* padding: 0 0.5rem; */
 }
 
 .button-link {
+  text-decoration: none;
   border-radius: var(--link-button__standard-rounding);
   text-transform: uppercase;
   color: var(--base-default-bg-color);
   background-color: var(--minor-accent-color-orange-1);
   padding: 0.8rem 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.wide-screen-holder {
+  padding: 0 0.7rem;
+}
+.home-page__section-title {
+  color: var(--contrast-color-high);
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 /* 
@@ -109,10 +139,37 @@ body {
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
 */
+.site-header-holder {
+  position: fixed;
+  box-shadow: 0px 1px 5px hsla(0 0% 0% / 40%), 0px 1px 10px hsla(0 0% 0% / 20%);
+}
+.component-site-header {
+  width: 100%;
+  height: var(--header-height);
+  background-color: var(--base-default-bg-color);
+}
+.component-site-header .wide-screen-holder {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 1rem; */
+}
+.logo-icon-holder {
+  height: 80%;
+}
 
+.header__nav-list {
+  visibility: hidden;
+}
 .nav-list__list-item {
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   list-style: none;
+}
+
+.hero-section__main-CTA {
+  background-color: var(--major-accent-color-blue-1);
 }
 
 /* 
@@ -124,9 +181,37 @@ body {
 ------------------------------------------------------------------------------------------------------
 */
 
+.home-page-main {
+  padding-top: var(--header-height);
+}
+.home-page__hero-section {
+  background: var(--hero-section__background);
+  color: var(--dark-bg__max-contrast-color);
+  padding-bottom: 3rem;
+}
+.company-name-and-slogan {
+  padding-top: 2rem;
+}
 .company-name-and-slogan .company-name {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--minor-accent-color-orange-1);
+}
+
+.main-page__title-question {
+  font-size: 2.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: clamp(30px, 6vw, 60px);
+  margin-bottom: clamp(30px, 4vw, 40px);
+}
+.hero-section__title-blurb {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  margin-bottom: clamp(30px, 4vw, 40px);
+}
+.hero-section__main-CTA {
+  max-width: 25ch;
+  display: block;
 }
 
 /* 
@@ -138,6 +223,19 @@ body {
 ------------------------------------------------------------------------------------------------------
 */
 
+.who-we-are__sub-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: var(--contrast-color-medium);
+  font-size: 1.6rem;
+}
+.who-we-are__serivces-p2 {
+  margin: 1rem 0;
+}
+.who-we-are__services-detail-holder em {
+  font-weight: 500;
+}
+
 /* 
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
@@ -146,3 +244,12 @@ body {
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
 */
+
+.home-page__contact-section {
+  color: #fff;
+  background: linear-gradient(
+    118.01deg,
+    #2f6075 7.37%,
+    rgba(2, 42, 59, 0.87) 91.06%
+  );
+}
