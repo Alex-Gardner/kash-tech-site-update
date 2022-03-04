@@ -550,35 +550,48 @@ body {
 .succcess-story-item .quote-watermark-holder {
   position: absolute;
   right: 1rem;
-  top: 4rem;
+  top: 4.5rem;
   line-height: 1.1;
 }
 .succcess-story-item .quote-watermark-holder .success-story__quotation-mark-svg {
   position: absolute;
-  left: -1.5rem;
+  left: -1.8rem;
   top: -20px;
   width: 1.5rem;
 }
 .succcess-story-item .quote-watermark-holder .success-story__quotation-mark-svg path {
-  fill: hsla(0 0% 53% / 12%);
+  fill: hsla(0 0% 53% / 20%);
 }
 .succcess-story-item .quote-watermark-holder .watermark-quote-excerpt {
-  color: hsla(0 0% 53% / 12%);
+  color: hsla(0 0% 53% / 20%);
   font-size: 1.3rem;
   max-width: 70vw;
 }
 
 .customer-success__company-name {
-  margin-bottom: 5rem;
+  margin-bottom: 5.5rem;
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.6rem;
 }
 
 .customer-success__company-comments {
   color: var(--contrast-color-medium);
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
 }
-
+.quoted-name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+.quoted-position {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
 
 
 /* 
