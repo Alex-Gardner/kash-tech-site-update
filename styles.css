@@ -359,9 +359,9 @@ body {
 .business-services-item {
   --vibrant-link-color: hsla(194 58% 50% / 100%);
   margin: 1.5rem 0;
-  box-shadow: .5px 1.5px 4px hsla(0 0% 0% / 25%);
+  box-shadow: .5px 1.5px 4px hsla(0 0% 0% / 25%), .2px 1px 7px hsla(0 0% 0% / 15%);
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -393,8 +393,36 @@ body {
 ------------------------------------------------------------------------------------------------------
 */
 
+.partner-icons-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 2rem 0;
+}
 
+.partner-button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: .8rem;
+  border-radius: .4rem;
+  background-color: var(--base-default-bg-color);
+  aspect-ratio: 2.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 2px hsla(0 0% 0% / 5%), .3px .3px 5px hsla(0 0% 0% / 10%);
+}
+.partner-button.ms-powerbi-button {
+  line-height: 1;
+  text-align: start;
+}
 
+.parter-button-icon {
+  height: 90%;
+}
+.partner-button.ms-powerbi-button .parter-button-icon {
+  margin-right: .3rem;
+}
 
 
 /* 
