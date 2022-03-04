@@ -137,7 +137,9 @@ body {
   font-size: 2.5rem;
   text-align: center;
 }
-
+.home-page__who-we-are-section, .home-page__services-section, .home-page__partner-program-section, .home-page__leadership-team-section, .home-page__customer-success-section, .home-page__contact-section {
+  margin-top: 5rem;
+}
 /* 
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
@@ -151,6 +153,7 @@ body {
   box-shadow: 0px 1px 5px hsla(0 0% 0% / 40%), 0px 1px 10px hsla(0 0% 0% / 20%);
   width: 100%;
   justify-content: space-between;
+  z-index: 3;
 }
 .component-site-header {
   width: 100%;
@@ -229,6 +232,7 @@ body {
   font-size: 1.3rem;
   line-height: 1.3;
   margin-bottom: clamp(30px, 4vw, 40px);
+  color: var(--dark-bg__high-contrast-color);
 }
 .hero-section__main-CTA {
   max-width: 25ch;
@@ -254,6 +258,21 @@ body {
   font-size: 1.6rem;
   margin: 1rem 0;
 }
+.who-we-are__content-holder {
+  display: flex;
+  flex-direction: column;
+}
+.who-we-are__text-content {
+  order: 2;
+}
+.who-we-are__media-content {
+  margin-bottom: 2rem;
+}
+.services-philosophy__venn-holder {
+  background: var(--major-accent-color-blue-2);
+  width: 100%; 
+  aspect-ratio: 1.38;
+}
 .who-we-are__services-detail-holder {
   font-weight: 300;
 }
@@ -272,6 +291,7 @@ body {
 .core-commits-article h4 {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
+  color: var(--contrast-color-medium);
 }
 .core-commits-article ul {
   padding-left: 1rem;
@@ -285,10 +305,123 @@ body {
   margin: 1.5rem 0;
 }
 
+
+
+
 /* 
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
+      Services
 
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+*/
+
+
+.services-section__consulting-services-holder {
+  --top-padding: 1rem;
+  box-shadow: .5px 1.5px 4px hsla(0 0% 0% / 25%);
+  border-radius: 1rem;
+  padding: var(--top-padding) 1rem;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-section__consulting-sub-title {
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: var(--base-default-bg-color);
+  transform: translate(0, calc(-50% - var(--top-padding)));
+  padding: 0 1rem;
+  z-index: 0;
+}
+
+.consulting-services-list {
+  padding-left: .5rem;
+  margin-bottom: 2rem;
+  font-family: "Lora", serif;
+  font-size: 1.13rem;
+}
+.consulting-link {
+  font-size: .8rem;
+  align-self: flex-end;
+}
+
+.services-section__business-services-holder {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.business-services-item {
+  --vibrant-link-color: hsla(194 58% 50% / 100%);
+  margin: 1.5rem 0;
+  box-shadow: .5px 1.5px 4px hsla(0 0% 0% / 25%);
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.business-services-item > ul {
+  padding-left: 1.6rem;
+  color: var(--contrast-color-medium);
+}
+.business-services-item > h4 {
+ font-size: 1.5rem;
+ font-weight: 600;
+ margin-bottom: 1.5rem; 
+}
+.business-services-item > .button-link {
+  border-radius: .4rem;
+  padding: .5rem .9rem;
+  font-size: .7rem;
+  background-color: var(--vibrant-link-color);
+  align-self: flex-end;
+  margin-top: 1rem; 
+
+}
+
+/* 
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+      Partner Program
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+*/
+
+
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+      Leadership Team
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+      Customer Success
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+*/
+
+
+/* 
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+      Contact Us
 
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
@@ -302,3 +435,16 @@ body {
     rgba(2, 42, 59, 0.87) 91.06%
   );
 }
+
+
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+      ---
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+*/
