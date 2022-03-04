@@ -402,7 +402,7 @@ body {
 
 .partner-button {
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   padding: .8rem;
   border-radius: .4rem;
   background-color: var(--base-default-bg-color);
@@ -428,10 +428,19 @@ body {
   padding: 1.5rem;
   border-radius: .5rem;
   box-shadow: 1px 3px 11px hsla(0 0% 0% / 15%), 0px 2px 5px hsla(0 0% 0% / 25%);
+}
 
+.partner-details-holder .logo-holder {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1;
+  align-items: flex-end;
+  width: 45%;
 }
 .details__partner-logo {
-  width: 45%;
+  /* max-height: 70px; */
 }
 .partner-description {
   font-size: 1.13rem;
@@ -450,7 +459,68 @@ body {
 ------------------------------------------------------------------------------------------------------
 */
 
+.home-page__leadership-team-section .wide-screen-holder {
+  padding: 0 1.5rem;
+}
 
+.leadership-team__biography-holder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 80px;
+}
+.leadership-member-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.leadership-member-figure:nth-child(1) {
+  --ellipse-bg-color: #FF7171;
+}
+.leadership-member-figure:nth-child(2) {
+  --ellipse-bg-color: #71B077;
+}
+.leadership-member-figure:nth-child(3) {
+  --ellipse-bg-color: #F6BD88;
+}
+.leadership-member-figure:nth-child(4) {
+  --ellipse-bg-color: #3B5E7E;
+}
+.leadership-member-figure:nth-child(5) {
+  --ellipse-bg-color: #179E75;
+}
+.leadership-member-figure:nth-child(6) {
+  --ellipse-bg-color: #9D8CE0;
+}
+
+.leadership-img-holder {
+  align-self: center;
+  aspect-ratio: 1;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 1.5rem;
+}
+.leadership-img-holder::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  transform: translate(.6rem, 0);
+  background-color: var(--ellipse-bg-color);
+  border-radius: 50%;
+
+}
+.leader-name {
+  font-size: 1.25rem;
+  color: #FF6161;
+  font-weight: 300;
+}
+.leader-title {
+  font-size: .875rem;
+  color: #FF6161;
+  font-style: italic;
+  font-weight: 300;
+  margin: .2rem 0 .5rem;
+}
 
 /* 
 ------------------------------------------------------------------------------------------------------
