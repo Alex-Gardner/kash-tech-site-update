@@ -424,6 +424,22 @@ body {
   margin-right: .3rem;
 }
 
+.partner-details-holder {
+  padding: 1.5rem;
+  border-radius: .5rem;
+  box-shadow: 1px 3px 11px hsla(0 0% 0% / 15%), 0px 2px 5px hsla(0 0% 0% / 25%);
+
+}
+.details__partner-logo {
+  width: 45%;
+}
+.partner-description {
+  font-size: 1.13rem;
+  margin-top: 2rem;
+  color: var(--contrast-color-light);
+  line-height: 1.1;
+}
+
 
 /* 
 ------------------------------------------------------------------------------------------------------
