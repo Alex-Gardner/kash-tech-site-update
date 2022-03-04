@@ -531,6 +531,55 @@ body {
 ------------------------------------------------------------------------------------------------------
 */
 
+.home-page__customer-success-section {}
+.home-page__customer-success-section .wide-screen-holder {
+  padding: 0;
+}
+.succcess-story-item {
+  position: relative;
+  background-color: var(--success-story-bg-color);
+  padding: 1.5rem;
+}
+.succcess-story-item:nth-of-type(odd) {
+  --success-story-bg-color: #FFF;
+}
+.succcess-story-item:nth-of-type(even) {
+  --success-story-bg-color: #FEF8F3;
+}
+
+.succcess-story-item .quote-watermark-holder {
+  position: absolute;
+  right: 1rem;
+  top: 4rem;
+  line-height: 1.1;
+}
+.succcess-story-item .quote-watermark-holder .success-story__quotation-mark-svg {
+  position: absolute;
+  left: -1.5rem;
+  top: -20px;
+  width: 1.5rem;
+}
+.succcess-story-item .quote-watermark-holder .success-story__quotation-mark-svg path {
+  fill: hsla(0 0% 53% / 12%);
+}
+.succcess-story-item .quote-watermark-holder .watermark-quote-excerpt {
+  color: hsla(0 0% 53% / 12%);
+  font-size: 1.3rem;
+  max-width: 70vw;
+}
+
+.customer-success__company-name {
+  margin-bottom: 5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.customer-success__company-comments {
+  color: var(--contrast-color-medium);
+}
+
+
 
 /* 
 ------------------------------------------------------------------------------------------------------
