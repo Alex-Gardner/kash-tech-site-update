@@ -137,7 +137,7 @@ body {
   font-size: 2.5rem;
   text-align: center;
 }
-.home-page__who-we-are-section, .home-page__services-section, .home-page__partner-program-section, .home-page__leadership-team-section, .home-page__customer-success-section, .home-page__contact-section {
+.home-page__who-we-are-section, .home-page__services-section, .home-page__partner-program-section, .home-page__leadership-team-section, .home-page__customer-success-section {
   margin-top: 5rem;
 }
 /* 
@@ -534,11 +534,13 @@ body {
 .home-page__customer-success-section {}
 .home-page__customer-success-section .wide-screen-holder {
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 .succcess-story-item {
   position: relative;
   background-color: var(--success-story-bg-color);
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 2rem;
 }
 .succcess-story-item:nth-of-type(odd) {
   --success-story-bg-color: #FFF;
@@ -549,7 +551,7 @@ body {
 
 .succcess-story-item .quote-watermark-holder {
   position: absolute;
-  right: 1rem;
+  left: 4rem;
   top: 4.5rem;
   line-height: 1.1;
 }
@@ -564,7 +566,7 @@ body {
 }
 .succcess-story-item .quote-watermark-holder .watermark-quote-excerpt {
   color: hsla(0 0% 53% / 20%);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   max-width: 70vw;
 }
 
@@ -593,6 +595,15 @@ body {
   margin-bottom: 3rem;
 }
 
+.button-link.success-story-link {
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-transform: revert;
+  align-self: flex-end;
+  background-color: #047CA3;
+}
+
 
 /* 
 ------------------------------------------------------------------------------------------------------
@@ -605,6 +616,7 @@ body {
 
 .home-page__contact-section {
   color: #fff;
+  padding: 3rem .2rem;
   background: linear-gradient(
     118.01deg,
     #2f6075 7.37%,
@@ -612,8 +624,41 @@ body {
   );
 }
 
+.input-grid-holder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
 
+.contact-section__title {
+  font-size: 3.125rem;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 3rem;
+}
+.contact-form__input-label, .contact-form__message-textarea-label {
+  margin-bottom: 1rem;
+}
+.label-text, .textarea-labeltext {
+  margin-bottom: .3rem;
+  font-weight: 300;
+}
+.contact-form__message-textarea-label {
+  grid-column: -1 / 1;
+}
+.detail-input {
+  width: min(80vw, 100%);
+  height: 2rem;
+}
+.detail-input, .contact-form__message-textarea {
+  border-radius: .3rem;
+  border-style: none;
+  padding: 0;
+}
 
+.contact-form__message-textarea {
+  width: 100%;
+  min-height: 200px;
+}
 
 
 /* 
