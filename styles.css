@@ -171,6 +171,14 @@ body {
   height: 80%;
 }
 
+.home-page-link {
+  height: 100%;
+  display: block;
+}
+.company-logo {
+  height: 100%;
+}
+
 .header__nav-list {
   visibility: hidden;
 }
@@ -672,7 +680,7 @@ body {
 }
 .contact-form__buttons-holder button {
   aspect-ratio: 3.4;
-  width: clamp(200px, 20vw, 270px);
+  width: clamp(200px, 30vw, 270px);
   /* padding: 1.2rem 2.0rem; */
   color: #fff;
   border-radius: .6rem;
