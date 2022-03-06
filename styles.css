@@ -359,8 +359,9 @@ body {
 
 .services-section__business-services-holder {
   width: 90%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
   margin: 0 auto;
 }
 
@@ -376,11 +377,12 @@ body {
 .business-services-item > ul {
   padding-left: 1.6rem;
   color: var(--contrast-color-medium);
+  margin-bottom: 1rem;
 }
 .business-services-item > h4 {
  font-size: 1.5rem;
  font-weight: 600;
- margin-bottom: 1.5rem; 
+ margin-bottom: 1rem; 
 }
 .business-services-item > .button-link {
   border-radius: .4rem;
@@ -388,8 +390,7 @@ body {
   font-size: .7rem;
   background-color: var(--vibrant-link-color);
   align-self: flex-end;
-  margin-top: 1rem; 
-
+  margin-top: auto; 
 }
 
 /* 
@@ -708,3 +709,30 @@ body {
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
 */
+
+
+/************************************************
+-----------------------------------------------------
+#################################################
+      Media Queries
+
+***********************************************
+-----------------------------------------------------
+################################################# */
+
+
+@media(min-width: 650px) {
+  .wide-screen-holder {
+    max-width: 85vw; 
+    margin: 0 auto;
+  }
+  .home-page__services-section .wide-screen-holder {
+    max-width: 95vw; 
+  }
+  .services-section__business-services-holder {
+    width: revert;
+  }
+  .home-page__leadership-team-section .wide-screen-holder {
+    padding: 0;
+  }
+}
