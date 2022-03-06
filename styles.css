@@ -373,6 +373,7 @@ body {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .business-services-item > ul {
   padding-left: 1.6rem;
@@ -424,6 +425,7 @@ body {
 .partner-button.ms-powerbi-button {
   line-height: 1;
   text-align: start;
+  font-size: clamp(16px,3.6vw,35px);
 }
 
 .parter-button-icon {
@@ -728,6 +730,9 @@ body {
   }
   .home-page__services-section .wide-screen-holder {
     max-width: 95vw; 
+  }
+  .services-section__business-services-holder {
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   }
   .services-section__business-services-holder {
     width: revert;
