@@ -137,7 +137,11 @@ body {
   font-size: 2.5rem;
   text-align: center;
 }
-.home-page__who-we-are-section, .home-page__services-section, .home-page__partner-program-section, .home-page__leadership-team-section, .home-page__customer-success-section {
+.home-page__who-we-are-section,
+.home-page__services-section,
+.home-page__partner-program-section,
+.home-page__leadership-team-section,
+.home-page__customer-success-section {
   margin-top: 5rem;
 }
 /* 
@@ -279,7 +283,7 @@ body {
 }
 .services-philosophy__venn-holder {
   background: var(--major-accent-color-blue-2);
-  width: 100%; 
+  width: 100%;
   aspect-ratio: 1.38;
 }
 .who-we-are__services-detail-holder {
@@ -314,9 +318,6 @@ body {
   margin: 1.5rem 0;
 }
 
-
-
-
 /* 
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
@@ -326,10 +327,9 @@ body {
 ------------------------------------------------------------------------------------------------------
 */
 
-
 .services-section__consulting-services-holder {
   --top-padding: 1rem;
-  box-shadow: .5px 1.5px 4px hsla(0 0% 0% / 25%);
+  box-shadow: 0.5px 1.5px 4px hsla(0 0% 0% / 25%);
   border-radius: 1rem;
   padding: var(--top-padding) 1rem;
   margin: 3rem 0;
@@ -348,13 +348,13 @@ body {
 }
 
 .consulting-services-list {
-  padding-left: .5rem;
+  padding-left: 0.5rem;
   margin-bottom: 2rem;
   font-family: "Lora", serif;
   font-size: 1.13rem;
 }
 .consulting-link {
-  font-size: .8rem;
+  font-size: 0.8rem;
   align-self: flex-end;
 }
 
@@ -369,7 +369,8 @@ body {
 .business-services-item {
   --vibrant-link-color: hsla(194 58% 50% / 100%);
   margin: 1.5rem 0;
-  box-shadow: .5px 1.5px 4px hsla(0 0% 0% / 25%), .2px 1px 7px hsla(0 0% 0% / 15%);
+  box-shadow: 0.5px 1.5px 4px hsla(0 0% 0% / 25%),
+    0.2px 1px 7px hsla(0 0% 0% / 15%);
   border-radius: 1rem;
   padding: 1.5rem;
   display: flex;
@@ -382,17 +383,17 @@ body {
   margin-bottom: 1rem;
 }
 .business-services-item > h4 {
- font-size: 1.5rem;
- font-weight: 600;
- margin-bottom: 1rem; 
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 .business-services-item > .button-link {
-  border-radius: .4rem;
-  padding: .5rem .9rem;
-  font-size: .7rem;
+  border-radius: 0.4rem;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.7rem;
   background-color: var(--vibrant-link-color);
   align-self: flex-end;
-  margin-top: auto; 
+  margin-top: auto;
 }
 
 /* 
@@ -414,31 +415,32 @@ body {
 .partner-button {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  padding: .8rem;
-  border-radius: .4rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
   background-color: var(--base-default-bg-color);
   aspect-ratio: 2.2;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 2px hsla(0 0% 0% / 5%), .3px .3px 5px hsla(0 0% 0% / 10%);
+  box-shadow: 1px 1px 2px hsla(0 0% 0% / 5%),
+    0.3px 0.3px 5px hsla(0 0% 0% / 10%);
 }
 .partner-button.ms-powerbi-button {
   line-height: 1;
   text-align: start;
-  font-size: clamp(16px,3.6vw,35px);
+  font-size: clamp(16px, 3.6vw, 35px);
 }
 
 .parter-button-icon {
   height: 90%;
 }
 .partner-button.ms-powerbi-button .parter-button-icon {
-  margin-right: .3rem;
+  margin-right: 0.3rem;
 }
 
 .partner-details-holder {
   padding: 1.5rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   box-shadow: 1px 3px 11px hsla(0 0% 0% / 15%), 0px 2px 5px hsla(0 0% 0% / 25%);
 }
 
@@ -461,7 +463,6 @@ body {
   line-height: 1.1;
 }
 
-
 /* 
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
@@ -481,27 +482,27 @@ body {
   gap: 80px;
 }
 .leadership-member-figure {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .leadership-member-figure:nth-child(1) {
-  --ellipse-bg-color: #FF7171;
+  --ellipse-bg-color: #ff7171;
 }
 .leadership-member-figure:nth-child(2) {
-  --ellipse-bg-color: #71B077;
+  --ellipse-bg-color: #71b077;
 }
 .leadership-member-figure:nth-child(3) {
-  --ellipse-bg-color: #F6BD88;
+  --ellipse-bg-color: #f6bd88;
 }
 .leadership-member-figure:nth-child(4) {
-  --ellipse-bg-color: #3B5E7E;
+  --ellipse-bg-color: #3b5e7e;
 }
 .leadership-member-figure:nth-child(5) {
-  --ellipse-bg-color: #179E75;
+  --ellipse-bg-color: #179e75;
 }
 .leadership-member-figure:nth-child(6) {
-  --ellipse-bg-color: #9D8CE0;
+  --ellipse-bg-color: #9d8ce0;
 }
 
 .leadership-img-holder {
@@ -512,26 +513,25 @@ body {
   margin-bottom: 1.5rem;
 }
 .leadership-img-holder::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
   inset: 0;
-  transform: translate(.6rem, 0);
+  transform: translate(0.6rem, 0);
   background-color: var(--ellipse-bg-color);
   border-radius: 50%;
-
 }
 .leader-name {
   font-size: 1.25rem;
-  color: #FF6161;
+  color: #ff6161;
   font-weight: 500;
 }
 .leader-title {
-  font-size: .875rem;
-  color: #FF6161;
+  font-size: 0.875rem;
+  color: #ff6161;
   font-style: italic;
   font-weight: 300;
-  margin: .2rem 0 .5rem;
+  margin: 0.2rem 0 0.5rem;
 }
 
 /* 
@@ -543,7 +543,8 @@ body {
 ------------------------------------------------------------------------------------------------------
 */
 
-.home-page__customer-success-section {}
+.home-page__customer-success-section {
+}
 .home-page__customer-success-section .wide-screen-holder {
   padding: 0;
   display: flex;
@@ -555,10 +556,10 @@ body {
   padding: 1.5rem 1.5rem 2rem;
 }
 .succcess-story-item:nth-of-type(odd) {
-  --success-story-bg-color: #FFF;
+  --success-story-bg-color: #fff;
 }
 .succcess-story-item:nth-of-type(even) {
-  --success-story-bg-color: #FEF8F3;
+  --success-story-bg-color: #fef8f3;
 }
 
 .succcess-story-item .quote-watermark-holder {
@@ -567,13 +568,18 @@ body {
   top: 4.5rem;
   line-height: 1.1;
 }
-.succcess-story-item .quote-watermark-holder .success-story__quotation-mark-svg {
+.succcess-story-item
+  .quote-watermark-holder
+  .success-story__quotation-mark-svg {
   position: absolute;
   left: -1.8rem;
   top: -20px;
   width: 1.5rem;
 }
-.succcess-story-item .quote-watermark-holder .success-story__quotation-mark-svg path {
+.succcess-story-item
+  .quote-watermark-holder
+  .success-story__quotation-mark-svg
+  path {
   fill: hsla(0 0% 75% / 40%);
 }
 .succcess-story-item .quote-watermark-holder .watermark-quote-excerpt {
@@ -613,9 +619,8 @@ body {
   font-weight: 400;
   text-transform: revert;
   align-self: flex-end;
-  background-color: #047CA3;
+  background-color: #047ca3;
 }
-
 
 /* 
 ------------------------------------------------------------------------------------------------------
@@ -628,7 +633,7 @@ body {
 
 .home-page__contact-section {
   color: #fff;
-  padding: 3rem .2rem;
+  padding: 3rem 0.2rem;
   background: linear-gradient(
     118.01deg,
     #2f6075 7.37%,
@@ -648,11 +653,13 @@ body {
   font-weight: 200;
   margin-bottom: 3rem;
 }
-.contact-form__input-label, .contact-form__message-textarea-label {
+.contact-form__input-label,
+.contact-form__message-textarea-label {
   margin-bottom: 1rem;
 }
-.label-text, .textarea-labeltext {
-  margin-bottom: .3rem;
+.label-text,
+.textarea-labeltext {
+  margin-bottom: 0.3rem;
   font-weight: 300;
 }
 .contact-form__message-textarea-label {
@@ -663,8 +670,9 @@ body {
   height: 2rem;
   text-indent: 10px;
 }
-.detail-input, .contact-form__message-textarea {
-  border-radius: .3rem;
+.detail-input,
+.contact-form__message-textarea {
+  border-radius: 0.3rem;
   border-style: none;
   padding: 0;
 }
@@ -687,7 +695,7 @@ body {
   width: clamp(200px, 30vw, 270px);
   /* padding: 1.2rem 2.0rem; */
   color: #fff;
-  border-radius: .6rem;
+  border-radius: 0.6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -695,14 +703,13 @@ body {
   font-weight: 500;
 }
 .send-form-button {
-  background-color: #B6794D;
+  background-color: #b6794d;
 }
 
 .schedule-meeting-button {
-  border: solid 3px #B6794D;
+  border: solid 3px #b6794d;
   background-color: hsla(0 0% 0% / 0%);
 }
-
 
 /* 
 ------------------------------------------------------------------------------------------------------
@@ -712,7 +719,6 @@ body {
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
 */
-
 
 /************************************************
 -----------------------------------------------------
@@ -724,16 +730,16 @@ body {
 ################################################# */
 
 /* ~Tablet Width */
-@media(min-width: 650px) {
+@media (min-width: 650px) {
   .wide-screen-holder {
-    max-width: 85vw; 
+    max-width: 85vw;
     margin: 0 auto;
   }
   .hero-section__main-CTA {
     margin: revert;
   }
   .home-page__services-section .wide-screen-holder {
-    max-width: 95vw; 
+    max-width: 95vw;
   }
   .services-section__business-services-holder {
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
@@ -746,20 +752,17 @@ body {
   }
 }
 
-
-
-
 /* ~Desktop Width */
 
-@media(min-width: 900px) {
+@media (min-width: 900px) {
   .wide-screen-holder {
   }
   .wide-screen-holder {
-    max-width: 1250px; 
+    max-width: 1250px;
     padding: 0 2rem;
   }
   .home-page__services-section .wide-screen-holder {
-    max-width: 950px; 
+    max-width: 950px;
   }
 
   .main-page__title-question {
@@ -767,7 +770,6 @@ body {
     margin-top: clamp(30px, 6vw, 60px);
     margin-bottom: clamp(30px, 4vw, 40px);
   }
-
 
   .home-page__leadership-team-section .wide-screen-holder {
     padding: 0 2rem;
@@ -779,9 +781,9 @@ body {
   .who-we-are__content-holder {
     flex-direction: row;
     gap: 2rem;
-}
+  }
   .who-we-are__text-content {
     order: revert;
-    flex-basis: 44%;
+    flex-basis: 55%;
   }
 }
