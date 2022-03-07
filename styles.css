@@ -156,14 +156,12 @@ body {
   position: fixed;
   box-shadow: 0px 1px 5px hsla(0 0% 0% / 40%), 0px 1px 10px hsla(0 0% 0% / 20%);
   width: 100%;
-  justify-content: space-between;
   z-index: 3;
-  /* position: relative; */
+  background-color: var(--base-default-bg-color);
 }
 .component-site-header {
   width: 100%;
   height: var(--header-height);
-  background-color: var(--base-default-bg-color);
 }
 .component-site-header .wide-screen-holder {
   height: 100%;
@@ -204,13 +202,16 @@ body {
   width: 98vw;
   left: 50%;
   transform: translate(-50%, 0);
-  top: var(--header-height);
+  top: calc(var(--header-height) - 3px);
   background-color: var(--base-default-bg-color);
-  padding: 3rem 2rem;
+  padding: 0 2rem 3rem;
 }
 .nav-and-contact-holder.nav-open {
+  z-index: -1;
   display: block;
   visibility: visible;
+  box-shadow: 1px 2px 10px hsla(0 0% 0% / 40%);
+  border-radius: 0 0 1rem 1rem;
 }
 .main-nav {
   width: 100%;
@@ -221,13 +222,27 @@ body {
   display: flex;
   flex-direction: column;
 }
+.header__nav-list > li:not(.nav-list__contact-item) {
+  padding: 1.5rem 0 1rem;
+  border-bottom: 1px solid #e1e1e1;
+}
 .nav-list__list-item {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   list-style: none;
 }
+.main-nav__list-item__title {
+  text-transform: uppercase;
+}
 .nav-item__sub-links li {
   font-size: 1rem;
+  text-transform: uppercase;
+  list-style: none;
+  border-bottom: 1px solid #e1e1e1;
+}
+.nav-item__sub-links li a {
+  text-decoration-line: none;
+  color: inherit;
 }
 
 .nav-list__contact-item {

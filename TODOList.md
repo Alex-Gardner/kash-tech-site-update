@@ -52,3 +52,8 @@ Technology
 - Data Management
 - Technology Platforms
 - Other Technologies
+
+\*\*\*\* Z-index:
+Mobile Nav UNDER header
+Nav menu should disappear after clicking a link
+Should offset "X" distance from the top
