@@ -19,3 +19,7 @@ function toggleNavigation() {
     navAndContactHolder.classList.toggle('nav-open');
     navHamburgerButton.classList.toggle('nav-open');
 }
+
+function setPartnerDisplay() {
+    
+}
