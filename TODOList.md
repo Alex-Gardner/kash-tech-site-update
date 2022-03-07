@@ -11,3 +11,4 @@ Services Section
 
 Nav button & open-close effects icon   
 Consulting Services Link Styled Correctly 
+watermark quote to right side in tablet and desktop sizes
