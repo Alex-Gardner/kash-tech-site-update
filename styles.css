@@ -189,11 +189,14 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--base-default-bg-color);
+  transition: transform 0.2s linear;
 }
 .hamburber-bar {
   flex-basis: 21%;
   width: 100%;
   background-color: var(--contrast-color-high);
+  transform-origin: left;
+  transition: transform 0.3s 0.2s linear;
 }
 .nav-and-contact-holder {
   display: none;
@@ -213,6 +216,19 @@ body {
   box-shadow: 1px 2px 10px hsla(0 0% 0% / 40%);
   border-radius: 0 0 1rem 1rem;
 }
+.nav-display-button.nav-open {
+  transform: rotate(-90deg);
+}
+.nav-display-button.nav-open > div {
+  background-color: var(--major-accent-color-blue-1);
+}
+.nav-display-button.nav-open > .hamburber-1 {
+  transform: scale(40%, 100%);
+}
+.nav-display-button.nav-open > .hamburber-2 {
+  transform: scale(60%, 100%);
+}
+
 .main-nav {
   width: 100%;
 }
