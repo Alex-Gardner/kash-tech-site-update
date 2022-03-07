@@ -206,7 +206,7 @@ body {
   transform: translate(-50%, 0);
   top: var(--header-height);
   background-color: var(--base-default-bg-color);
-  padding-bottom: 3rem;
+  padding: 3rem 2rem;
 }
 .nav-and-contact-holder.nav-open {
   display: block;
@@ -217,15 +217,22 @@ body {
 }
 
 .header__nav-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 .nav-list__list-item {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   list-style: none;
 }
+.nav-item__sub-links li {
+  font-size: 1rem;
+}
 
-.hero-section__main-CTA {
-  background-color: var(--major-accent-color-blue-1);
+.nav-list__contact-item {
+  align-self: center;
+  margin-top: 2rem;
 }
 
 /* 
@@ -279,9 +286,12 @@ body {
   color: var(--dark-bg__high-contrast-color);
 }
 .hero-section__main-CTA {
+  background-color: var(--major-accent-color-blue-1);
   max-width: 25ch;
   display: block;
   margin: 0 auto;
+}
+.hero-section__main-CTA {
 }
 
 /* 
