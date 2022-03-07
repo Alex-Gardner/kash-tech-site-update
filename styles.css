@@ -245,6 +245,7 @@ body {
 .hero-section__main-CTA {
   max-width: 25ch;
   display: block;
+  margin: 0 auto;
 }
 
 /* 
@@ -264,7 +265,7 @@ body {
   font-weight: 400;
   color: var(--major-accent-color-blue-1);
   font-size: 1.6rem;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 .who-we-are__content-holder {
   display: flex;
@@ -523,7 +524,7 @@ body {
 .leader-name {
   font-size: 1.25rem;
   color: #FF6161;
-  font-weight: 300;
+  font-weight: 500;
 }
 .leader-title {
   font-size: .875rem;
@@ -690,7 +691,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 500;
 }
 .send-form-button {
@@ -722,11 +723,14 @@ body {
 -----------------------------------------------------
 ################################################# */
 
-
+/* ~Tablet Width */
 @media(min-width: 650px) {
   .wide-screen-holder {
     max-width: 85vw; 
     margin: 0 auto;
+  }
+  .hero-section__main-CTA {
+    margin: revert;
   }
   .home-page__services-section .wide-screen-holder {
     max-width: 95vw; 
@@ -739,5 +743,45 @@ body {
   }
   .home-page__leadership-team-section .wide-screen-holder {
     padding: 0;
+  }
+}
+
+
+
+
+/* ~Desktop Width */
+
+@media(min-width: 900px) {
+  .wide-screen-holder {
+  }
+  .wide-screen-holder {
+    max-width: 1250px; 
+    padding: 0 2rem;
+  }
+  .home-page__services-section .wide-screen-holder {
+    max-width: 950px; 
+  }
+
+  .main-page__title-question {
+    font-size: 3rem;
+    margin-top: clamp(30px, 6vw, 60px);
+    margin-bottom: clamp(30px, 4vw, 40px);
+  }
+
+
+  .home-page__leadership-team-section .wide-screen-holder {
+    padding: 0 2rem;
+  }
+  .home-page__contact-section .wide-screen-holder {
+    max-width: 950px;
+  }
+
+  .who-we-are__content-holder {
+    flex-direction: row;
+    gap: 2rem;
+}
+  .who-we-are__text-content {
+    order: revert;
+    flex-basis: 44%;
   }
 }
