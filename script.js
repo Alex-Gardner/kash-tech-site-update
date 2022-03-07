@@ -11,3 +11,11 @@
 //     </header>
 // `
 // document.body.appendChild(template.content);
+
+const navHamburgerButton = document.querySelector('#nav-hamburger-button');
+const navAndContactHolder = document.querySelector('#nav-and-contat-holder');
+
+function toggleNavigation() {
+    navAndContactHolder.classList.toggle('nav-open');
+    navHamburgerButton.classList.toggle('nav-open');
+}

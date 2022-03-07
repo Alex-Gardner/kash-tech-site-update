@@ -13,3 +13,42 @@ Nav button & open-close effects icon
 Consulting Services Link Styled Correctly
 watermark quote to right side in tablet and desktop sizes
 Archivo Ampersand not great (Application development Services -- last item)
+Fully integrate contact form
+
+Links:
+Home
+
+- Who We Are
+- Services
+- Partner Program
+- Leadership Team
+- Customer Success
+- Contact Us
+
+Services
+
+- Consulting Services
+- Analytics Services
+- Data Services
+- Cloud Migration Services
+- Application Development Services
+
+Company
+
+- \*\* No firm content
+- (Customer Stories)
+- Company Information?
+
+Resources
+
+-
+
+Technology
+
+- Languages and Frameworks
+- Cloud Platforms
+- Databases
+- BI Technologies
+- Data Management
+- Technology Platforms
+- Other Technologies
