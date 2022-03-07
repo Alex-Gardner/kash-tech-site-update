@@ -59,3 +59,6 @@ Nav menu should disappear after clicking a link
 Should offset "X" distance from the top
 Close button on nav overlay?
 Need a writeup on databricks service
+Partner buttons change display state on hover
+"Hover" (mouseenter) Effects on partner program removed. Seemingly creates bad UX
+Give the buttons active state based on selected company

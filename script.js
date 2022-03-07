@@ -13,13 +13,31 @@
 // document.body.appendChild(template.content);
 
 const navHamburgerButton = document.querySelector('#nav-hamburger-button');
-const navAndContactHolder = document.querySelector('#nav-and-contat-holder');
+const navAndContactHolder = document.querySelector('#nav-and-contact-holder');
+const partnerProgramButtons = document.querySelectorAll('.partner-button')
+const partnerDetails = document.querySelectorAll('.partner-details-holder')
 
 function toggleNavigation() {
     navAndContactHolder.classList.toggle('nav-open');
     navHamburgerButton.classList.toggle('nav-open');
 }
 
-function setPartnerDisplay() {
-    
+// <element>.dataset.company
+function updateActivePartner(companyInfo) {
+    companyInfo.classList.add('active-company')
 }
+function changeActiveCompanyState(e) {
+    for (const partnerInfo of partnerDetails) {
+        if (e.currentTarget.dataset.company === partnerInfo.dataset.company) {
+            partnerDetails.forEach(partnerCompany => {
+                partnerCompany.classList.remove('active-company')
+            })
+            updateActivePartner(partnerInfo)
+        }
+    }
+}
+for (const partnerButton of partnerProgramButtons) {
+    partnerButton.addEventListener('click', changeActiveCompanyState)
+    // partnerButton.addEventListener('mouseenter', changeActiveCompanyState)
+}
+
