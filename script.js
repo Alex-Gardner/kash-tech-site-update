@@ -43,46 +43,105 @@ for (const partnerButton of partnerProgramButtons) {
 
 
 // ----------------------------
+
+// h/t for hover interactions for details elements: https://www.codewall.co.uk/create-a-dropdown-navigation-menu-with-details-summary/
+
 const mainNavSummaryElements = document.querySelectorAll('.main-nav__list-item__title')
-// Details content that is not in the "summary" element
 const mainNavDetailsElements = document.querySelectorAll('.main-nav__list-item')
+// Details content that is not in the "summary" element
 const mainNavDetailsContents = document.querySelectorAll('.nav-item__sub-links')
+var desktopResolution = window.matchMedia("(min-width: 900px)")
 
-// when user hovers over the summary element, 
-// add the open attribute to the details element
 
-function closeAllDetails() {
-    for (const detailsElement of mainNavDetailsElements) {
-        if (detailsElement.open) {
-            detailsElement.removeAttribute("open")
+function handleScreenSizeChange(e) {
+
+    function closeAllDetails() {
+        for (const detailsElement of mainNavDetailsElements) {
+            if (detailsElement.open) {
+                detailsElement.removeAttribute("open")
+            }
         }
     }
-}
 
-for (const summary of mainNavSummaryElements) {
-    summary.addEventListener("mouseenter", event => {
+  for (const summary of mainNavSummaryElements) {
+    //   console.log('made event listeners')
+    function handleSummaryMouseEnter(event) {
         closeAllDetails();
         summary.parentElement.setAttribute("open", "open");
-    });
-    // any content  from details (except summary)
+    }
+    function handleDetailsMouseLeave(event) {
+        closeAllDetails();
+    }
+    summary.addEventListener("mouseenter", handleSummaryMouseEnter);
+    // event => {
+    //     closeAllDetails();
+    //     summary.parentElement.setAttribute("open", "open");
+    // }
+    // when mouse leaves any content from details (except summary), close all open details
     mainNavDetailsContents.forEach(contentElement => {
-        contentElement.addEventListener("mouseleave", function(event) {
-            // summary.parentElement.removeAttribute("open")
-            closeAllDetails();
+            contentElement.addEventListener("mouseleave", handleDetailsMouseLeave);
+            // function(event) {
+            //     closeAllDetails();
+            // }
         })
-    })
+
+    if(!e.matches) {
+        mainNavSummaryElements.forEach(summary => {
+            summary.removeEventListener('mouseenter', handleSummaryMouseEnter);
+            // console.log('removed summary event listeners')
+        }) 
+        
+        mainNavDetailsContents.forEach(navContent => {
+            navContent.removeEventListener('mouseleave', handleDetailsMouseLeave)
+            // console.log('removed details event listeners')
+        })
+    }
+        
+    }
+  
+    // remove relevant event listeners
+    //   mainNavSummaryElements.forEach(summary => {
+    //       summary.removeEventListener('mouseenter', handleSummaryMouseEnter);
+    //   }) 
+      
+    //   mainNavDetailsContents.forEach(navContent => {
+    //       navContent.removeEventListener('mouseleave', handleDetailsMouseLeave)
+    //   })
+      
 }
+// Register event listener
+window.addEventListener('resize', handleScreenSizeChange)
 
-// when the user moves the mouse away from the details element,
-// perform the out-animation and delayed attribute-removal
-// just like in the click handler
-// details.addEventListener("mouseleave", event => {
-// 	details.classList.add("summary-closing");
-// 	setTimeout(function() {
-// 		details.removeAttribute("open");
-// 		details.classList.remove("summary-closing");
-// 	}, 500);
-// 	details.setAttribute("open", "open");
-// });
+// Initial check
+handleScreenSizeChange(desktopResolution)
 
-// ----------------------------
+// --------
+
+// if (desktopResolution.matches) {
+//     function closeAllDetails() {
+//         for (const detailsElement of mainNavDetailsElements) {
+//             if (detailsElement.open) {
+//                 detailsElement.removeAttribute("open")
+//             }
+//         }
+//     }
+    
+//     // when user hovers over the summary element, close all other open details and add the open attribute to the current details element
+    
+//     for (const summary of mainNavSummaryElements) {
+//         summary.addEventListener("mouseenter", event => {
+//             closeAllDetails();
+//             summary.parentElement.setAttribute("open", "open");
+//         });
+//         // when mouse leaves any content from details (except summary), close all open details
+//         mainNavDetailsContents.forEach(contentElement => {
+//             contentElement.addEventListener("mouseleave", function(event) {
+//                 closeAllDetails();
+//             })
+//         })
+//     }
+// }
+
+
+
+

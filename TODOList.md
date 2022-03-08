@@ -98,3 +98,5 @@ blur
 
 1. on mouseenter, clear all open detail elements -- then make the current one visible
 1. on mouseleave, clear all open detail elements
+
+## 03-08: Nav essentially works for each viewport size, but does not work well when transferring between them

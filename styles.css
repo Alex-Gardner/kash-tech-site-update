@@ -306,7 +306,7 @@ summary::-webkit-details-marker {
 .home-page__hero-section {
   background: var(--hero-section__background);
   color: var(--dark-bg__max-contrast-color);
-  padding-bottom: 3rem;
+  padding: 3rem 0 clamp(30px, 6vw, 60px);
 }
 .company-name-and-slogan {
   padding-top: 2rem;
@@ -330,7 +330,6 @@ summary::-webkit-details-marker {
   font-size: 2.2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  margin-top: clamp(30px, 6vw, 60px);
   margin-bottom: clamp(30px, 4vw, 40px);
 }
 .hero-section__title-blurb {
