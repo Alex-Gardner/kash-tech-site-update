@@ -41,3 +41,48 @@ for (const partnerButton of partnerProgramButtons) {
     // partnerButton.addEventListener('mouseenter', changeActiveCompanyState)
 }
 
+
+// ----------------------------
+const mainNavSummaryElements = document.querySelectorAll('.main-nav__list-item__title')
+// Details content that is not in the "summary" element
+const mainNavDetailsElements = document.querySelectorAll('.main-nav__list-item')
+const mainNavDetailsContents = document.querySelectorAll('.nav-item__sub-links')
+
+// when user hovers over the summary element, 
+// add the open attribute to the details element
+
+function closeAllDetails() {
+    for (const detailsElement of mainNavDetailsElements) {
+        if (detailsElement.open) {
+            detailsElement.removeAttribute("open")
+        }
+    }
+}
+
+for (const summary of mainNavSummaryElements) {
+    summary.addEventListener("mouseenter", event => {
+        closeAllDetails();
+        summary.parentElement.setAttribute("open", "open");
+    });
+    // any content  from details (except summary)
+    mainNavDetailsContents.forEach(contentElement => {
+        contentElement.addEventListener("mouseleave", function(event) {
+            // summary.parentElement.removeAttribute("open")
+            closeAllDetails();
+        })
+    })
+}
+
+// when the user moves the mouse away from the details element,
+// perform the out-animation and delayed attribute-removal
+// just like in the click handler
+// details.addEventListener("mouseleave", event => {
+// 	details.classList.add("summary-closing");
+// 	setTimeout(function() {
+// 		details.removeAttribute("open");
+// 		details.classList.remove("summary-closing");
+// 	}, 500);
+// 	details.setAttribute("open", "open");
+// });
+
+// ----------------------------

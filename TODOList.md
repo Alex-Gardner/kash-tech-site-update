@@ -81,3 +81,20 @@ TODO 03/08
 Nav items summary color change
 
 Simple Details/summary elements working on desktop resolution
+
+Change partner program to just "partners"
+
+Add event listener for clicks outside the details element to close the active details element
+
+Media query in JS for mouseenter and mouseleave events
+
+Visible:
+focus-within
+hover(mouseenter)
+
+Not visible:
+mouseleave
+blur
+
+1. on mouseenter, clear all open detail elements -- then make the current one visible
+1. on mouseleave, clear all open detail elements

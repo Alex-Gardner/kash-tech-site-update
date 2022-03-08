@@ -245,6 +245,23 @@ summary::-webkit-details-marker {
   display: flex;
   flex-direction: column;
 }
+.main-nav__list-item:focus-visible summary,
+.main-nav__list-item:focus-within summary {
+  color: var(--minor-accent-color-orange-1);
+}
+
+.nav-item__sub-links > ul > li:focus-within {
+  color: var(--minor-accent-color-orange-1);
+  background-color: var(--major-accent-color-blue-2);
+}
+.nav-item__sub-links > ul > li a {
+  display: block;
+  transition: transform 0.15s linear;
+}
+.nav-item__sub-links > ul > li:focus-within a {
+  transform: translate(0.5rem, 0);
+}
+
 .header__nav-list > li:not(.nav-list__contact-item) {
   padding: 1.5rem 0 1rem;
   border-bottom: 1px solid #e1e1e1;
@@ -262,6 +279,7 @@ summary::-webkit-details-marker {
   text-transform: uppercase;
   list-style: none;
   border-bottom: 1px solid #e1e1e1;
+  padding: 0.5rem;
 }
 .nav-item__sub-links li a {
   text-decoration-line: none;
@@ -387,7 +405,7 @@ summary::-webkit-details-marker {
   );
 }
 .active-involvement__overlay-message p {
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
 }
 .who-we-are__services-detail-holder {
   font-weight: 300;
@@ -929,6 +947,7 @@ summary::-webkit-details-marker {
     font-size: 0.7rem;
   }
   .main-nav__list-item__title {
+    cursor: pointer;
   }
   .main-nav__list-item[open] .main-nav__list-item__title {
     color: var(--minor-accent-color-orange-1);
@@ -950,17 +969,24 @@ summary::-webkit-details-marker {
     margin-right: 10rem;
   }
   .nav-item__sub-links > ul > li {
-    transition: transform 0.15s linear;
+    padding-right: 2rem;
   }
   .nav-item__sub-links > ul > li:hover {
     color: var(--minor-accent-color-orange-1);
     background-color: var(--major-accent-color-blue-2);
-    transform: translate(2rem, 0);
+  }
+  .nav-item__sub-links > ul > li a {
+    display: block;
+    transition: transform 0.15s linear;
+  }
+  .nav-item__sub-links > ul > li:hover a {
+    transform: translate(0.5rem, 0);
   }
   .nav-item__sub-links li {
     font-size: 0.8rem;
     border-bottom: none;
-    margin: 1rem 0;
+    margin: 0.8rem 0;
+    padding: 0.2rem 0;
   }
   .nav-item__sub-links li a {
   }
