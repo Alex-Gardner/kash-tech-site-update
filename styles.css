@@ -922,6 +922,9 @@ summary::-webkit-details-marker {
     padding: 0;
     border-bottom: none;
   }
+  .header__nav-list > li:not(.nav-list__contact-item):hover summary {
+    color: var(--minor-accent-color-orange-1);
+  }
   .nav-list__list-item {
     font-size: 0.7rem;
   }
@@ -940,10 +943,23 @@ summary::-webkit-details-marker {
     width: 85vw;
     box-shadow: 1px 3px 15px hsla(0 0% 0% / 30%);
     border-radius: 0 0 0.4rem 0.4rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-item__sub-links > ul {
+    margin-right: 10rem;
+  }
+  .nav-item__sub-links > ul > li {
+    transition: transform 0.15s linear;
+  }
+  .nav-item__sub-links > ul > li:hover {
+    color: var(--minor-accent-color-orange-1);
+    background-color: var(--major-accent-color-blue-2);
+    transform: translate(2rem, 0);
   }
   .nav-item__sub-links li {
     font-size: 0.8rem;
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: none;
     margin: 1rem 0;
   }
   .nav-item__sub-links li a {

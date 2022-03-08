@@ -76,5 +76,8 @@ TODO 03/08
 - consulting services link update
 - content on technology page
 
-\*\*\* 208: took of abs position
-****\***** Any transform value on a parent (other than revert) causes the absolutely positioned element to select that as a new "positioned" parent
+\*\*\* 208: took of abs position \***\*\*\*\*** Any transform value on a parent (other than revert) causes the absolutely positioned element to select that as a new "positioned" parent
+
+Nav items summary color change
+
+Simple Details/summary elements working on desktop resolution
