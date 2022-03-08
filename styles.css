@@ -144,6 +144,12 @@ body {
 .home-page__customer-success-section {
   margin-top: 5rem;
 }
+details > summary {
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
 /* 
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
@@ -198,6 +204,7 @@ body {
   transform-origin: left;
   transition: transform 0.3s 0.2s linear;
 }
+
 .nav-and-contact-holder {
   display: none;
   visibility: hidden;
@@ -372,7 +379,12 @@ body {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.78) 0%, rgba(9, 9, 9, 0.418437) 70.31%, rgba(20, 20, 20, 0) 100%);
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.78) 0%,
+    rgba(9, 9, 9, 0.418437) 70.31%,
+    rgba(20, 20, 20, 0) 100%
+  );
 }
 .active-involvement__overlay-message p {
   padding: 0 1rem;
@@ -866,6 +878,84 @@ body {
     max-width: 950px;
   }
 
+  /* Header Styles */
+
+  .nav-display-button {
+    display: none;
+  }
+
+  .nav-and-contact-holder {
+    display: block;
+    visibility: visible;
+    position: static;
+    width: revert;
+    left: unset;
+    top: unset;
+    transform: revert;
+    background-color: var(--base-default-bg-color);
+    padding: 0;
+  }
+
+  /* .nav-display-button.nav-open {
+    transform: rotate(-90deg);
+  } */
+  /* .nav-display-button.nav-open > div {
+    background-color: var(--major-accent-color-blue-1);
+  }
+  .nav-display-button.nav-open > .hamburber-1 {
+    transform: scale(40%, 100%);
+  }
+  .nav-display-button.nav-open > .hamburber-2 {
+    transform: scale(60%, 100%);
+  } */
+
+  .main-nav {
+    width: revert;
+  }
+
+  .header__nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .header__nav-list > li:not(.nav-list__contact-item) {
+    padding: 0;
+    border-bottom: none;
+  }
+  .nav-list__list-item {
+    font-size: 0.7rem;
+  }
+  .main-nav__list-item__title {
+  }
+  .main-nav__list-item[open] .main-nav__list-item__title {
+    color: var(--minor-accent-color-orange-1);
+  }
+  .nav-item__sub-links {
+    position: absolute;
+    background-color: var(--base-default-bg-color);
+    top: var(--header-height);
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 0);
+    width: 85vw;
+    box-shadow: 1px 3px 15px hsla(0 0% 0% / 30%);
+    border-radius: 0 0 0.4rem 0.4rem;
+  }
+  .nav-item__sub-links li {
+    font-size: 0.8rem;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 1rem 0;
+  }
+  .nav-item__sub-links li a {
+  }
+
+  .nav-list__contact-item {
+    align-self: unset;
+    margin-top: 0;
+  }
+
+  /*--------- Hero Section --------    */
+
   .main-page__title-question {
     font-size: 3rem;
     margin-top: clamp(30px, 6vw, 60px);
@@ -906,10 +996,6 @@ body {
   }
 }
 
-
-
-
-
 /************************************************
 -----------------------------------------------------
 #################################################
@@ -922,9 +1008,7 @@ body {
   padding-top: var(--header-height);
 }
 
-
 .category-title {
-
 }
 
 .category__list-holder {
