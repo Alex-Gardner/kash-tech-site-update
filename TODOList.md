@@ -63,8 +63,7 @@ Partner buttons change display state on hover
 "Hover" (mouseenter) Effects on partner program removed. Seemingly creates bad UX
 Give the buttons active state based on selected company
 
-- Desktop Navigation
-- Contact us layout (desktop)
+
 
 image srcset to provide fallback for non-webp formats
 
@@ -72,3 +71,9 @@ image srcset to provide fallback for non-webp formats
 ## Technology Page
 
 Page title for technology page
+
+TODO 03/08
+- Desktop Navigation
+- Contact us layout (desktop)
+- consulting services link update
+- content on technology page
