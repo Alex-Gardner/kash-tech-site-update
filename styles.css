@@ -359,6 +359,24 @@ body {
   width: 100%;
   aspect-ratio: 1.38;
 }
+.active-involvement__photo-holder {
+  position: relative;
+}
+.active-involvement__overlay-message {
+  position: absolute;
+  width: 100%;
+  min-height: 15%;
+  bottom: 0;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.78) 0%, rgba(9, 9, 9, 0.418437) 70.31%, rgba(20, 20, 20, 0) 100%);
+}
+.active-involvement__overlay-message p {
+  padding: 0 1rem;
+}
 .who-we-are__services-detail-holder {
   font-weight: 300;
 }
@@ -441,7 +459,6 @@ body {
 
 .business-services-item {
   --vibrant-link-color: hsla(194 58% 50% / 100%);
-  margin: 1.5rem 0;
   box-shadow: 0.5px 1.5px 4px hsla(0 0% 0% / 25%),
     0.2px 1px 7px hsla(0 0% 0% / 15%);
   border-radius: 1rem;
@@ -529,7 +546,7 @@ body {
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1;
   align-items: flex-end;
   width: 45%;
@@ -879,6 +896,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
+    align-items: center;
   }
   .partner-details-holder {
     flex-basis: 45%;
@@ -886,4 +904,34 @@ body {
   .partner-button.ms-powerbi-button {
     font-size: clamp(16px, 3.6vw, 25px);
   }
+}
+
+
+
+
+
+/************************************************
+-----------------------------------------------------
+#################################################
+      Technology Page
+
+***********************************************
+-----------------------------------------------------
+################################################# */
+.technologies-page__main {
+  padding-top: var(--header-height);
+}
+
+
+.category-title {
+
+}
+
+.category__list-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technology-category li {
+  list-style: none;
 }

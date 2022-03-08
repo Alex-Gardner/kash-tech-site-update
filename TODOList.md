@@ -65,3 +65,10 @@ Give the buttons active state based on selected company
 
 - Desktop Navigation
 - Contact us layout (desktop)
+
+image srcset to provide fallback for non-webp formats
+
+
+## Technology Page
+
+Page title for technology page
