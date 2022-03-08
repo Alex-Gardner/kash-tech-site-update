@@ -100,3 +100,5 @@ blur
 1. on mouseleave, clear all open detail elements
 
 ## 03-08: Nav essentially works for each viewport size, but does not work well when transferring between them
+
+Current page should have its nav link text in blue

@@ -53,6 +53,8 @@ const mainNavDetailsContents = document.querySelectorAll('.nav-item__sub-links')
 var desktopResolution = window.matchMedia("(min-width: 900px)")
 
 
+// https://css-tricks.com/working-with-javascript-media-queries/
+
 function handleScreenSizeChange(e) {
 
     function closeAllDetails() {
