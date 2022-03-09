@@ -390,23 +390,80 @@ summary::-webkit-details-marker {
 .services-philosophy__venn-holder > svg {
   width: 100%;
   height: 100%;
-
+  --animation-delay-amt: 1.5;
 }
 
-.people-circle-img, 
-.technology-circle-img, 
+.people-circle-img, .technology-circle-img, .large-circle__process,
 .process-arrow-east, .process-arrow-south, .process-arrow-west, .process-arrow-north, 
 .process-execute-graphic, .process-execute-text, .process-sustain-graphic, .process-sustain-text,
 .process-assess-text, .process-assess-graphic, .process-design_coach-text, 
 .process-design__coach-graphic,
-.large-text__people, .large-text__process, .large-text__technology, .venn-intersection-highlight
+ .venn-intersection-highlight,
+.bot-right_small-text__success, .bot-left_small-text__technology, .bot-left_small-text__process, .bot-left_small-text__people
  {
-  opacity: .3;
+  opacity: 0;
+  animation: fadeIn .3s linear forwards;
 }
+
+.large-text__people, .large-text__technology, .large-text__process
+{
+  opacity: 1;
+  animation: fadeOut .3s linear forwards;
+}
+.people-circle-img
+{animation-delay: 1.5s;} 
+.large-text__people 
+{animation-delay: 1.6s;}
+.bot-left_small-text__people
+{animation-delay: 1.7s;}
+
+.large-circle__process
+{animation-delay: 2.6s;}
+.large-text__process
+{animation-delay: 2.7s;}
+.process-assess-text, .process-assess-graphic
+{animation-delay: 2.8s;}
+.process-arrow-north
+{animation-delay: 2.9s;}
+.process-design_coach-text, .process-design__coach-graphic
+{animation-delay: 3.2s;}
+.process-arrow-east
+{animation-delay: 3.3s;}
+.process-execute-graphic, .process-execute-text
+{animation-delay: 3.5s;}
+.process-arrow-south
+{animation-delay: 3.6s;}
+.process-sustain-graphic, .process-sustain-text
+{animation-delay: 3.9s;}
+.process-arrow-west
+{animation-delay: 4.0s;}
+.bot-left_small-text__process
+{animation-delay: 4.1s;}
+
+.technology-circle-img
+{
+  /* --final-opacity: .5; */
+  animation-delay: 5s;
+}
+.large-text__technology
+{animation-delay: 5.1s;}
+.bot-left_small-text__technology
+{animation-delay: 6.1s;}
+
+.venn-intersection-highlight, .bot-right_small-text__success
+{animation-delay: 6.5s;
+ animation-duration: 1s
+}
+
 
 @keyframes fadeIn {
   to {
-    opacity: 100%;
+    opacity: var(--final-opacity, 100%);
+  }
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0%;
   }
 }
 
