@@ -106,3 +106,5 @@ Current page should have its nav link text in blue
 ## Max width on content in dropdown nav
 
 [Nice to have: Learn with Jason Blend Effects](https://codepen.io/jlengstorf/pen/BambbKa)
+
+Smooth scrolling behavior: works as intended on firefox (scrolls to links within a page are smooth. Links outside of pages are instant)
