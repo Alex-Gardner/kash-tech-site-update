@@ -102,3 +102,7 @@ blur
 ## 03-08: Nav essentially works for each viewport size, but does not work well when transferring between them
 
 Current page should have its nav link text in blue
+
+## Max width on content in dropdown nav
+
+[Nice to have: Learn with Jason Blend Effects](https://codepen.io/jlengstorf/pen/BambbKa)

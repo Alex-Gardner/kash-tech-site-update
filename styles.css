@@ -339,6 +339,7 @@ summary::-webkit-details-marker {
   line-height: 1.3;
   margin-bottom: clamp(30px, 4vw, 40px);
   color: var(--dark-bg__high-contrast-color);
+  max-width: 60ch;
 }
 .hero-section__main-CTA {
   background-color: var(--major-accent-color-blue-1);
@@ -449,7 +450,7 @@ summary::-webkit-details-marker {
 
 .services-section__consulting-services-holder {
   --top-padding: 1rem;
-  box-shadow: 0.5px 1.5px 4px hsla(0 0% 0% / 25%);
+  box-shadow: 0.5px 1.5px 6px hsla(0 0% 0% / 25%);
   border-radius: 1rem;
   padding: var(--top-padding) 1rem;
   margin: 3rem 0;
@@ -694,7 +695,7 @@ summary::-webkit-details-marker {
 
 .succcess-story-item .quote-watermark-holder {
   position: absolute;
-  left: 4rem;
+  right: 2rem;
   top: 4.5rem;
   line-height: 1.1;
 }
@@ -714,8 +715,8 @@ summary::-webkit-details-marker {
 }
 .succcess-story-item .quote-watermark-holder .watermark-quote-excerpt {
   color: hsla(0 0% 75% / 40%);
-  font-size: 1.2rem;
-  max-width: 70vw;
+  font-size: 1.4rem;
+  max-width: 75vw;
 }
 
 .customer-success__company-name {
