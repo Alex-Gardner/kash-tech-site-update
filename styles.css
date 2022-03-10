@@ -287,6 +287,7 @@ summary::-webkit-details-marker {
 }
 .main-nav__list-item__title {
   text-transform: uppercase;
+  /* color: var(--contrast-color-high); */
 }
 .nav-item__sub-links li {
   font-size: 1rem;
@@ -1368,16 +1369,17 @@ summary::-webkit-details-marker {
     border-bottom: none;
   }
   .header__nav-list > li:not(.nav-list__contact-item):hover summary {
-    color: var(--minor-accent-color-orange-1);
+    /* color: var(--minor-accent-color-orange-1); */
   }
   .nav-top-level__no-link--mobile {
     display: none;
   }
   .nav-top-level__link--desktop {
     display: inline;
+    /* color: inherit; */
   }
   .nav-top-level__link--desktop:visited {
-    color: unset;
+    /* color: inherit; */
   }
   .nav-list__list-item {
     font-size: 0.7rem;
@@ -1385,7 +1387,7 @@ summary::-webkit-details-marker {
   .main-nav__list-item__title {
     cursor: pointer;
   }
-  .main-nav__list-item[open] .main-nav__list-item__title {
+  .main-nav__list-item summary:hover {
     color: var(--minor-accent-color-orange-1);
   }
   .nav-item__sub-links {
