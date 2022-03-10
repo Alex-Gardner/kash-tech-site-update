@@ -191,6 +191,7 @@ summary::-webkit-details-marker {
 }
 .company-logo {
   height: 100%;
+  width: auto;
 }
 .nav-display-button {
   height: 60%;
@@ -1087,6 +1088,7 @@ summary::-webkit-details-marker {
   font-size: 1.2rem;
   font-weight: 500;
 }
+
 .data-management-category li {
   padding: 0.6rem;
   font-size: 1.2rem;
