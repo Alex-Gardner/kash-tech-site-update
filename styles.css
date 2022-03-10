@@ -310,7 +310,8 @@ summary::-webkit-details-marker {
 }
 .technologies-page__main,
 .analytics-services-page__main,
-.data-services-page__main {
+.data-services-page__main,
+.application-development-services-page__main {
   padding-top: calc(var(--header-height) + 4rem);
 }
 .home-page__hero-section {
@@ -1211,7 +1212,7 @@ summary::-webkit-details-marker {
   font-style: italic;
 }
 .data-virtualization-advantages-list {
-  width: clamp(250px, 70vw, 800px);
+  width: clamp(250px, 70vw, 750px);
   margin: 3rem auto 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1220,6 +1221,21 @@ summary::-webkit-details-marker {
 .advantages-list-title {
   text-transform: uppercase;
   margin-bottom: 0.5rem;
+}
+
+/************************************************
+-----------------------------------------------------
+#################################################
+      Application Development Services Page
+
+***********************************************
+-----------------------------------------------------
+################################################# */
+
+.application-development-services-page__main {
+}
+
+.thing-selector {
 }
 
 /* ------------------------------------------------- */
