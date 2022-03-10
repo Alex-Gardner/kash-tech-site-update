@@ -404,7 +404,7 @@ summary::-webkit-details-marker {
 .services-philosophy__venn-holder.activated image, 
 .services-philosophy__venn-holder.activated circle 
 {
-  animation: fadeIn .5s var(--fade-delay) linear forwards;
+  animation: fadeIn var(--duration-of-animation, .5s) var(--fade-delay) linear forwards;
 }
 .services-philosophy__venn-holder.activated .large-text__people, 
 .services-philosophy__venn-holder.activated .large-text__technology, 
@@ -474,7 +474,7 @@ summary::-webkit-details-marker {
 
 .venn-intersection-highlight, .bot-right_small-text__success
 {--fade-delay: 6.5s;
- animation-duration: 1s
+ --duration-of-animation: 4s
 }
 
 
