@@ -1233,9 +1233,39 @@ summary::-webkit-details-marker {
 ################################################# */
 
 .application-development-services-page__main {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
 }
 
-.thing-selector {
+.application-development-services__page-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.application-development-services-page__main section {
+  margin-bottom: 3rem;
+}
+.application-development-services-page__main section > div {
+  display: flex;
+}
+
+.application-development-services-page__main h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.application-development-services-page__main h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  flex-wrap: wrap;
+  margin: 3rem 0 1rem;
+}
+.application-development-services-page__main ul,
+.application-development-services-page__main p {
+  margin-bottom: 1rem;
 }
 
 /* ------------------------------------------------- */

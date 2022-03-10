@@ -116,3 +116,5 @@ people, process, technology: images in HTML (aspect ratio 1, border-radius 50% -
 Hash links scroll the top of the screen to the top of the link in question - the header appears /over/ the link content we wish to see.
 
 Non-sequitur text for application development page
+
+Add images to application development page (per reqs listed on Figma)
