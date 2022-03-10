@@ -147,3 +147,33 @@ handleScreenSizeChange(desktopResolution)
 
 
 
+
+// ---------------------------------------------
+
+window.addEventListener('DOMContentLoaded', (event) => {
+    const viewportAnimationItems = document.querySelectorAll('.viewport-animation')
+    
+    /*Apply animation classes on viewport */
+    function applyViewportAnimations() {
+        if (!viewportAnimationItems) {return}
+        const viewportOptions = {
+            threshold: .5
+        };
+        const viewportObserver = new IntersectionObserver (function(entries, viewportObserver) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {return}
+                else {
+                    entry.target.classList.add('activated');
+                    viewportObserver.unobserve(entry.target);
+                }
+            })
+        }, viewportOptions)
+
+        viewportAnimationItems.forEach(item => {
+            viewportObserver.observe(item)
+        })
+    }
+
+    applyViewportAnimations();
+    
+})

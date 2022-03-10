@@ -108,3 +108,9 @@ Current page should have its nav link text in blue
 [Nice to have: Learn with Jason Blend Effects](https://codepen.io/jlengstorf/pen/BambbKa)
 
 Smooth scrolling behavior: works as intended on firefox (scrolls to links within a page are smooth. Links outside of pages are instant)
+
+If we had a redo--
+    people, process, technology: images in HTML (aspect ratio 1, border-radius 50% -- or clip-path, idk)
+    "Process" gets pulled in as an svg image
+
+Hash links scroll the top of the screen to the top of the link in question - the header appears /over/ the link content we wish to see. 
