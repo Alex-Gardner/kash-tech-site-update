@@ -65,7 +65,9 @@ html {
   scroll-behavior: smooth;
   scroll-margin-top: 85px;
 }
-
+a {
+  color: inherit;
+}
 .fonts-listt-kskjsd {
   font-family: "Archivo", sans-serif;
   font-family: "Lora", serif;
@@ -254,6 +256,12 @@ summary::-webkit-details-marker {
 .main-nav__list-item:focus-visible summary,
 .main-nav__list-item:focus-within summary {
   color: var(--minor-accent-color-orange-1);
+}
+.nav-top-level__no-link--mobile {
+}
+.nav-top-level__link--desktop {
+  display: none;
+  text-decoration-line: none;
 }
 
 .nav-item__sub-links > ul > li:focus-within {
@@ -1308,8 +1316,6 @@ summary::-webkit-details-marker {
 
 @media (min-width: 900px) {
   .wide-screen-holder {
-  }
-  .wide-screen-holder {
     max-width: 1250px;
     padding: 0 2rem;
   }
@@ -1363,6 +1369,15 @@ summary::-webkit-details-marker {
   }
   .header__nav-list > li:not(.nav-list__contact-item):hover summary {
     color: var(--minor-accent-color-orange-1);
+  }
+  .nav-top-level__no-link--mobile {
+    display: none;
+  }
+  .nav-top-level__link--desktop {
+    display: inline;
+  }
+  .nav-top-level__link--desktop:visited {
+    color: unset;
   }
   .nav-list__list-item {
     font-size: 0.7rem;

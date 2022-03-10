@@ -121,4 +121,8 @@ Add images to application development page (per reqs listed on Figma)
 
 Consulting and Solutions (03-10)
 
+Solutions:
+Worker's Comp Insurance
+Sigma API Suite
+
 hidden link (on mobile sizes) on top of top level nav links to the top of the pages
