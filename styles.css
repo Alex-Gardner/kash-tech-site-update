@@ -570,6 +570,7 @@ summary::-webkit-details-marker {
 .who-we-are__services-detail-holder {
   flex-basis: 55%;
   font-weight: 300;
+  order: 2;
 }
 .who-we-are__serivces-p2 {
   margin: 1rem 0;
@@ -597,7 +598,7 @@ summary::-webkit-details-marker {
   font-weight: 300;
 }
 .core-commits-article.core-values {
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
 }
 
 /* 
@@ -1411,7 +1412,7 @@ summary::-webkit-details-marker {
     top: 100%;
     transform: translate(-50%, 0);
     width: 85vw;
-    box-shadow: 1px 3px 15px hsla(0 0% 0% / 30%);
+    box-shadow: 1px 8px 12px hsla(0 0% 0% / 30%);
     border-radius: 0 0 0.4rem 0.4rem;
     display: flex;
     justify-content: flex-end;
@@ -1467,6 +1468,9 @@ summary::-webkit-details-marker {
   }
   .who-we-are__content-1 {
     flex-direction: row;
+  }
+  .who-we-are__services-detail-holder {
+    order: revert;
   }
   .services-philosophy__venn-holder {
     flex-basis: 45%;
