@@ -1269,12 +1269,48 @@ summary::-webkit-details-marker {
   font-weight: 300;
   font-size: 3rem;
   margin-bottom: 3rem;
+  text-align: center;
 }
 .application-development-services-page__main section {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
+}
+.application-dev__intro-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #def4f5;
+}
+.application-dev__intro-section .intro-section__diagram-holder {
+  height: 80%;
+  transform: translate(8%, 0%);
+}
+.application-dev__intro-section p {
+  max-width: 50ch;
+  line-height: 1.2;
+  flex-basis: 60%;
 }
 .application-development-services-page__main section > div {
   display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+.onshore-model__text-content {
+  flex-basis: 65%;
+}
+.onshore-model__media-content {
+  flex-basis: 35%;
+}
+
+.offshore-model__text-content {
+  flex-basis: 50%;
+  order: 2;
+}
+.offshore-model__media-content {
+  flex-basis: 50%;
 }
 
 .application-development-services-page__main h2 {
@@ -1791,5 +1827,31 @@ summary::-webkit-details-marker {
   .consuting-service__item-2,
   .consuting-service__item-4 {
     transform: translate(0, 6rem);
+  }
+
+  /************************************************
+    -----------------------------------------------------
+    #################################################
+          Application Development Services Page
+
+    ***********************************************
+    -----------------------------------------------------
+    ################################################# */
+
+  .application-dev__intro-section {
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .application-dev__intro-section .intro-section__diagram-holder {
+    height: 80%;
+    transform: translate(0, 20%);
+  }
+
+  .application-development-services-page__main section > div {
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
