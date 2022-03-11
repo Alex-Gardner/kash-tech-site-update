@@ -322,7 +322,8 @@ summary::-webkit-details-marker {
 .analytics-services-page__main,
 .data-services-page__main,
 .application-development-services-page__main,
-.company_solutions-page__main {
+.company_solutions-page__main,
+.consulting-services-page__main {
   padding-top: calc(var(--header-height) + 4rem);
 }
 .home-page__hero-section {
@@ -1353,6 +1354,101 @@ summary::-webkit-details-marker {
   align-self: center;
 }
 
+/************************************************
+-----------------------------------------------------
+#################################################
+      Consulting-Services Page
+
+***********************************************
+-----------------------------------------------------
+################################################# */
+
+.consulting-services-page__main {
+  font-weight: 300;
+  padding-bottom: 10rem;
+}
+.consulting-services__page-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.consulting-services__intro-blurb {
+  max-width: 50ch;
+}
+.consulting-services__expertise-statement {
+  text-align: center;
+  color: #777;
+  margin: 2rem 0;
+}
+.consulting-services__main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.consulting-services__service-item-holder {
+  flex-grow: 1;
+  flex-basis: clamp(280px, 100%, 630px);
+  padding: 4rem 2rem;
+}
+.consuting-service__item-1 {
+  background: linear-gradient(
+      90deg,
+      rgba(14, 14, 14, 0.58) 60.17%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("./assets/pexels-vlado-paunovic-3038740.webp");
+}
+.consuting-service__item-1 h2 {
+  color: #fff;
+}
+.consuting-service__item-1 p {
+  color: #e1e1e1;
+}
+.consuting-service__item-2 {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.85) 11.46%,
+      rgba(14, 14, 14, 0.35) 100%
+    ),
+    url("./assets/ilya-pavlov-OqtafYT5kTw-unsplash.webp");
+}
+.consuting-service__item-2 h2 {
+  color: #fff;
+}
+.consuting-service__item-2 p {
+  color: #e1e1e1;
+}
+
+.consuting-service__item-3 {
+  background: linear-gradient(hsla(0 100% 100% / 64%), hsla(0 100% 100% / 85%)),
+    url("./assets/jason-goodman-bzqU01v-G54-unsplash.webp");
+}
+.consuting-service__item-3 h2 {
+  color: #000;
+}
+.consuting-service__item-3 p {
+  color: #242424;
+}
+
+.consuting-service__item-4 {
+  background: linear-gradient(hsla(22 68% 13% / 71%), hsla(22 68% 13% / 82%)),
+    url("./assets/jutta-kamp-wa70EzfxXdU-unsplash.webp");
+  background-position: center;
+}
+.consuting-service__item-4 h2 {
+  color: #fff;
+}
+.consuting-service__item-4 p {
+  color: #e1e1e1;
+}
+
+.consulting-services__service-item-title {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
 /* ------------------------------------------------- */
 
 /************************************************
@@ -1673,5 +1769,26 @@ summary::-webkit-details-marker {
   }
   .predictive__title {
     margin-top: 2rem;
+  }
+
+  /************************************************
+    -----------------------------------------------------
+    #################################################
+          Consulting Services Page
+
+    ***********************************************
+    -----------------------------------------------------
+    ################################################# */
+
+  .consulting-services__service-item-holder {
+    flex-basis: clamp(280px, 45%, 630px);
+    padding: 2rem;
+  }
+  .consulting-services__main-content {
+    gap: 0.5rem;
+  }
+  .consuting-service__item-2,
+  .consuting-service__item-4 {
+    transform: translate(0, 6rem);
   }
 }
