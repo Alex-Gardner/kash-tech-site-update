@@ -123,10 +123,7 @@ headerContent.innerHTML = `
                                 <a href="/data-services.html">
                                     Data Services
                                 </a>
-                            </li>                            
-                            <li>
-                                Cloud Migrations Services
-                            </li>                            
+                            </li>                                                                                    
                             <li>
                                 <a href="/application-development-services.html">
                                     Application Development Services

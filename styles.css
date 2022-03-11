@@ -321,7 +321,8 @@ summary::-webkit-details-marker {
 .technologies-page__main,
 .analytics-services-page__main,
 .data-services-page__main,
-.application-development-services-page__main {
+.application-development-services-page__main,
+.company_solutions-page__main {
   padding-top: calc(var(--header-height) + 4rem);
 }
 .home-page__hero-section {
@@ -1291,6 +1292,65 @@ summary::-webkit-details-marker {
 .application-development-services-page__main ul,
 .application-development-services-page__main p {
   margin-bottom: 1rem;
+}
+
+/************************************************
+-----------------------------------------------------
+#################################################
+      Company--Solutions Page
+
+***********************************************
+-----------------------------------------------------
+################################################# */
+
+.company_solutions-page__main {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.company_solutions-page__main-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+}
+.solutions__main-content-holder {
+}
+.solutions-article {
+  margin: 4rem 0;
+}
+.solutions-article .wide-screen-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.solutions__article-title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.solutions__article-blurb {
+  font-style: italic;
+}
+.article-content-holder {
+  margin-top: 2rem;
+}
+.article-content__sub-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.article-information {
+  margin: 1rem 0;
+}
+.article-information .contact-link a {
+  text-decoration-line: none;
+  color: #369bc6;
+  font-weight: 400;
+}
+.insurance-article__project-image {
+  align-self: center;
 }
 
 /* ------------------------------------------------- */
