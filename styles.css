@@ -641,6 +641,15 @@ summary::-webkit-details-marker {
 .consulting-link {
   font-size: 0.8rem;
   align-self: flex-end;
+  text-decoration-line: none;
+  color: var(--major-accent-color-blue-1);
+  border: 2px solid var(--major-accent-color-blue-1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.consulting-link:hover {
+  color: #fff;
+  background-color: var(--major-accent-color-blue-1);
 }
 
 .services-section__business-services-holder {

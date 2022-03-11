@@ -1,17 +1,17 @@
-Get a title for the main site
-Add link to KASHTech icon file
+Get a title for the main site ++
+Add link to KASHTech icon file ++
 
-Refactor company success to use quote elements
+Refactor company success to use quote elements ++
 
 SVG Background Icons in services section
 Partner Program button interactions
-Services Section
-Align button-links to the bottom of the container
-Have at least 1.5rem of space between list of services & button-link
+Services Section ++
+Align button-links to the bottom of the container ++
+Have at least 1.5rem of space between list of services & button-link ++
 
-Nav button & open-close effects icon  
+Nav button & open-close effects icon ++
 Consulting Services Link Styled Correctly
-watermark quote to right side in tablet and desktop sizes
+watermark quote to right side in tablet and desktop sizes ++
 Archivo Ampersand not great (Application development Services -- last item)
 Fully integrate contact form
 
@@ -67,7 +67,7 @@ image srcset to provide fallback for non-webp formats
 
 ## Technology Page
 
-Page title for technology page
+Page title for technology page ++
 
 TODO 03/08
 
@@ -78,15 +78,15 @@ TODO 03/08
 
 \*\*\* 208: took of abs position \***\*\*\*\*** Any transform value on a parent (other than revert) causes the absolutely positioned element to select that as a new "positioned" parent
 
-Nav items summary color change
+Nav items summary color change ++
 
-Simple Details/summary elements working on desktop resolution
+Simple Details/summary elements working on desktop resolution ++
 
-Change partner program to just "partners"
+Change partner program to just "partners" ++
 
 Add event listener for clicks outside the details element to close the active details element
 
-Media query in JS for mouseenter and mouseleave events
+Media query in JS for mouseenter and mouseleave events ++
 
 Visible:
 focus-within
@@ -111,24 +111,28 @@ Smooth scrolling behavior: works as intended on firefox (scrolls to links within
 
 If we had a redo--
 people, process, technology: images in HTML (aspect ratio 1, border-radius 50% -- or clip-path, idk)
-"Process" gets pulled in as an svg image
+"Process" gets pulled in as an embed svg
 
-Hash links scroll the top of the screen to the top of the link in question - the header appears /over/ the link content we wish to see.
+Hash links (/#...) scroll the top of the screen to the top of the link in question - the header appears /over/ the link content we wish to see.
 
 Non-sequitur text for application development page
 
-Add images to application development page (per reqs listed on Figma)
+Add images to application development page (per reqs listed on Figma) ++
 
-Consulting and Solutions (03-10)
+Consulting and Solutions (03-10) ++
 
-hidden link (on mobile sizes) on top of top level nav links to the top of the pages
+hidden link (on mobile sizes) on top of top level nav links to the top of the pages ++
 
 Design and Code:
 
     Solutions:
-    Worker's Comp Insurance
+    Worker's Comp Insurance ++
     Sigma API Suite
 
     Consulting Services Page
         - sustainment section typo?
-        
+
+!!! Since there are no cloud migrations services, we lose the structure in the services section (3 items instead of 4)
+
+SVG arrow in see more on customer reports
+Hover effects on interactives
