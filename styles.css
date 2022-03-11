@@ -1408,8 +1408,8 @@ summary::-webkit-details-marker {
 .consuting-service__item-2 {
   background: linear-gradient(
       90deg,
-      rgba(0, 0, 0, 0.85) 11.46%,
-      rgba(14, 14, 14, 0.35) 100%
+      rgba(0, 0, 0, 0.85) 30%,
+      rgba(14, 14, 14, 0.7) 100%
     ),
     url("./assets/ilya-pavlov-OqtafYT5kTw-unsplash.webp");
 }
@@ -1423,6 +1423,7 @@ summary::-webkit-details-marker {
 .consuting-service__item-3 {
   background: linear-gradient(hsla(0 100% 100% / 64%), hsla(0 100% 100% / 85%)),
     url("./assets/jason-goodman-bzqU01v-G54-unsplash.webp");
+  box-shadow: 2px 8px 7px hsla(0 0% 0% / 25%), 0px -3px 3px hsla(0 0% 0% / 20%);
 }
 .consuting-service__item-3 h2 {
   color: #000;
