@@ -136,3 +136,14 @@ Design and Code:
 
 SVG arrow in see more on customer reports
 Hover effects on interactives
+
+Dropdown media
+    Resources
+    Company
+    Services
+    Home
+
+Proper focus states for interactable items
+Active states for partner buttons
+In-active states for partner buttons
+Hero section media image (if necessary)

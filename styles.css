@@ -149,7 +149,7 @@ body {
 .home-page__partner-program-section,
 .home-page__leadership-team-section,
 .home-page__customer-success-section {
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 details > summary {
   list-style: none;
@@ -299,6 +299,9 @@ summary::-webkit-details-marker {
 .nav-item__sub-links li a {
   text-decoration-line: none;
   color: inherit;
+}
+.dropdown-media-content {
+  display: none;
 }
 
 .nav-list__contact-item {
@@ -674,6 +677,9 @@ summary::-webkit-details-marker {
   padding-left: 1.6rem;
   color: var(--contrast-color-medium);
   margin-bottom: 1rem;
+}
+.app-dev-list-item .ampersand {
+  font-family: "Manrope", sans-serif;
 }
 .business-services-item > h4 {
   font-size: 1.5rem;
@@ -1271,6 +1277,7 @@ summary::-webkit-details-marker {
 .application-development-services-page__main {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+  padding-bottom: 4rem;
 }
 
 .application-development-services__page-title {
@@ -1352,6 +1359,7 @@ summary::-webkit-details-marker {
 .company_solutions-page__main {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+  padding-bottom: 4rem;
 }
 .company_solutions-page__main-title {
   font-family: "Open Sans", sans-serif;
@@ -1606,6 +1614,78 @@ summary::-webkit-details-marker {
   .main-nav__list-item summary:hover {
     color: var(--minor-accent-color-orange-1);
   }
+
+
+
+  /* -------------------Nav Media Content--------------------*/
+
+  .nav-item__sub-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .dropdown-media-content {
+    display: block;
+    height: 30vh;
+    width: auto;
+  }
+
+  .home-menu__media-content {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+  .home-menu__media-content > img {
+    height: 23vh;
+    width: auto;
+  }
+  .home-media__text-content {
+    display: flex;
+    flex-direction: column;
+    font-family: "Manrope", sans-serif;
+  }
+  .dropdown-media--home__p-1 {
+    font-weight: 400;
+    align-self: flex-end;
+    font-size: .8rem;
+  }
+  .dropdown-media--home__p-2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 14px 0;
+    font-size: 2rem;
+    line-height: 1.2;
+    position: relative;
+  }
+  .dropdown-media--home__p-2::after {
+    content: '';
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    bottom: 6px;
+    height: 8px;
+    background-color: hsla(195 95% 33% / 60%);
+  }
+  .dropdown-media--home__p-3 {
+    font-weight: 300;
+    font-size: .7rem;
+  }
+  .dropdown-media--home__p-3 span {
+    font-weight: 500;
+    color: var(--minor-accent-color-orange-1);
+  }
+  .services-menu__media-content {
+    display: flex;
+    place-items: center;
+  }
+
+
+
+  /* -----------------Nav Media Content----------------------*/
+
+
+
   .nav-item__sub-links {
     position: absolute;
     background-color: var(--base-default-bg-color);
@@ -1614,13 +1694,15 @@ summary::-webkit-details-marker {
     top: 100%;
     transform: translate(-50%, 0);
     width: 85vw;
-    box-shadow: 1px 8px 12px hsla(0 0% 0% / 30%);
+    box-shadow: 1px 3px 15px -10px hsla(0 0% 0% / 30%), 3px 10px 15px -3px hsla(0 0% 0% / 20%);
     border-radius: 0 0 0.4rem 0.4rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    gap: 6rem;
+    border-top: solid 10px var(--major-accent-color-blue-1);
   }
   .nav-item__sub-links > ul {
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
   }
   .nav-item__sub-links > ul > li {
     padding-right: 2rem;
@@ -1656,6 +1738,7 @@ summary::-webkit-details-marker {
     font-size: 3rem;
     margin-top: clamp(30px, 6vw, 60px);
     margin-bottom: clamp(30px, 4vw, 40px);
+    max-width: 20ch;
   }
 
   .home-page__leadership-team-section .wide-screen-holder {
