@@ -29,6 +29,10 @@ function updateActivePartner(companyInfo) {
 function changeActiveCompanyState(e) {
     for (const partnerInfo of partnerDetails) {
         if (e.currentTarget.dataset.company === partnerInfo.dataset.company) {
+            partnerProgramButtons.forEach(button => {
+                button.classList.remove('active-company')
+            })
+            e.currentTarget.classList.add('active-company')
             partnerDetails.forEach(partnerCompany => {
                 partnerCompany.classList.remove('active-company')
             })

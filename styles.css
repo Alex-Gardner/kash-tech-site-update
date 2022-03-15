@@ -736,7 +736,9 @@ summary::-webkit-details-marker {
 .partner-button.ms-powerbi-button .parter-button-icon {
   margin-right: 0.3rem;
 }
-
+.partner-button:not(.active-company) {
+  filter: grayscale(0.9);
+}
 .partner-details-holder {
   padding: 1.5rem;
   border-radius: 0.5rem;
