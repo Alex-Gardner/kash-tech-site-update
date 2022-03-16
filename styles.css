@@ -674,15 +674,17 @@ summary::-webkit-details-marker {
   align-items: center;
 }
 .business-services__analytics {
-  background: url('./assets/svg-assets/analytics-services__home-bg-img.svg') center no-repeat;
+  background: url("./assets/svg-assets/analytics-services__home-bg-img.svg")
+    center no-repeat;
 }
 .business-services__data {
-  background: url('./assets/svg-assets/data-services__home-bg-img.svg') center no-repeat;
+  background: url("./assets/svg-assets/data-services__home-bg-img.svg") center
+    no-repeat;
 }
 .business-services__application-development {
-  background: url('./assets/svg-assets/application-dev__home-bg-img.svg') center no-repeat;
+  background: url("./assets/svg-assets/application-dev__home-bg-img.svg") center
+    no-repeat;
 }
-
 
 .business-services-item > ul {
   padding-left: 1.6rem;
@@ -707,7 +709,7 @@ summary::-webkit-details-marker {
 }
 .business-services-item > .button-link:hover {
   color: var(--vibrant-link-color);
-  background-color: #FFDDBD;
+  background-color: #ffddbd;
 }
 
 /* 
@@ -746,7 +748,7 @@ summary::-webkit-details-marker {
 }
 .partner-button:hover {
   box-shadow: var(--hovershadow), 1px 1px 2px hsla(0 0% 0% / 5%),
-  0.3px 0.3px 5px hsla(0 0% 0% / 10%);
+    0.3px 0.3px 5px hsla(0 0% 0% / 10%);
   cursor: pointer;
 }
 .ms-powerbi-button {
@@ -754,18 +756,15 @@ summary::-webkit-details-marker {
 }
 .tibco-button {
   --hovershadow: 0px 0px 10px 6px hsla(210 71% 56% / 25%);
-  
 }
 .denodo-button {
   --hovershadow: 0px 0px 10px 6px hsla(3 85% 61% / 25%);
-  
 }
 .databricks-button {
   --hovershadow: 0px 0px 10px 6px hsla(11 95% 38% / 38%);
 }
 .pyramid-analytics-button {
   --hovershadow: 0px 0px 10px 6px hsla(193 87% 46% / 25%);
-
 }
 
 .parter-button-icon {
@@ -1407,6 +1406,27 @@ summary::-webkit-details-marker {
   font-size: 3rem;
   text-align: center;
 }
+.solutions-page__solutions-link-holder {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.8rem;
+  margin: 3rem 0;
+}
+.solutions-page__solutions-link-holder > li {
+  padding: 0 1rem;
+}
+.solutions-page__solutions-link-holder > li:not(:last-child) {
+  border-right: 2px solid var(--contrast-color-high);
+}
+.solutions-page__solutions-link-holder > li a {
+  text-decoration-line: none;
+}
+.solutions-page__solutions-link-holder > li a:hover {
+  color: #369bc6;
+}
+
 .solutions__main-content-holder {
 }
 .solutions-article {

@@ -160,3 +160,52 @@ move the "process" venn circle to the top of the venn
 hover states on main page "Button-links"
 
 Consulting services: pull list content into 2 columns
+
+---
+
+Notes on Sigma API Services
+-Platform-neutal tool to facilitate data transfer between two different databases
+-Easy to configure/operate WebService wrapper to help perform CRUD (Create, Read, Update, Delete) operations
+
+- Wiring between services done by a time-based scheduler (part of the suite) (\*between what services?)
+- API Service supports flexible mapping between the fields belonging to source and destination
+- Unlimited # of configurations can be created and managed at both ends to support full blown data transfer between systems like:
+  ERP VS CRM
+  ERP VS Retail Sales
+  Vendor Management Systems Vs Reporting Software
+  Consolidation of data for Analytics
+  Operable on any RDBMS/ NoSQL/ Oracle Exadata data source
+
+-- Page 2 data flow diagram - highlight manual vs automated data merge?
+
+Real-life use case: Data Synchonization between Retail Outlets
+Have the particular care study featured on site?
+Instant Notification - changes done in centralized system propagate back to subsystems (Point of Sale) locations
+
+- Exadata Integration with Amazon S3
+- GUI interface for simplicty of use
+
+Advantages:
+
+- Ability to scale horizontally. Leads to efficient peak-load handling
+- Controllable data packet size (via configuration)
+- Centralized monitoring, live tracking of data transfer via admin GUI on scheduled ETL operations
+- Flexibility in config of data transfer components
+
+---
+
+KASH Tech in Database Management with Sigma API services
+
+- Achieve efficient database integration and transfer accross a variety of platforms
+
+Managed and Automated Data Synchronization!
+
+KASH Tech operates a seamless system for the integration of database records from varied data source. With Sigma API, we provide the ability to both manually and automatically synchronize data stores across platform operations. The key features of this system are:
+
+- Agnostic to platform
+- Ability to scale horizontally for efficient load-handling
+- Live tracking and centralized monitoring of scheduled data transfers via admin GUI
+- Flexibility in config of data transfer operations
+- Broadcast changes in the central data store at will with Instant Notification
+
+&@ Get in Touch @& to upgrade your data reporting systems
