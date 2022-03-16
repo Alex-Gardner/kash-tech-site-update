@@ -146,8 +146,12 @@ Home
 Proper focus states for interactable items
 Active states for partner buttons
 In-active states for partner buttons
+
 Hero section media image (if necessary)
 Need a databricks write-up of partner program
 some visual break:
+
 services list: 2 columns and shrunk
 take out cloud services. center application dev seviecs
+
+move the "process" venn circle to the top of the venn
