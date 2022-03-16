@@ -158,3 +158,5 @@ move the "process" venn circle to the top of the venn
 
 "Junior" box in services section needs to have height updated
 hover states on main page "Button-links"
+
+Consulting services: pull list content into 2 columns

@@ -1835,6 +1835,9 @@ summary::-webkit-details-marker {
   .home-page__customer-success-section .wide-screen-holder {
     position: relative;
   }
+  .succcess-story-item .quote-watermark-holder {
+    left: 5rem;
+  }
 
   /**------------- Contact Section  ----------------- */
 
