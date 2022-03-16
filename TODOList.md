@@ -155,3 +155,6 @@ services list: 2 columns and shrunk
 take out cloud services. center application dev seviecs
 
 move the "process" venn circle to the top of the venn
+
+"Junior" box in services section needs to have height updated
+hover states on main page "Button-links"
