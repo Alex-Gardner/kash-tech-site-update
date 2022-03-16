@@ -1430,7 +1430,7 @@ summary::-webkit-details-marker {
 .solutions__main-content-holder {
 }
 .solutions-article {
-  margin: 4rem 0;
+  margin: 4rem 0 6rem;
 }
 .solutions-article .wide-screen-holder {
   display: flex;
@@ -1442,6 +1442,7 @@ summary::-webkit-details-marker {
   font-weight: 300;
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  max-width: 36ch;
 }
 .solutions__article-blurb {
   font-style: italic;

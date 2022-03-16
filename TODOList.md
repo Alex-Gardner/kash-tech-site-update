@@ -209,3 +209,29 @@ KASH Tech operates a seamless system for the integration of database records fro
 - Broadcast changes in the central data store at will with Instant Notification
 
 &@ Get in Touch @& to upgrade your data reporting systems
+
+---
+
+03/16
+
+- Sigma API Graphic design
+
+Diversity statement in about us section (Company top-level link)
+
+- Integrate Denodo silver partner badge (1 img in JPEG, 1 in PDF -- same image)
+
+Inventory:
+inclusion statement
+denodo partner banner
+
+e-book (DV for dummies)
+brochure (DV in integrated landscape)
+denodo press release
+healthcare LOB white paper
+orlando/denodo press release
+10 things you need to know brochure
+
+USN & PW for UE
+USN & PW for webfocus
+
+Google information on databricks
