@@ -138,13 +138,16 @@ SVG arrow in see more on customer reports
 Hover effects on interactives
 
 Dropdown media
-    Resources
-    Company
-    Services
-    Home
+Resources
+Company
+Services
+Home
 
 Proper focus states for interactable items
 Active states for partner buttons
 In-active states for partner buttons
 Hero section media image (if necessary)
 Need a databricks write-up of partner program
+some visual break:
+services list: 2 columns and shrunk
+take out cloud services. center application dev seviecs
