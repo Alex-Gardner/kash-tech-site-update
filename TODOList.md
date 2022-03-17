@@ -216,9 +216,7 @@ KASH Tech operates a seamless system for the integration of database records fro
 
 - Sigma API Graphic design
 
-Diversity statement in about us section (Company top-level link)
-
-- Integrate Denodo silver partner badge (1 img in JPEG, 1 in PDF -- same image)
+* Integrate Denodo silver partner badge (1 img in JPEG, 1 in PDF -- same image)
 
 Inventory:
 inclusion statement
@@ -236,9 +234,21 @@ USN & PW for webfocus
 
 Google information on databricks
 
-
 Databricks data "lakehouse" platform allows for the analytical queries of data without the need for a traditional database schema. Simplify your architecture for myriad use cases, such as machine learning, data engineering, and BI.
 
-Sigma API Service Suite comes with an API Service wrapper than can operate on any RDBMS/NoSQL data store. It acts as a WebService wrapper for any given tables/views/documents in the data store, based on configuration. Supports CRUD operations on a given hierarchy of tables and much such configuration. Data sets can be deployed on Sigma instace wrapping a given Data Store. 
+Sigma API Service Suite comes with an API Service wrapper than can operate on any RDBMS/NoSQL data store. It acts as a WebService wrapper for any given tables/views/documents in the data store, based on configuration. Supports CRUD operations on a given hierarchy of tables and much such configuration. Data sets can be deployed on Sigma instace wrapping a given Data Store.
 
 It also ships with a time-based scheduler service where the administrator can configure the source and destination tables/documents where the data has to be read or written - all based on configuration.
+
+home page -- bottom margin on section title
+Border distinguishing sections (gradient lines?)
+
+integrate recognition badges (jpg/png) onto about us page
+Diversity statement in about us page (Company top-level link)
+
+search terms for stock images
+research
+library
+papers
+
+KASH Tech is also gratified to have been recognized
