@@ -235,3 +235,10 @@ USN & PW for UE
 USN & PW for webfocus
 
 Google information on databricks
+
+
+Databricks data "lakehouse" platform allows for the analytical queries of data without the need for a traditional database schema. Simplify your architecture for myriad use cases, such as machine learning, data engineering, and BI.
+
+Sigma API Service Suite comes with an API Service wrapper than can operate on any RDBMS/NoSQL data store. It acts as a WebService wrapper for any given tables/views/documents in the data store, based on configuration. Supports CRUD operations on a given hierarchy of tables and much such configuration. Data sets can be deployed on Sigma instace wrapping a given Data Store. 
+
+It also ships with a time-based scheduler service where the administrator can configure the source and destination tables/documents where the data has to be read or written - all based on configuration.

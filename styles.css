@@ -1432,6 +1432,10 @@ summary::-webkit-details-marker {
 .solutions-article {
   margin: 4rem 0 6rem;
 }
+.company-solutions__article-divider {
+  display: flex;
+  justify-content: center;
+}
 .solutions-article .wide-screen-holder {
   display: flex;
   flex-direction: column;
@@ -1455,7 +1459,11 @@ summary::-webkit-details-marker {
   font-weight: 400;
   font-size: 1.5rem;
 }
-
+.sigma-api-description {
+  font-size: .8rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
 .article-information {
   margin: 1rem 0;
 }
