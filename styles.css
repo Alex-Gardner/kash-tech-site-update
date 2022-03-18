@@ -141,7 +141,7 @@ body {
 .home-page__section-title {
   color: var(--contrast-color-high);
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   text-align: center;
 }
 .home-page__who-we-are-section,
@@ -149,7 +149,7 @@ body {
 .home-page__partner-program-section,
 .home-page__leadership-team-section,
 .home-page__customer-success-section {
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
 details > summary {
   list-style: none;
@@ -387,7 +387,7 @@ summary::-webkit-details-marker {
 */
 
 .home-page__section-title {
-  margin: 2rem 0;
+  margin: 2rem 0 4rem;
 }
 .who-we-are__sub-title {
   font-family: "Open Sans", sans-serif;
@@ -638,9 +638,14 @@ summary::-webkit-details-marker {
 
 .consulting-services-list {
   padding-left: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1frem;
   font-family: "Lora", serif;
   font-size: 1.13rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 3rem;
+
+  max-width: 60vw;
 }
 .consulting-link {
   font-size: 0.8rem;
@@ -1585,6 +1590,7 @@ summary::-webkit-details-marker {
 .company_about-us-page__main {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+  padding-bottom: 3rem;
 }
 .about-us-page__main-title {
   font-family: "Open Sans", sans-serif;
@@ -1625,7 +1631,7 @@ summary::-webkit-details-marker {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
-  max-width: 40ch;
+  max-width: 45ch;
   margin-bottom: 3rem;
 }
 .about-us__company-badges-holder {
@@ -1635,6 +1641,7 @@ summary::-webkit-details-marker {
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem;
+  margin-bottom: 3rem;
 }
 .company-badges__content-container > div {
   flex-shrink: 1;
@@ -1648,6 +1655,9 @@ summary::-webkit-details-marker {
   height: clamp(100px, 16vw, 150px);
   aspect-ratio: 1;
   object-fit: contain;
+}
+.about-us--awards_intercon-logo {
+  background-color: #121212;
 }
 .accolade-badge-group > p {
   max-width: 27ch;
@@ -1665,6 +1675,12 @@ summary::-webkit-details-marker {
 ***********************************************
 -----------------------------------------------------
 ################################################# */
+
+.company_about-us-page__main {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding-bottom: 3rem;
+}
 
 /* ------------------------------------------------- */
 

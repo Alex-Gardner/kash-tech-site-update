@@ -1,0 +1,22 @@
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  will-change: transform;
+}
+.embla__slide {
+  position: relative;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.embla::before {
+  display: none;
+  content: '{"slidesToScroll": 1,"draggable": true}';
+}
+@media (min-width: 768px) {
+  .embla::before {
+    content: '{"slidesToScroll": 2,"draggable": false}';
+  }
+}

@@ -260,3 +260,12 @@ Certifications: MWBE, DBE - change verbiage
 
 Carousel banners with partnerships: (Data Services)
 TIBCO, Denodo, Databricks
+
+Media images in dropdowns
+"data analytics images"
+"technology images"
+Layout for items in resources page
+Look for databricks banner - usable in carousel
+
+https://www.embla-carousel.com/plugins/autoplay/
+https://www.embla-carousel.com/get-started/cdn/
