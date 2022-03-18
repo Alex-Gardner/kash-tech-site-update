@@ -250,5 +250,8 @@ search terms for stock images
 research
 library
 papers
+(look at the Shopify announcement for new themes for inspiration)
 
-KASH Tech is also gratified to have been recognized
+KASH Tech is also gratified to have been recognized with the following:
+
+Application development image (change from PNC Bank to shoreline)
