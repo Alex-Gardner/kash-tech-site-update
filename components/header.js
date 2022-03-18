@@ -184,7 +184,9 @@ headerContent.innerHTML = `
                                 Company News
                             </li>
                             <li>
-                                About Us
+                                <a href="/company_about-us.html">
+                                    About Us
+                                </a>                            
                             </li>
                             <li>
                                 <a href="/company-solutions.html">

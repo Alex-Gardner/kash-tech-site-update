@@ -326,7 +326,8 @@ summary::-webkit-details-marker {
 .data-services-page__main,
 .application-development-services-page__main,
 .company_solutions-page__main,
-.consulting-services-page__main {
+.consulting-services-page__main,
+.company_about-us-page__main {
   padding-top: calc(var(--header-height) + 4rem);
 }
 .home-page__hero-section {
@@ -1263,7 +1264,7 @@ summary::-webkit-details-marker {
 
 .wide-img-container {
   width: 100%;
-  aspect-ratio: 4;
+  aspect-ratio: 6;
 }
 .wide-img-container > img {
   height: 100%;
@@ -1572,6 +1573,86 @@ summary::-webkit-details-marker {
   font-weight: 400;
   margin-bottom: 3rem;
 }
+
+/************************************************
+-----------------------------------------------------
+#################################################
+      About Us Page
+
+***********************************************
+-----------------------------------------------------
+################################################# */
+.company_about-us-page__main {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.about-us-page__main-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+.inclusion-statement-title, .recognition-section-title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+.inclusion-commitment-sub-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem; 
+}
+.recognition__denodo-partner-blurb {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: .9rem; 
+  max-width: 59ch;
+}
+.company-badges--intro {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem; 
+  max-width: 40ch;
+}
+.about-us__company-badges-holder {
+  margin: 0 auto;
+}
+.company-badges__content-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.company-badges__content-container > div {
+  flex-shrink: 1;
+}
+.accolade-badge-group {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.accolade-badge-group > img {
+  height: clamp(100px, 16vw, 150px);
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+.accolade-badge-group > p {
+  max-width: 30ch;
+}
+
+
+
+/************************************************
+-----------------------------------------------------
+#################################################
+      Resources Page
+
+***********************************************
+-----------------------------------------------------
+################################################# */
+
+
+
+
 /* ------------------------------------------------- */
 
 /************************************************

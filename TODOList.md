@@ -251,4 +251,6 @@ research
 library
 papers
 
-KASH Tech is also gratified to have been recognized
+KASH Tech is also gratified to have been recognized in the following ways:
+
+Fix container size (badges flex container on about us page)
