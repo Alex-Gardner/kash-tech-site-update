@@ -1461,7 +1461,7 @@ summary::-webkit-details-marker {
   font-size: 1.5rem;
 }
 .sigma-api-description {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
   margin-top: 1rem;
 }
@@ -1592,27 +1592,41 @@ summary::-webkit-details-marker {
   font-size: 3.5rem;
   margin-bottom: 3rem;
 }
-.inclusion-statement-title, .recognition-section-title {
+.inclusion-statement {
+  margin-bottom: 7rem;
+}
+.inclusion-statement-title,
+.recognition-section-title {
   font-family: "Manrope", sans-serif;
   font-weight: 300;
   font-size: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 .inclusion-commitment-sub-title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.recognition__denodo-partner-content {
+  margin-bottom: 4rem;
+}
+.recognition__denodo-partner-content > img {
+  box-shadow: 2px 6px 8px hsla(0 0% 0% / 25%);
+  margin-bottom: 2rem;
 }
 .recognition__denodo-partner-blurb {
   font-family: "Archivo", sans-serif;
   font-weight: 400;
-  font-size: .9rem; 
+  font-size: 0.9rem;
   max-width: 59ch;
 }
 .company-badges--intro {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 1.25rem; 
+  font-size: 1.25rem;
   max-width: 40ch;
+  margin-bottom: 3rem;
 }
 .about-us__company-badges-holder {
   margin: 0 auto;
@@ -1636,10 +1650,12 @@ summary::-webkit-details-marker {
   object-fit: contain;
 }
 .accolade-badge-group > p {
-  max-width: 30ch;
+  max-width: 27ch;
 }
-
-
+.accolade-badge-group > p a {
+  text-decoration-color: var(--major-accent-color-blue-1);
+  text-underline-offset: 0.2rem;
+}
 
 /************************************************
 -----------------------------------------------------
@@ -1649,9 +1665,6 @@ summary::-webkit-details-marker {
 ***********************************************
 -----------------------------------------------------
 ################################################# */
-
-
-
 
 /* ------------------------------------------------- */
 
