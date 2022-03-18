@@ -176,21 +176,24 @@ headerContent.innerHTML = `
                         </a>
                     </summary>
                     <div class="nav-item__sub-links company-nav__sub-links">
-                        <ul>                                            
+                        <ul>      
+                            <li>
+                                <a href="/company_about-us.html">
+                                    About Us
+                                </a>                            
+                            </li>
+                            <li>
+                                <a href="/company-solutions.html">
+                                    Solutions
+                                </a>
+                            </li>                                      
                             <li>
                                 Case Studies
                             </li>
                             <li>
                                 Company News
                             </li>
-                            <li>
-                                About Us
-                            </li>
-                            <li>
-                                <a href="/company-solutions.html">
-                                    Solutions
-                                </a>
-                            </li>
+                            
                         </ul>
                     </div>
                 </details>

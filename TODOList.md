@@ -252,6 +252,12 @@ library
 papers
 (look at the Shopify announcement for new themes for inspiration)
 
+<<<<<<< HEAD
 KASH Tech is also gratified to have been recognized with the following:
 
 Application development image (change from PNC Bank to shoreline)
+=======
+KASH Tech is also gratified to have been recognized in the following ways:
+
+Fix container size (badges flex container on about us page)
+>>>>>>> e87a17f0c5439f32319a6235bab528527e768237
