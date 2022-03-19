@@ -1,21 +1,38 @@
 .embla {
   overflow: hidden;
+  position: relative;
 }
 .embla__container {
   display: flex;
   will-change: transform;
+  max-width: 100%;
 }
 .embla__slide {
-  position: relative;
   flex: 0 0 100%;
+  position: relative;
+}
+.embla__viewport {
+
+}
+.embla__prev, .embla__next {
+  transform: translate(0, -50%);
+  top: 50%;
+  position: absolute;
+}
+.embla__prev {
+  left: 0;
+}
+.embla__next {
+  right: 0;  
 }
 
 .embla::before {
+  content: '';
   display: none;
-  content: '{"slidesToScroll": 3,"draggable": true}';
+  /* content: '{"slidesToScroll": 3,"draggable": true}'; */
 }
 @media (min-width: 768px) {
   .embla::before {
-    content: '{"slidesToScroll": 3,"draggable": false}';
+    /* content: '{"slidesToScroll": 3,"draggable": false}'; */
   }
 }

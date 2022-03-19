@@ -1,6 +1,4 @@
 // import Autoplay from 'https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js'
-const Autoplay = EmblaCarouselAutoplay;
-const emblaNode = document.getElementById('embla');
 
 
 // {
@@ -44,13 +42,35 @@ const emblaNode = document.getElementById('embla');
 //     // For example, 0.5 equals 50%.
 //     inViewThreshold: 0,
 // }
-
-let emblaOptions = { 
-    loop: false 
+const Autoplay = EmblaCarouselAutoplay;
+const emblaNode = document.getElementById('embla');
+const autoplayOptions = {
+    delay: 4000,
+    stopOnInteraction: false,
 }
 
-var emblaPlugins = [EmblaCarouselAutoplay()]
-var embla = EmblaCarousel(emblaNode, emblaOptions, emblaPlugins)
+const autoplay = Autoplay(autoplayOptions)
+
+
+let emblaOptions = { 
+    axis: 'x',
+    loop: true,
+    slidesToScroll: 1,
+    stopOnLastSnap: false, 
+    inViewThreshold: 0,
+}
+
+// var emblaPlugins = [EmblaCarouselAutoplay()]
+var embla = EmblaCarousel(emblaNode, emblaOptions, [autoplay])
+
+
+const viewportNode = emblaNode.querySelector('.embla__viewport')
+const prevButtonNode = emblaNode.querySelector('#embla__prev')
+const nextButtonNode = emblaNode.querySelector('#embla__next')
+
+
+prevButtonNode.addEventListener('click', embla.scrollPrev, false)
+nextButtonNode.addEventListener('click', embla.scrollNext, false)
 
 // const options = { 
 //     delay: 4000,
