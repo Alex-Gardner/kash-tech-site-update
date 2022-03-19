@@ -1865,6 +1865,42 @@ summary::-webkit-details-marker {
     place-items: center;
   }
 
+  .company-menu__media-content {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  .company-menu__media-content > img {
+    height: 18vh;
+    width: auto;
+  }
+
+  .nav-dropdown--company__media-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-bottom: .5rem;
+  }
+  .media-text__large-letter {
+    font-size: 2rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .media-text__large-letter .people {
+    color: var(--major-accent-color-blue-1);
+  }
+  .media-text__large-letter .process {
+    color: var(--minor-accent-color-orange-1);
+  }
+  .media-text__large-letter .technology {
+    color: #5C5C5C;
+  }
+  .media-text__byline {
+    font-size: 1rem;
+    color: #303030;
+  }
+  
+
   /* -----------------Nav Media Content----------------------*/
 
   .nav-item__sub-links {

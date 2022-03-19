@@ -176,6 +176,24 @@ headerContent.innerHTML = `
                         </a>
                     </summary>
                     <div class="nav-item__sub-links company-nav__sub-links">
+
+                        <div class="dropdown-media-content company-menu__media-content">
+                            <img src="./assets/company-dropdown-img.png" alt="">
+                            <div class="home-media__text-content">
+                                <p class="nav-dropdown--company__media-text">
+                                    <span class="media-text__large-letter">
+                                        <span class="people">People, <br></span>
+                                        <span class="process">Process, <br></span>
+                                        <span class="ampersand-span">&#38;</span>
+                                        <span class="technology">Technology<br></span>
+                                    </span>
+                                    <p class="media-text__byline">
+                                        transform your relationship to data
+                                    </p>
+                                </p>
+                            </div>
+                        </div>
+
                         <ul>      
                             <li>
                                 <a href="/company_about-us.html">

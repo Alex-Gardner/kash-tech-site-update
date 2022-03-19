@@ -7,16 +7,15 @@
 }
 .embla__slide {
   position: relative;
-  flex: 0 0 auto;
-  width: 100%;
+  flex: 0 0 100%;
 }
 
 .embla::before {
   display: none;
-  content: '{"slidesToScroll": 1,"draggable": true}';
+  content: '{"slidesToScroll": 3,"draggable": true}';
 }
 @media (min-width: 768px) {
   .embla::before {
-    content: '{"slidesToScroll": 2,"draggable": false}';
+    content: '{"slidesToScroll": 3,"draggable": false}';
   }
 }
