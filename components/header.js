@@ -233,7 +233,15 @@ headerContent.innerHTML = `
                     <div class="nav-item__sub-links resources-nav__sub-links">
                         <ul>                                            
                             <li>
-                                -* No Content *-
+                                <a href="/resources-articles.html">
+                                    White Papers/Articles
+                                </a>
+                            </li>
+                            <li>
+                                Blogs
+                            </li>
+                            <li>
+                                User Stories
                             </li>
                         </ul>
                     </div>

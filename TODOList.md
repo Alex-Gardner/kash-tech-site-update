@@ -269,3 +269,14 @@ Look for databricks banner - usable in carousel
 
 https://www.embla-carousel.com/plugins/autoplay/
 https://www.embla-carousel.com/get-started/cdn/
+
+Article / Whitepaper List
+
+12 Best Practices ...
+10 Things you need to know ...
+DV In an integrated ...
+
+Health Catalyst - Build vs Buy
+Data Virtualization for Dummies
+Applying Data Virtualization (13 use cases)
+Three Practical Use Cases for Databricks on AWS
