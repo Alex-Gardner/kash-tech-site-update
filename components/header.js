@@ -132,8 +132,8 @@ headerContent.innerHTML = `
 
                     <div class="nav-item__sub-links services-nav__sub-links">
                         <div class="dropdown-media-content services-menu__media-content">
-                            <div class="">
-                                <img src="./assets/svg-assets/services-dropdown__media-item.svg" alt="">
+                            <div class="services-nav-media-holder">
+                            <img src="./assets/services-dropdown__media-img.webp" alt="triptych of screen with graph data" class="services-dropdown__media-img">                               
                             </div>
                         </div>
 

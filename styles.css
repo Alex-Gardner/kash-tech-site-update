@@ -2068,6 +2068,9 @@ summary::-webkit-details-marker {
     align-self: unset;
     margin-top: 0;
   }
+  .services-dropdown__media-img {
+    height: 28vh;
+  }
 
   /*--------- Hero Section --------    */
 
@@ -2310,6 +2313,9 @@ summary::-webkit-details-marker {
   }
   .articles--whitepapers__article-link {
     box-shadow: 4px 6px 18px 2px hsla(0 0% 0% / 15%);
+  }
+  .articles--whitepapers__article-link:hover {
+    box-shadow: 4px 6px 18px 2px hsla(0 0% 0% / 15%), 2px 8px 25px 5px hsla(0 0% 0% / 25%);
   }
   .articles--whitepapers__article-link.e-book--link::before {
     box-shadow: 3px 3px 9px hsla(0 0% 0% / 25%);

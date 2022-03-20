@@ -270,6 +270,8 @@ Look for databricks banner - usable in carousel
 https://www.embla-carousel.com/plugins/autoplay/
 https://www.embla-carousel.com/get-started/cdn/
 
+
+--------------------------
 Article / Whitepaper List
 
 12 Best Practices ...
