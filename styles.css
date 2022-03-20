@@ -2071,6 +2071,15 @@ summary::-webkit-details-marker {
   .services-dropdown__media-img {
     height: 28vh;
   }
+  .resources-menu__media-content {
+    height: 28vh;
+    display: flex;
+    gap: 1rem;
+  }
+  .resources-menu__media-content > img {
+    height: 100%;
+    width: auto;
+  }
 
   /*--------- Hero Section --------    */
 

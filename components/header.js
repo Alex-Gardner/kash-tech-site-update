@@ -231,10 +231,15 @@ headerContent.innerHTML = `
                         </a>
                     </summary>
                     <div class="nav-item__sub-links resources-nav__sub-links">
+
+                        <div class="dropdown-media-content resources-menu__media-content">
+                            <img src="./assets/resources-dropdown-1.webp" alt="" class="resources-nav-dropdown__media-img">
+                            <img src="./assets/resources-dropdown-2.webp" alt="" class="resources-nav-dropdown__media-img">
+                        </div>
                         <ul>                                            
                             <li>
                                 <a href="/resources-articles.html">
-                                    White Papers/Articles
+                                Articles / White Papers
                                 </a>
                             </li>
                             <li>
