@@ -1700,6 +1700,7 @@ summary::-webkit-details-marker {
   padding: 2rem;
 }
 .articles--whitepapers__article-link {
+  position: relative;
   display: block;
   text-decoration: none;
   aspect-ratio: .7;
@@ -1707,6 +1708,24 @@ summary::-webkit-details-marker {
   box-shadow: 2px 4px 10px 2px hsla(0 0% 0% / 15%);
   overflow: hidden;
   border-radius: 1rem;
+  overflow: visible;
+}
+.articles--whitepapers__article-link.e-book--link::before {
+  content: 'e-Book';
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  color: #fff;
+  background-color: var(--major-accent-color-blue-1);
+  top: 25%;
+  right: 0;
+  transform: translate(50%, 0);
+  z-index: 1;
+  box-shadow: 1px 1px 6px hsla(0 0% 0% / 25%);
 }
 .articles--whitepapers__link-content-holder {
   height: 100%;
@@ -1766,7 +1785,7 @@ summary::-webkit-details-marker {
   font-weight: 300;
   font-size: clamp(14px, 2vw, 20px);
   text-align: end;
-  
+  line-height: 1.2;
 }
 
 /************************************************
@@ -2291,6 +2310,9 @@ summary::-webkit-details-marker {
   }
   .articles--whitepapers__article-link {
     box-shadow: 4px 6px 18px 2px hsla(0 0% 0% / 15%);
+  }
+  .articles--whitepapers__article-link.e-book--link::before {
+    box-shadow: 3px 3px 9px hsla(0 0% 0% / 25%);
   }
   .article__text-content-holder {
     padding: 0 1rem 3rem 
