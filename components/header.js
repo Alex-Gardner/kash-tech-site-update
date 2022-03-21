@@ -14,7 +14,6 @@
 //     }
 // }
 
-
 // const linkElem = document.createElement('link');
 // linkElem.setAttribute('rel', 'stylesheet');
 // linkElem.setAttribute('href', 'style.css');
@@ -23,11 +22,11 @@
 
 // customElements.define('header-component', Header);
 
-const headerHolder = document.querySelector('#site-header-holder');
+const headerHolder = document.querySelector("#site-header-holder");
 
-const headerContent = document.createElement('header');
+const headerContent = document.createElement("header");
 
-headerContent.classList.add("component-site-header")
+headerContent.classList.add("component-site-header");
 
 headerContent.innerHTML = `
 <div class="wide-screen-holder">
@@ -324,6 +323,6 @@ headerContent.innerHTML = `
     </nav>
 </div>
 
-</div>`
+</div>`;
 
 headerHolder.append(headerContent);

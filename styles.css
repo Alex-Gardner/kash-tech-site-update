@@ -1257,6 +1257,9 @@ summary::-webkit-details-marker {
 .predictive__title {
   margin-top: 2rem;
 }
+.analytics-services__last-cta {
+  background-color: var(--major-accent-color-blue-1);
+}
 
 /************************************************
 -----------------------------------------------------
