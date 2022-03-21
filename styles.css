@@ -64,6 +64,7 @@ html {
   font-size: clamp(16px, 0.5rem + 1.8vw, 20px);
   scroll-behavior: smooth;
   scroll-margin-top: 85px;
+  scroll-padding-top: 85px;
 }
 a {
   color: inherit;
@@ -1286,7 +1287,7 @@ summary::-webkit-details-marker {
 
 .wide-img-container {
   width: 100%;
-  aspect-ratio: 6;
+  height: 25vh;
 }
 .wide-img-container > img {
   height: 100%;
