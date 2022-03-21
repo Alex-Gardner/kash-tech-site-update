@@ -209,10 +209,10 @@ headerContent.innerHTML = `
                                 </a>
                             </li>                                      
                             <li>
-                                Case Studies
+                                Case Studies (Coming Soon)
                             </li>
                             <li>
-                                Company News
+                                Company News (Coming Soon)
                             </li>
                             
                         </ul>
@@ -246,10 +246,10 @@ headerContent.innerHTML = `
                                 </a>
                             </li>
                             <li>
-                                Blogs
+                                Blogs (Coming Soon)
                             </li>
                             <li>
-                                User Stories
+                                User Stories (Coming Soon)
                             </li>
                         </ul>
                     </div>
