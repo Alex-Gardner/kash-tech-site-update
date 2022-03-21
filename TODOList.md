@@ -287,10 +287,14 @@ Contact us form: add office address (bottom of page)
 
 And map for location
 
-Learn More - \_\_ Details
-More on <item>
-
 Schedule an Analytics session
 Start your analytics journey Today
 
 Updated consulting services with new text content -- leads to an alignment issue with other boxes of content
+
+WordPress update in goDaddy (cPanel)
+Update WP to use https
+Updage WP with custom HTML/CSS
+
+Darken Overlay in Consuting Page
+Update Onshore/Offshore/Hybrid info
