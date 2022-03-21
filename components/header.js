@@ -188,7 +188,7 @@ headerContent.innerHTML = `
                                         <span class="technology">Technology<br></span>
                                     </span>
                                     <p class="media-text__byline">
-                                        transform your relationship to data
+                                        transform your relationship with data
                                     </p>
                                 </p>
                             </div>

@@ -327,7 +327,7 @@ summary::-webkit-details-marker {
 .application-development-services-page__main,
 .company_solutions-page__main,
 .consulting-services-page__main,
-.company_about-us-page__main, 
+.company_about-us-page__main,
 .resources__articles--whitepapers-main {
   padding-top: calc(var(--header-height) + 4rem);
 }
@@ -640,7 +640,7 @@ summary::-webkit-details-marker {
 .consulting-services-list {
   padding-left: 0.5rem;
   margin-bottom: 1frem;
-  font-family: "Lora", serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.13rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1703,7 +1703,7 @@ summary::-webkit-details-marker {
   position: relative;
   display: block;
   text-decoration: none;
-  aspect-ratio: .7;
+  aspect-ratio: 0.7;
   width: 100%;
   box-shadow: 2px 4px 10px 2px hsla(0 0% 0% / 15%);
   overflow: hidden;
@@ -1711,7 +1711,7 @@ summary::-webkit-details-marker {
   overflow: visible;
 }
 .articles--whitepapers__article-link.e-book--link::before {
-  content: 'e-Book';
+  content: "e-Book";
   position: absolute;
   display: flex;
   justify-content: center;
@@ -1743,16 +1743,16 @@ summary::-webkit-details-marker {
   align-items: center;
 }
 .article__company-logo-holder.databricks-article {
-  background-color: #F3D7D4;
+  background-color: #f3d7d4;
 }
 .article__company-logo-holder.health-catalyst-article {
-  background-color: #B4E2F5;
+  background-color: #b4e2f5;
 }
 .article__company-logo-holder.tibco-article {
-  background-color: #BAD8F5;
+  background-color: #bad8f5;
 }
 .article__company-logo-holder.denodo-article {
-  background-color: #E2CCCB;
+  background-color: #e2cccb;
 }
 .article__company-logo-holder > img {
   height: 95%;
@@ -1772,7 +1772,7 @@ summary::-webkit-details-marker {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 0 .5rem 3rem;
+  padding: 0 0.5rem 3rem;
   margin-top: auto;
 }
 .article--whitepaper__title {
@@ -1796,9 +1796,6 @@ summary::-webkit-details-marker {
 ***********************************************
 -----------------------------------------------------
 ################################################# */
-
-
-
 
 /* ------------------------------------------------- */
 
@@ -1996,7 +1993,7 @@ summary::-webkit-details-marker {
   .nav-dropdown--company__media-text {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
   .media-text__large-letter {
     font-size: 2rem;
@@ -2011,13 +2008,12 @@ summary::-webkit-details-marker {
     color: var(--minor-accent-color-orange-1);
   }
   .media-text__large-letter .technology {
-    color: #5C5C5C;
+    color: #5c5c5c;
   }
   .media-text__byline {
     font-size: 1rem;
     color: #303030;
   }
-  
 
   /* -----------------Nav Media Content----------------------*/
 
@@ -2299,10 +2295,6 @@ summary::-webkit-details-marker {
     align-items: flex-start;
   }
 
-
-
-
-
   /************************************************
     -----------------------------------------------------
     #################################################
@@ -2324,13 +2316,13 @@ summary::-webkit-details-marker {
     box-shadow: 4px 6px 18px 2px hsla(0 0% 0% / 15%);
   }
   .articles--whitepapers__article-link:hover {
-    box-shadow: 4px 6px 18px 2px hsla(0 0% 0% / 15%), 2px 8px 25px 5px hsla(0 0% 0% / 25%);
+    box-shadow: 4px 6px 18px 2px hsla(0 0% 0% / 15%),
+      2px 8px 25px 5px hsla(0 0% 0% / 25%);
   }
   .articles--whitepapers__article-link.e-book--link::before {
     box-shadow: 3px 3px 9px hsla(0 0% 0% / 25%);
   }
   .article__text-content-holder {
-    padding: 0 1rem 3rem 
+    padding: 0 1rem 3rem;
   }
 }
-
