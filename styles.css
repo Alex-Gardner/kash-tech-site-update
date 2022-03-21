@@ -672,6 +672,7 @@ summary::-webkit-details-marker {
 
 .business-services-link-block {
   text-decoration-line: none;
+  display: block;
   box-shadow: 0.5px 1.5px 4px hsla(0 0% 0% / 25%),
     0.2px 1px 7px hsla(0 0% 0% / 15%);
   border-radius: 1rem;
