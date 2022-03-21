@@ -1054,7 +1054,8 @@ summary::-webkit-details-marker {
   justify-content: space-between;
   gap: 35px;
 }
-.contact-form__buttons-holder button {
+.contact-form__buttons-holder button,
+.contact-form__buttons-holder a {
   aspect-ratio: 3.4;
   width: clamp(200px, 30vw, 270px);
   /* padding: 1.2rem 2.0rem; */
@@ -1073,6 +1074,7 @@ summary::-webkit-details-marker {
 .schedule-meeting-button {
   border: solid 3px #b6794d;
   background-color: hsla(0 0% 0% / 0%);
+  text-decoration-line: none;
 }
 
 /* 
@@ -2110,6 +2112,9 @@ summary::-webkit-details-marker {
   }
   .active-involvement__photo-holder {
     flex-basis: 55%;
+  }
+  .active-involvement__photo-holder > img {
+    object-fit: cover;
   }
   .who-we-are__core-commits {
     flex-basis: 45%;
