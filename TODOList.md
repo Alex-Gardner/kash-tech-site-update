@@ -298,3 +298,6 @@ Updage WP with custom HTML/CSS
 
 Darken Overlay in Consuting Page
 Update Onshore/Offshore/Hybrid info
+
+Return to home page link after form submission (/mail/contact_me.php)
+Serve site over HTTPS!
