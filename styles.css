@@ -372,7 +372,7 @@ summary::-webkit-details-marker {
 }
 .hero-section__main-CTA {
   background-color: var(--major-accent-color-blue-1);
-  max-width: 25ch;
+  max-width: 32ch;
   display: block;
   margin: 0 auto;
 }
@@ -1543,7 +1543,7 @@ summary::-webkit-details-marker {
 .consuting-service__item-1 {
   background: linear-gradient(
       90deg,
-      rgba(14, 14, 14, 0.58) 60.17%,
+      rgba(14, 14, 14, 0.58) 80.17%,
       rgba(0, 0, 0, 0) 100%
     ),
     url("./assets/pexels-vlado-paunovic-3038740.webp");
@@ -1557,8 +1557,8 @@ summary::-webkit-details-marker {
 .consuting-service__item-2 {
   background: linear-gradient(
       90deg,
-      rgba(0, 0, 0, 0.85) 30%,
-      rgba(14, 14, 14, 0.7) 100%
+      rgba(0, 0, 0, 0.9) 30%,
+      rgba(14, 14, 14, 0.95) 100%
     ),
     url("./assets/ilya-pavlov-OqtafYT5kTw-unsplash.webp");
 }
@@ -2315,7 +2315,7 @@ summary::-webkit-details-marker {
 
   .application-development-services-page__main section > div {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
   }
 
   /************************************************
