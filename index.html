@@ -947,28 +947,28 @@
                     Contact Us
                 </h2>
 
-                <form action="" class="home-page__contact-form">
+                <form id="contactForm" name="sentMessage" novalidate="" action="" class="home-page__contact-form">
                     <div class="input-grid-holder">
-                        <label for="" class="contact-form__input-label">
+                        <label for="name" class="contact-form__input-label">
                             <p class="label-text">Name</p>
-                            <input type="text" class="detail-input" id="name-input">
+                            <input type="text" class="detail-input" id="name" required>
                         </label>
-                        <label for="" class="contact-form__input-label">
+                        <label for="company" class="contact-form__input-label">
                             <p class="label-text">Company</p>
-                            <input type="text" class="detail-input" id="company-input">
+                            <input type="text" class="detail-input" id="company">
                         </label>
-                        <label for="" class="contact-form__input-label">
+                        <label for="email" class="contact-form__input-label">
                             <p class="label-text">Email</p>
-                            <input type="text" class="detail-input" id="email-input">
+                            <input type="email" class="detail-input" id="email" required>
                         </label>
-                        <label for="" class="contact-form__input-label">
+                        <label for="phone" class="contact-form__input-label">
                             <p class="label-text">Phone</p>
-                            <input type="text" class="detail-input" id="phone-input">
+                            <input type="tel" class="detail-input" id="phone">
                         </label>
                         
-                        <label for="" class="contact-form__message-textarea-label">
+                        <label for="message" class="contact-form__message-textarea-label">
                             <p class="textarea-labeltext">Message</p>
-                            <textarea name="contact-message-textarea" id="contact-message-textarea" cols="" rows="" class="contact-form__message-textarea"></textarea>
+                            <textarea name="contact-message-textarea" id="message" cols="" rows="" class="contact-form__message-textarea" required></textarea>
                         </label>
                         
 
@@ -984,6 +984,8 @@
                     </div>
 
                 </form>
+
+
                 <div class="contact-address">
                     <address>
                         KASH Tech LLC<br>
