@@ -1387,11 +1387,11 @@ summary::-webkit-details-marker {
   flex-basis: 35%;
 }
 
-.offshore-model__text-content {
+.hybrid-model__text-content {
   flex-basis: 50%;
   order: 2;
 }
-.offshore-model__media-content {
+.hybrid-model__media-content {
   flex-basis: 50%;
 }
 
