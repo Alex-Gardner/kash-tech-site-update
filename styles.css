@@ -1385,6 +1385,13 @@ summary::-webkit-details-marker {
 }
 .onshore-model__media-content {
   flex-basis: 35%;
+  height: 100%;
+  aspect-ratio: .9;
+}
+.onshore-model__media-content > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .hybrid-model__text-content {
