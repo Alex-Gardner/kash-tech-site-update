@@ -1400,6 +1400,14 @@ summary::-webkit-details-marker {
 }
 .hybrid-model__media-content {
   flex-basis: 50%;
+  height: 100%;
+  aspect-ratio: .7;
+}
+.hybrid-model__media-content > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
 }
 
 .application-development-services-page__main h2 {
