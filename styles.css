@@ -1540,11 +1540,14 @@ summary::-webkit-details-marker {
   flex-basis: clamp(280px, 100%, 630px);
   padding: 4rem 2rem;
 }
+.consulting-services__service-item-holder p {
+  font-size: 1.1rem;
+}
 .consuting-service__item-1 {
   background: linear-gradient(
       90deg,
-      rgba(14, 14, 14, 0.58) 80.17%,
-      rgba(0, 0, 0, 0) 100%
+      rgba(2, 2, 2, 0.7) 0%,
+      rgba(2, 2, 2, .7) 100%
     ),
     url("./assets/pexels-vlado-paunovic-3038740.webp");
 }
@@ -1555,11 +1558,7 @@ summary::-webkit-details-marker {
   color: #e1e1e1;
 }
 .consuting-service__item-2 {
-  background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.9) 30%,
-      rgba(14, 14, 14, 0.95) 100%
-    ),
+  background: linear-gradient(rgba(10, 10, 10, 0.9) 30%,rgba(10, 10, 10, 0.9) 100%),
     url("./assets/ilya-pavlov-OqtafYT5kTw-unsplash.webp");
 }
 .consuting-service__item-2 h2 {
@@ -1570,7 +1569,7 @@ summary::-webkit-details-marker {
 }
 
 .consuting-service__item-3 {
-  background: linear-gradient(hsla(0 100% 100% / 64%), hsla(0 100% 100% / 85%)),
+  background: linear-gradient(hsla(0 100% 100% / 90%), hsla(0 100% 100% / 90%)),
     url("./assets/jason-goodman-bzqU01v-G54-unsplash.webp");
   box-shadow: 2px 8px 7px hsla(0 0% 0% / 25%), 0px -3px 3px hsla(0 0% 0% / 20%);
 }
@@ -1582,7 +1581,7 @@ summary::-webkit-details-marker {
 }
 
 .consuting-service__item-4 {
-  background: linear-gradient(hsla(22 68% 13% / 71%), hsla(22 68% 13% / 82%)),
+  background: linear-gradient(hsla(0 0% 10% / 80%), hsla(0 0% 10% / 80%)),
     url("./assets/jutta-kamp-wa70EzfxXdU-unsplash.webp");
   background-position: center;
 }
