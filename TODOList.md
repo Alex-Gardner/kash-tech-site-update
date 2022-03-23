@@ -325,7 +325,27 @@ about us
 
 Copyright sign s
 
----
+BG
+
+# 04212B
+
+Text (title)
+A8DDEE
+-Roboto
+Light
+24
+upper
+
+DEDEDE
+16
+Light
+
+Divider line:
+3A5E6A - minor-accent - 3A5E6A
+1px
+0% 45% 50% 55% 100%
+
+## Text (link)
 
 Group charts by content
 Use Tabs in groups
