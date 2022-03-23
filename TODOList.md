@@ -312,7 +312,7 @@ informulate.com - example
 Quick Contact
 Number
 email
-Locatio
+Location
 
 Social
 Linked in
