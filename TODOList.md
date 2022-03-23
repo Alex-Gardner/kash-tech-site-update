@@ -299,5 +299,34 @@ Updage WP with custom HTML/CSS
 Darken Overlay in Consuting Page
 Update Onshore/Offshore/Hybrid info
 
+---
+
 Return to home page link after form submission (/mail/contact_me.php)
 Serve site over HTTPS!
+
+Site footer: information included?
+Our Team Section
+
+informulate.com - example
+
+Quick Contact
+Number
+email
+Locatio
+
+Social
+Linked in
+
+Our Services
+
+Useful Links
+Schedule a call,
+about us
+
+Copyright sign s
+
+---
+
+Group charts by content
+Use Tabs in groups
+KPIs at top
