@@ -134,6 +134,12 @@ body {
   text-align: center;
   font-weight: 600;
 }
+.button-link.nav-list__contact-link {
+  transition: background-color linear .1s;
+}
+.button-link.nav-list__contact-link:hover {
+  background-color: #107494;
+}
 .nav-list__contact-item a {
   font-weight: 500;
 }
@@ -376,6 +382,11 @@ summary::-webkit-details-marker {
   max-width: 32ch;
   display: block;
   margin: 0 auto;
+  transition: background-color linear .1s;
+}
+.hero-section__main-CTA:hover {
+  /* background-color: var(--minor-accent-color-orange-1); */
+  background-color: #E27E2A;
 }
 .hero-section__main-CTA {
 }
@@ -402,9 +413,14 @@ summary::-webkit-details-marker {
 .who-we-are__content-holder {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 .who-we-are__content-holder .button-link {
   align-self: flex-start;
+  transition: background-color linear .1s;
+}
+.who-we-are__content-holder .button-link:hover {
+  background-color: #107494;
 }
 .who-we-are__content-1 {
   display: flex;
@@ -556,6 +572,10 @@ summary::-webkit-details-marker {
 .active-involvement__photo-holder {
   position: relative;
 }
+.active-involvement__photo-holder > img {
+  object-fit: cover;
+  object-position: 15% center;
+}
 .active-involvement__overlay-message {
   position: absolute;
   width: 100%;
@@ -640,15 +660,14 @@ summary::-webkit-details-marker {
 }
 
 .consulting-services-list {
-  padding-left: 0.5rem;
-  margin-bottom: 1frem;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
   font-family: "Open Sans", sans-serif;
   font-size: 1.13rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem 3rem;
-
-  max-width: 60vw;
+  /* max-width: 60vw; */
 }
 .consulting-link {
   font-size: 0.8rem;
@@ -656,7 +675,7 @@ summary::-webkit-details-marker {
   text-decoration-line: none;
   color: var(--major-accent-color-blue-1);
   border: 2px solid var(--major-accent-color-blue-1);
-  padding: 1rem;
+  padding: .5rem;
   border-radius: 0.5rem;
 }
 .consulting-link:hover {
@@ -922,7 +941,6 @@ summary::-webkit-details-marker {
 .home-page__customer-success-section {
 }
 .home-page__customer-success-section .wide-screen-holder {
-  padding: 0;
   display: flex;
   flex-direction: column;
 }
@@ -1080,13 +1098,23 @@ summary::-webkit-details-marker {
   font-weight: 500;
 }
 .send-form-button {
-  background-color: #b6794d;
+  background-color: #ED863C;
+  transition: background-color .1s linear;
+  cursor: pointer;
+}
+.send-form-button:hover {
+  background-color: #00789F;
 }
 
 .schedule-meeting-button {
-  border: solid 3px #b6794d;
+  border: solid 3px #ED863C;
   background-color: hsla(0 0% 0% / 0%);
   text-decoration-line: none;
+}
+.schedule-meeting-button:hover {
+  /* border: solid 3px #1C6356; */
+  transition: background-color .1s linear;
+  background-color: #1C6356;
 }
 
 .contact-address {
@@ -1788,6 +1816,9 @@ summary::-webkit-details-marker {
 .article__company-logo-holder.tibco-article {
   background-color: #bad8f5;
 }
+.article__company-logo-holder.hospital_review-article {
+  background-color: #E8F0F8;
+}
 .article__company-logo-holder.denodo-article {
   background-color: #e2cccb;
 }
@@ -2243,6 +2274,10 @@ summary::-webkit-details-marker {
   }
   .who-we-are__core-commits {
     flex-basis: 45%;
+  }
+
+  .consulting-link {
+    padding: 1rem;
   }
 
   .partner-program__blurb-details {
