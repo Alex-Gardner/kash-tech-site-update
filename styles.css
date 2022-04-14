@@ -1972,7 +1972,7 @@ summary::-webkit-details-marker {
   background-color: #fff;
   box-shadow: 1px 2px 5px hsla(0 0% 0% /25%);
   opacity: 0;
-  transition: opacity 2s 2.2s linear;
+  transition: opacity 1s 2.2s linear;
   z-index: -1;
 }
 .activated .careers-invitation-img-1--ws {
@@ -1990,6 +1990,11 @@ summary::-webkit-details-marker {
 }
 .activated .polaroid-holder::after {
   opacity: 1;
+}
+.career_page--benefits-blurb {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: var(--contrast-color-medium);
 }
 
 .current-openings-section {
@@ -2009,30 +2014,67 @@ summary::-webkit-details-marker {
 .job-descriptions-holder {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 .job-description-article {
 }
 .job-description--accordidan {
-}
-.job-description--summary-details {
   padding: 1rem;
-  border-top: 5px solid var(--characteristic-blue-highlight);
+  border-top: 8px solid var(--characteristic-blue-highlight);
   border-radius: 0.4rem;
   box-shadow: 2px 4px 6px hsl(0 0% 0% / 25%);
+  position: relative;
+}
+.job-description--summary-details {
 }
 .job-description--title {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .job-description--small-summary {
+}
+.job-description--chevron-down {
+  position: absolute;
+  width: 27px;
+  aspect-ratio: 1.48;
+  bottom: 1rem;
+  right: 1rem;
 }
 .job-description--key-responsibilities {
 }
 .full-job-description-holder {
+  padding: 2rem 1rem;
 }
 .full-description--title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.full-job-posting-link {
+  color: #397284;
+  font-weight: 600;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+}
+.submit-to-server--embed-arrow {
+  margin-left: 0.2rem;
+  height: 0.8rem;
+}
+.job-description--chevron-down {
+  /* transition: transform 0.2s ease-in; */
+}
+.job-description--accordidan[open] .job-description--chevron-down {
+  transform: rotate(180deg);
+}
+.job-description--accordidan:hover {
+  cursor: pointer;
+}
+.job-description--accordidan:not([open]):hover {
+  background-color: #d4edf5;
 }
 /************************************************
 -----------------------------------------------------
@@ -2257,7 +2299,6 @@ summary::-webkit-details-marker {
     background-color: #fff;
     box-shadow: 1px 2px 5px hsla(0 0% 0% /25%);
     opacity: 0;
-    transition: opacity 2s 2.2s linear;
     z-index: -1;
   }
   .activated .careers-invitation-img-1--ws {
@@ -2860,7 +2901,6 @@ summary::-webkit-details-marker {
     background-color: #fff;
     box-shadow: 1px 2px 5px hsla(0 0% 0% /25%);
     opacity: 0;
-    transition: opacity 2s 2.2s linear;
     z-index: -1;
   }
   .activated .careers-invitation-img-1--ws {
