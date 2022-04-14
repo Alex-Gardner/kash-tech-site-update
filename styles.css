@@ -336,7 +336,8 @@ summary::-webkit-details-marker {
 .company_solutions-page__main,
 .consulting-services-page__main,
 .company_about-us-page__main,
-.resources__articles--whitepapers-main {
+.resources__articles--whitepapers-main, 
+.careers_page--main {
   padding-top: calc(var(--header-height) + 4rem);
 }
 .home-page__hero-section {

@@ -208,6 +208,11 @@ headerContent.innerHTML = `
                                 </a>
                             </li>                                      
                             <li>
+                                <a href="/careers-page.html">
+                                    Careers
+                                </a>
+                            </li>                                      
+                            <li>
                                 Case Studies (Coming Soon)
                             </li>
                             <li>
