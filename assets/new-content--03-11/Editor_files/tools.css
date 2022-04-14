@@ -1,0 +1,50 @@
+/*Copyright (c) 1996-2021 TIBCO Software Inc. All Rights Reserved.*/
+/* $Revision: 1.2 $: */
+
+.pgx-viewer .pgxv-path{
+    flex: 1 1 auto;
+    margin-right: 4px;
+}
+
+.pgx-viewer .content-pane{
+    height: 400px;
+    padding: 4x;
+    margin: 8px;
+}
+
+.pgx-viewer .left-pane{
+    width: 200px;
+    padding: 4px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.pgx-viewer .pgx-viewer-output-area{
+    flex: 1 1 auto;
+}
+
+.pgx-viewer .text-editor{
+    position:relative;
+    height: 100%;
+    width: 100%;
+    margin-left: 8px;
+    border: 1px solid black;
+}
+
+.pgx-viewer .te-menu-bar{
+    display: none;
+}
+
+.pgx-viewer .item-label{
+    cursor: pointer;
+}
+
+.pgx-viewer .pgxv-header{
+  align-items: stretch;
+  margin: 8px;  
+  margin-right: 0px;
+}
+
+.pgx-viewer .left-pane > .ibx-label{
+    flex: 0 0 auto;
+}

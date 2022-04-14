@@ -1,0 +1,469 @@
+/*Copyright (c) 1996-2021 TIBCO Software Inc. All Rights Reserved.*/
+/* $Revision: 1.0 $: */
+
+.select-data-source
+{
+  border-radius: 4px;
+  box-shadow: 0 0 16px 0 rgba(65, 93, 107, 0.16);
+  background-color: #ffffff;
+}
+
+.select-data-source.sds  {
+	width: 960px;
+}
+
+.select-data-source-empty-state, .select-data-source-filter-empty-state  
+{
+    margin-top: 100px;
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.select-data-source-text-title, .select-data-source-text-summary {
+  	font-family: Roboto;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 2;
+  	letter-spacing: normal;
+  	text-align: center;
+  	color: #34515e;
+}
+
+.select-data-source-text-title {
+	font-size: 24px;	
+}
+
+.select-data-source .split-separator  {
+	display: none;
+}
+
+.select-data-source .home-domains-content-page {
+    padding: 0;
+    margin: 16px 0 0;
+    height: 352px;
+}
+
+.select-data-source .ibx-title-bar-close-button{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3455db;
+  	background-color: #fafafa;
+}
+
+.select-data-source .ibx-title-bar-close-button:before {
+	font-family: 'Material Icons';
+	content:"\E14C";
+    color: #3455db;
+}
+
+.select-data-source .ibx-title-bar-close-button:hover {
+	cursor: pointer;
+}
+
+.select-data-source .ibx-split-menu-button>.ibx-button-simple:hover {
+    margin: 0;
+    border: none;
+    border-right: none;
+    background-color: transparent;
+}
+
+.select-data-source .ibx-title-bar-caption .ibx-label-text {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #34515e;
+}
+
+.select-data-source .ibx-dialog-title-box {
+   height: 48px;
+   border-radius: 3px;
+   background-color: #fafafa;
+   flex: 0 0 auto;
+   margin-bottom: 0;
+   font-size: 18px;
+   font-weight: inherit;
+   padding: 0px;
+}
+
+.select-data-source-glyph {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    color: #3455db;
+}
+
+.select-data-source-glyph.not-at-end
+{
+	right: 16px;
+}
+
+.select-data-source-menu-item {
+    font-size: 14px;
+    padding: 0.5em;
+    font-weight: 400;
+    color: #333;
+}
+
+.select-data-source-split-menu-items {
+	overflow-y: auto;
+}
+
+.select-data-source-spacer
+{
+	flex:1 1 auto;
+}
+
+.select-data-source-hbox
+{
+    flex:0 0 auto;
+    height:32px;
+    outline:none;
+    position: relative;
+}
+
+.select-data-source-search
+{
+	width: 236px;
+	height: 32px;
+}
+
+.select-data-source-search.ibx-text-field:not(.ibx-select):not(.ibx-select-base)>input {
+	font-size: 12px;
+    line-height: 28px;
+	border-radius: 4px;
+    padding: 1px 12px;
+    height: 30px;
+    color: inherit;
+    text-overflow: ellipsis;
+    padding-right: 2em;
+}
+
+.select-data-source-split-menu-button {
+	height: 32px;
+	border-radius: 4px;
+	padding: 0;
+  	border: solid 1px #cccccc;
+  	background-color: #ffffff;	
+}
+
+.select-data-source-split-menu-button.new-workspace-selector, .select-data-source-split-menu-button.new-workspace-selector:hover
+{
+	border: 0px;
+}
+
+.select-data-source-split-menu-button .ibx-label-text {
+  	height: 18px;
+  	font-family: Roboto;
+  	font-size: 12px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.5;
+  	letter-spacing: normal;
+  	color: #3455db;	
+}
+
+.select-data-source-split-menu-button.new-workspace-selector .ibx-label-text, 
+.select-data-source-split-menu-button.new-workspace-selector .ibx-label-text:hover  
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: white;
+}
+
+
+.select-data-source-split-menu-button >.ibx-label-text:hover {
+    background-color: #ffffff;
+}
+
+.select-data-source-split-menu-button .ibx-menu-button {
+  	color: #3455db;
+}
+
+.select-data-source-split-menu-button.ibx-flexbox {
+    padding: 0;
+    height: 32px;
+    border-radius: 4px;
+    border-color: #cccccc;
+    font-size: 12px;
+    color: #3455db;
+    align-items: stretch;
+}
+
+}
+.sds-split-menu-button span {
+    font-weight: bold;
+    color: #34515e;
+}
+
+.view-all-items-results
+{
+	flex: 1 1 auto;
+	max-height: 32px;
+	margin-top: 2px;
+}
+
+.view-all-items
+{
+	flex: 1 1 auto;
+	height: 100%;
+}
+.view-all-vbox
+{
+	height: 100%;
+	flex: 1 1 auto;
+}
+ .view-all-items .home-domains-content-page
+ {
+	overflow-y: auto;
+	xheight: 100%;
+ } 
+
+.view-all-top-controls-util
+{
+	padding: 15px 10px 15px 15px;
+    height:	25px;
+}
+
+.wf-combined-Shape-16.sd-combined-Shape-16
+{
+	margin-right: 0px;
+}
+.wf-search-results-reve.sd-search-results-reve
+{
+	margin-left: 0px;
+}
+.wf-combined-Shape-middle.sd-combined-Shape-middle
+{
+	margin-left: 0px;
+}
+
+.wf-combined-Shape-16-ds
+{
+	margin-right:	0px;
+}
+
+.ibx-select.select-data-source-type-filter
+{
+	height: 32px;
+	width: 160px;
+	border-radius: 4px;
+}
+
+.ibx-select.select-data-source-type-filter > input:focus
+{
+	outline: none;
+}
+
+.select-data-source-type-filter-glyph
+{
+	position: absolute;
+	right: 458px;
+	height: 24px;
+	width:	24px;
+}
+
+.breadcrumb-hbox
+{
+	padding-top: 8px;
+	outline: none;
+}
+
+.ibx-button.bc-btn
+{
+	border: 0px;
+}
+
+.ibx-label.bc-divider
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 4px;
+}
+
+.hpreboot-tool .home-content-page-folder.ibx-flexbox
+{
+	margin-top: 0;
+	height: 100%;
+    align-items: center!important;
+    border: 2px dashed #aaa;
+    filter: grayscale(100%);
+    box-sizing: border-box;
+    overflow: hidden;
+    opacity: .5;
+    background-color: #fff;
+    cursor: default;
+    border-radius: 20px;
+}
+
+.select-data-source .test-item
+{
+	width: 160px;
+	min-width: 160px;
+	height: 160px;
+	min-height: 160px;
+}
+
+.ibx-flexbox.flat-view-menu-control
+{
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  border: solid 1px #cccccc;
+  margin-top: 2px;
+}
+
+.flat-view-menu-control-btn:hover, .flat-view-menu-control-btn:focus 
+{
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	color: #fff;
+	padding: 0px;
+	cursor: pointer;
+	outline: none;
+	border: 0 none;
+}
+
+
+.flat-view-menu-control-btn
+{
+	width: 32px;
+  	height: 32px;
+	font-size: 16px;
+	border: none;
+	color: #3455db;
+	padding: 0px;
+}
+
+.flat-view-btn:hover
+.flat-view-btn:focus
+{
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	background-color: #3455db;
+	color: #fff;
+	padding: 0px;
+	cursor: pointer;
+	outline: none;
+	border: 0 none;
+}
+
+.select-data-source .grid-view-menu-control {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  border: solid 1px #cccccc;
+  margin-top: 2px;
+}
+
+.select-data-source .grid-view-menu-control-btn
+{
+	width: 32px;
+  	height: 32px;
+	font-size: 13px;
+	border: none;
+	color: #3455db;
+	padding: 0px;
+}
+
+.select-data-source .grid-view-menu-control-btn:hover, 
+.select-data-source .grid-view-menu-control-btn:focus 
+{
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	background-color: #3455db;
+	color: #fff;
+	padding: 0px;
+	cursor: pointer;
+	outline: none;
+	border: 0 none;
+}
+
+.select-data-source .grid-view-controls {
+  width: 64px;
+  height: 32px;
+  border-radius: 4px;
+  border: solid 1px #cccccc;
+  margin-top: 2px;	
+}
+
+.select-data-source .grid-view-btn, .select-data-source .list-view-btn
+{
+	width: 32px;
+  	height: 32px;
+	font-size: 13px;
+	border: none;
+	color: #3455db;
+	padding: 0px;
+	outline: none;
+	background: none;
+}
+
+.select-data-source .grid-view-btn-focus {
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	background-color: #01253d;
+	color: #fff;
+	padding: 0px;
+	cursor: pointer;
+	outline: none;
+	border-radius: 3px 0 0 3px;
+}
+
+.select-data-source .list-view-btn-focus {
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	background-color: #01253d;
+	color: #fff;
+	padding: 0px;
+	cursor: pointer;
+	outline: none;
+ 	border-radius: 0 3px 3px 0;
+}
+
+.select-data-source .grid-view-btn:hover, .select-data-source .list-view-btn:hover,
+.select-data-source .grid-view-btn:focus, .select-data-source .list-view-btn:focus
+{
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	background-color: #3455db;
+	color: #fff;
+	padding: 0px;
+	cursor: pointer;
+	outline: none;
+	border: 0 none;
+}
+
+.select-data-source .grid-view-btn:focus,  .select-data-source .list-view-btn:focus {
+	background-color: #01253d;
+}
+
+.select-data-source .list-view-btn, .select-data-source .list-view-btn:hover, .select-data-source .list-view-btn:focus {
+ 	border-radius: 0 3px 3px 0;
+}
+
+.select-data-source .grid-view-btn, .select-data-source .grid-view-btn:hover, .select-data-source .grid-view-btn:focus {
+	border-radius: 3px 0 0 3px;
+}
+
+.select-data-source .home-content-grid .dgrid-row:hover,
+.select-data-source .home-content-grid .dgrid-row:focus 
+{
+	background-color: #f7f8fe;
+	outline: 0;
+}

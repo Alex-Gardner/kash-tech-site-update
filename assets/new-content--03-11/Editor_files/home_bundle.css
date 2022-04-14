@@ -1,0 +1,706 @@
+/*Copyright (c) 1996-2021 TIBCO Software Inc. All Rights Reserved.*/
+/* $Revision: 1.104 $: */
+
+.ibx-select-item-list .ibx-check-box-simple-marker
+{
+    order: 5;
+}
+
+.change-password-user-name > input{
+	background-color: #eee;
+}		
+.form-field-title
+{
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	padding: 5px 20px;
+	vertical-align: top;		
+}
+.form-field-text-title, .form-field-text-name
+{
+	font-size:14px;				
+	margin-top:5px;
+	margin-bottom:5px;
+	padding: 4px;								
+}
+.form-title
+{
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #666;
+}
+.form-close-button 
+{
+	font-size: 16px;
+	font-weight: normal;
+	cursor: pointer;
+	padding: 6px 12px;
+}
+.form-close-button-temp
+{
+	font-size: 16px;
+	color: #000;
+	margin:50px;
+	font-weight: 700;
+	cursor: pointer;	
+}
+.title-create-form
+{
+	max-width: 1200px;
+    padding: 10px 10px 20px 10px;
+}
+.title-create-form-label {
+	display: block;
+	line-height: 40px;
+	text-align: left;
+	padding: 0 20px;
+	font-weight: 700;
+	font-size: 18px;
+}
+.create-form-separator
+{
+	height: 10px;
+}
+.change-password {
+    background-color: #fff;			
+	width: 300px;
+	height:400px;
+	color: #444;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	border-radius: 0;
+}
+.change-password-header, .help-about-header {
+	display: block;
+	line-height: 30px;
+	text-align: left;
+	padding: 0 15px;
+	font-weight: 400;
+	font-size: 18px;
+}
+.change-password-row-error
+{
+	margin-top: 5px;
+	color: #cf4f43;
+	font-weight: bold;
+	font-size: 12px;
+	word-wrap: break-word;
+}
+.change-password-row, .change-password-last-row {
+	margin-top: 16px;
+    margin-left: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.change-password-last-row {
+	margin-top: 12px;
+}
+.change-password-textfield
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 15px;	
+}
+.change-password-button {
+	color: #fff;
+	margin-left: 5px;
+	margin-right:5px;
+	background-color: #337ab7;
+	border-color: #2e6da4;			
+}
+.change-password-cancel {
+	margin-left: 5px;
+	margin-right:5px;
+}
+.help-about {
+    background-color: #fff;			
+    width: 650px;
+    height:440px;
+    color: #444;
+}
+.dialog-box-title {
+    padding: 0px 2px 3px 5px;
+	border-bottom: 1px solid #e5e5e5;				
+}
+.help-about-btn {
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: 400;	
+	cursor: pointer;	
+	margin-right: 10px;
+	margin-top: 15px;
+}
+.help-about-ok-button
+{
+	margin-top:15px;
+	margin-right:15px;
+}
+.close-button-dialog {
+	font-size: 16px;
+	padding-bottom: 12px;
+}			
+.close-button-dialog:hover {
+    cursor: pointer;
+}
+.change-password-right-panel {
+	font-size: 14px;
+	padding-left: 25px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	flex:0 0 auto;
+	width: 70%;
+	box-sizing: border-box;
+}
+.help-about-left-panel-label {
+	font-size: 14px;
+	padding-left: 5px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	width: 35%;
+	box-sizing: border-box;
+}
+.help-about-right-panel-label {
+	font-size: 14px;
+	padding-left: 25px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	flex:0 0 auto;
+	width: 65%;
+	box-sizing: border-box;
+}
+.advance-search-field-name
+{
+    padding: 7px 15px 0;
+    margin: 0;
+    font-size: 14px;
+    width: 200px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    word-break: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+	-webkit-hyphens: auto;
+   	-moz-hyphens: auto;
+    hyphens: auto;
+}
+.advance-search-box
+{
+	margin-right:15px;
+}
+.advance-owner-search-box
+{
+	width: 215px;
+}
+.advance-owner-search-hbox
+{
+	margin-top:10px;	
+}
+.advance-owner-search-button {
+	margin-top:20px;
+	margin-right:15px;
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+
+.hp-form-field-title, .hp-form-field-type-title, .hp-session-timeout-label-ok, .hp-session-timeout-label-warning
+{
+    padding: 7px 15px 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    width: 20%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    -ms-word-break: normal;
+    word-break: normal;
+	-webkit-hyphens: auto;
+   	-moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.session-timeout>.ibx-dialog-main-box>.ibx-dialog-content 
+{
+    padding: 10px 18px;
+}
+
+.hp-session-timeout-label-ok, .hp-session-timeout-label-warning
+{
+	 padding: 5px 0px 0;	
+	 font-weight: normal;
+	 width: 100%;
+}
+
+.hp-form-field-type-title
+{
+	 padding: 7px 0px 0;	
+	 font-weight: normal;
+	 color: #666;
+	 width: 80%;
+}
+
+.hp-new-basic-shortcut
+{
+	width: 80%;	
+}
+
+.hp-Change-password-title
+{
+	width: 35%;	
+}
+
+.hp-server-signin-title
+{
+	width: 30%;	
+}
+
+.ibx-check-box-simple.portal-show-pages
+{
+	font-size: 14px;
+    margin: 0;
+}
+
+.ibx-check-box-simple.hp-form-create-app-cb
+{
+	font-size: 14px;
+    margin: 0;
+}
+
+.hp-form-field, .hp-form-field-text-title, .hp-form-field-text-name, .hp-form-field-text-Summary, .hp-form-field-text-path, .hp-form-field-text-url, .hp-form-create-app-cb, .portal-show-pages, .hp-form-field-text-user-name, .hp-form-field-text-password
+{
+	padding: 0;
+    margin: 0;
+	font-size:14px;
+	width: 80%;	
+}
+.hp-Change-password-text-title
+{
+	width: 65%;	
+}
+.hp-server-signin-text-title
+{
+	width: 70%;	
+}
+.hp-form-field .ibx-radio-button-simple {
+    padding: 4px 0;
+}
+.hp-form-field-target-path
+{
+	padding: 0;
+    margin: 0;
+	font-size:14px;
+	width: 55%;	
+}
+.hp-form-browse-button {
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    width: calc(25% - 10px);
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.form-fill-error-text {
+    background-color: #bd362f;
+    color: #fff;
+    font-weight: normal;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    display: none;
+}
+.form-fill-error-text:before {
+    content: '\f06a';
+    display: inline-block;
+        font: normal normal 900 14px/1 'Font Awesome 5 Free';
+
+    font-size: 20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 10px;
+}
+
+/* Properties Pane */
+.properties-page-row>div {
+	box-sizing: border-box;
+	flex: none;
+}
+.properties-page-col {
+    width: 25%;
+    font-size: 13px;
+    padding-top: 6px;
+    padding: 6px 10px;
+    line-height: 20px;
+    vertical-align: text-top;
+    text-align: left;
+    font-weight: 700;
+}
+.properties-page-col-pixels {
+	font-weight: normal;
+}
+.properties-page-retlang {
+    width: 25%;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-left: 0px;
+    padding-right: 10px;
+    line-height: 20px;
+    vertical-align: text-top;
+    text-align: left;
+}
+.properties-page-col>.ibx-label-text {
+    word-break: break-all;
+}
+.properties-page-titlebar>.properties-page-label{
+	max-width: 454px;
+	text-overflow: ellipsis;
+}
+.properties-language-select-picker {
+	width: 25%;
+}
+.properties-general-language-default {
+    margin: 0;
+    width: calc(25% - 5px);
+    padding: 0;
+}	
+.properties-general-view-all {
+    padding: 7px 10px;
+    width: calc(25% - 10px);
+}
+.properties-form-control-p75 {
+	width: 75%;
+	margin-right: 0;
+	padding-right: 10px;
+}
+.properties-form-control-p70 {
+	width: 70%;
+	margin-right: 0;
+	padding-right: 10px;
+}
+.properties-form-control-p65 {
+	width: 65%;
+	margin-right: 0;
+	padding-right: 10px;
+}
+.properties-form-control-p50 {
+	width: 50%;
+	margin-right: 0;
+	padding-right: 6px;
+}
+.properties-form-control-p25 {
+	width: 25%;
+	margin-right: 0;
+	padding-right: 10px;
+}
+.properties-form-control-p165px {
+	width: 165px;
+	margin-right: 0;
+}
+.properties-form-control-name-editor {
+	width: calc(75% - 45px);
+	padding-right: 6px;
+	margin-right: 0
+}
+.properties-general-name-button-edit {
+    padding: 8px 10px 9px;
+}
+.properties-page-row>.ibx-radio-button-simple {
+    padding: 4px 0;
+}
+.hp-target-path-input > input{
+	background-color: #eee;
+}
+.hp-title-input > input{
+	background-color: #eee;
+}
+.properties-advanced-pane-tab .properties-page-col {
+    width: 30%;
+}
+.properties-assign-server-prompt>label, .properties-assign-app-prompt>label {
+    font-weight: 700;
+    color: #fc6602;
+}
+.properties-assign-server-prompt>.ibx-check-box-simple-marker, .properties-assign-app-prompt>.ibx-check-box-simple-marker {
+    width: auto;
+    margin-right: 5px;
+}
+.properties-assign-server-prompt>.ibx-check-box-simple-marker:before, .properties-assign-app-prompt>.ibx-check-box-simple-marker:before {
+    margin: 0;
+}
+.ibx-flexbox.fbx-block.properties-page-row-assign-server {
+	display: -ms-grid;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    -ms-grid-columns: 1fr 1fr 1fr;
+}
+.ibx-flexbox.fbx-block.properties-page-row-assign-application-path {
+	display: block;
+	user-select: none;
+}
+.properties-page-row .ibx-text-field:not(.ibx-select) > input[readonly] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.properties-page-row .ibx-text-field:not(.ibx-select) > input[readonly]:focus {
+    box-shadow: none;
+}
+.ibx-label.no-edit-text-input {
+    padding: 6px 10px 6px 0;
+    line-height: 20px;
+}
+
+.menu-properties-language-select-picker {
+	width: 60%;
+}
+
+.properties-appdir-placeholder
+{
+	visibility: visible;
+	opacity: 0.35;
+}
+.hp-search-field-title
+{
+    padding: 15px 10px 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hp-div-search
+{
+	width: 100%;
+}
+
+.hp-div-search {
+    margin: 0;
+    padding-left: 5px;
+}
+
+.menu-btn-advanced-search {
+	 margin-right: 5px;	
+}
+
+.ibx-button-simple:hover {
+	background-color: transparent;
+}
+
+.menu-btn-advanced-search.ibx-button-simple:hover {
+	background-color: transparent;
+}
+
+.home-properties-language-select-picker {
+	width: 210px;
+	height: 32px;
+  	border-radius: 4px;
+  	border: solid 1px #cccccc;
+  	background-color: #ffffff;	
+}
+
+.home-properties-language-select-picker > input {
+  height: 24px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #3455db;
+}
+	
+.div-search .ibx-text-field:not(.ibx-select) > input:focus {
+    box-shadow: none;
+}
+
+.div-search .ibx-text-field:not(.ibx-select) > input[placeholder] {
+    text-overflow: ellipsis;
+}
+
+.hp-div-search .ibx-text-field:not(.ibx-select) > input:focus {
+    box-shadow: none;
+}
+
+.hp-div-search .ibx-text-field:not(.ibx-select) > input[placeholder] {
+    text-overflow: ellipsis;
+}
+.hp-item-selected
+{
+    background-color: rgba(53, 184, 254, .4);	
+}
+
+.portal-show-banner
+{
+	margin: 4px 0px;
+}
+
+/* switch class */
+.portal-show-banner > .ibx-switch-ctrl {
+    position: relative;
+  	width: 40px;
+   	height: 24px;
+}
+
+.portal-column-size 
+{
+	min-width: 80px;
+	padding: 10px;
+	margin: 4px; 
+	cursor: pointer;
+}
+
+.portal-column-size .ibx-label-icon
+{
+    width: 80px;
+    height: 40px;
+}
+
+.portal-control-value {
+    flex: 0 0 auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+    margin: 4px;
+    position: relative;
+}
+.portal-control-value.ibx-check-box.checked {
+    background-color: #eee;
+    border-color: #aaa; 
+    cursor: default;
+}
+.portal-control-value[data-ibxp-glyph-classes]>.ibx-label-glyph {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+.portal-control-value[data-ibxp-glyph-classes]>.ibx-label-text {
+	margin-left: 32px;
+}
+.portal-control-value[data-ibxp-glyph-classes].:hover>.ibx-label-glyph {
+	border-color: #aaa;
+}
+.portal-control-value[data-ibxp-glyph-classes].ibx-check-box.checked:hover>.ibx-label-glyph,
+.portal-control-value[data-ibxp-glyph-classes].ibx-check-box.checked>.ibx-label-glyph {
+	border-color: #aaa;
+}
+
+.left-bold-label {
+	font-size: 14px;
+    padding: 7px 15px 0;
+	font-weight: bold;
+	padding-bottom: 5px;
+	width: 20%;
+	box-sizing: border-box;
+}
+
+.right-info-label {
+	font-size: 14px;
+	width: 80%;
+	box-sizing: border-box;
+}
+
+.right-input-textfield {	
+	font-size:14px;
+	width: 80%;
+	box-sizing: border-box;
+}
+
+.horizontal-separator {
+    width:100%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.cnct-all-entries
+{
+	max-height: 470px;
+    overflow-y: auto;
+    padding-right: 12px;
+}
+
+.cnct-user-hbox
+{
+	padding-bottom: 8px;
+}
+.cnct-pwd-hbox
+{
+	padding-bottom: 18px;
+}
+.cnct-label
+{
+	font-size: 16px;
+	padding-bottom: 8px;
+}
+.cnct-user, .cnct-pwd
+{
+	xflex: 1 1 auto;
+	width: 85%;
+}
+	
+.cnct-user-lbl, .cnct-pwd-lbl
+{
+	font-weight: 700;
+	xpadding-right: 24px;
+	width: 15%;
+}
+@media only screen and (max-width: 480px) {
+	.left-bold-label,
+	.hp-form-field-title {
+		min-height: 25px;
+		padding: 0;
+	}
+	.advance-search-box,
+	.advance-search-field-name,
+	.hp-form-field-title,
+	.hp-form-field-text-title,
+	.hp-form-field-text-name,
+	.hp-form-field-text-Summary,
+	.hp-form-field-text-path,
+	.hp-form-field-text-url,
+	.hp-form-field-text-user-name, 
+	.hp-form-field-text-password,
+	.help-about-left-panel-label,
+	.help-about-right-panel-label,
+	.left-bold-label,
+	.right-input-textfield,
+	.right-info-label
+	{
+		justify-content: flex-start!important;
+		width: 100%;
+	}
+	.hp-form-field-title>label {
+		text-align: left!important;
+	}
+	.hp-form-field-title.empty {
+		display: none;
+	}
+	.hp-form-field-target-path {
+	    width: 70%;
+	}
+	.hp-form-browse-button {
+	    width: calc(30% - 10px);
+	}
+	.ibx-flexbox.fbx-block.properties-page-row-assign-application-path {
+	    display: grid;
+	    grid-template-columns: 50% 50%;
+	}
+	.advance-search-box
+	{
+		margin-left:15px;
+	}
+	.menu-btn-advanced-search {
+	 margin-right: 10px;	
+	}
+}

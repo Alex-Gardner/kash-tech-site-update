@@ -1,0 +1,39 @@
+.cancel-request-dlg.ibx-dialog.std
+{
+	font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    min-height: auto;
+    width: fit-content;
+    position:absolute;
+    left: 600px;
+    font-weight: bold;
+}
+
+
+.cancel-request-dlg-label {
+    margin: 0 0 20px;
+    font-size: 15px;
+}
+
+.cancel-request-dlg-button.ibx-button.ibx-default
+{
+    min-width: 60px;
+    margin: 10px 6px 0 7px;
+    border-radius: 4px;
+    border: solid 1px #3455db;
+    color: #3455db;
+}
+
+.cancel-request-dlg-button.ibx-button.ibx-primary,  .cancel-request-dlg-button.ibx-button.ibx-selected
+{
+ 	min-width: 60px;
+    margin: 10px 6px 0 7px;
+    border-radius: 4px;
+    border: solid 1px #3455db;
+    color: #fff;
+    background-color: #3455db;
+}
+.cancel-request-dlg .ibx-dialog-main-box>.ibx-dialog-content{
+	min-height: auto
+}

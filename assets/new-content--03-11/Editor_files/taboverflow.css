@@ -1,0 +1,24 @@
+/*Copyright (c) 1996-2021 TIBCO Software Inc. All Rights Reserved.*/
+/* $Revision: 1.5 $: */
+
+.tab-overflow-menu
+{
+    overflow: auto;
+}
+
+.tab-overflow-button
+{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.tab-new-button
+{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.tab-overflow-menu-item.selected-page
+{
+    font-weight: bold;
+}

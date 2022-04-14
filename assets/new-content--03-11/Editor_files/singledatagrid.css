@@ -1,0 +1,23 @@
+/*Copyright (c) 1996-2021 TIBCO Software Inc. All Rights Reserved.*/
+/* $Revision: $: */
+
+.cell-uselect{
+	user-select:none;
+}
+.row-drag-image{
+	opacity:1;
+	z-index:2147483647;
+    background-color:#999;
+	color:white;
+	padding:5px;
+	border-radius:5px;
+}
+.header-checkbox, .row-checkbox{
+	color: #3455db;
+}
+.header-checkbox:hover, .row-checkbox:hover{
+	color: #142772;
+}
+.ibx-widget-disabled .header-checkbox, .ibx-widget-disabled .row-checkbox {
+	color: #eeeeee;
+}
