@@ -135,7 +135,7 @@ body {
   font-weight: 600;
 }
 .button-link.nav-list__contact-link {
-  transition: background-color linear .1s;
+  transition: background-color linear 0.1s;
 }
 .button-link.nav-list__contact-link:hover {
   background-color: #107494;
@@ -336,7 +336,7 @@ summary::-webkit-details-marker {
 .company_solutions-page__main,
 .consulting-services-page__main,
 .company_about-us-page__main,
-.resources__articles--whitepapers-main, 
+.resources__articles--whitepapers-main,
 .careers_page--main {
   padding-top: calc(var(--header-height) + 4rem);
 }
@@ -383,11 +383,11 @@ summary::-webkit-details-marker {
   max-width: 32ch;
   display: block;
   margin: 0 auto;
-  transition: background-color linear .1s;
+  transition: background-color linear 0.1s;
 }
 .hero-section__main-CTA:hover {
   /* background-color: var(--minor-accent-color-orange-1); */
-  background-color: #E27E2A;
+  background-color: #e27e2a;
 }
 .hero-section__main-CTA {
 }
@@ -418,7 +418,7 @@ summary::-webkit-details-marker {
 }
 .who-we-are__content-holder .button-link {
   align-self: flex-start;
-  transition: background-color linear .1s;
+  transition: background-color linear 0.1s;
 }
 .who-we-are__content-holder .button-link:hover {
   background-color: #107494;
@@ -676,7 +676,7 @@ summary::-webkit-details-marker {
   text-decoration-line: none;
   color: var(--major-accent-color-blue-1);
   border: 2px solid var(--major-accent-color-blue-1);
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 0.5rem;
 }
 .consulting-link:hover {
@@ -1099,23 +1099,23 @@ summary::-webkit-details-marker {
   font-weight: 500;
 }
 .send-form-button {
-  background-color: #ED863C;
-  transition: background-color .1s linear;
+  background-color: #ed863c;
+  transition: background-color 0.1s linear;
   cursor: pointer;
 }
 .send-form-button:hover {
-  background-color: #00789F;
+  background-color: #00789f;
 }
 
 .schedule-meeting-button {
-  border: solid 3px #ED863C;
+  border: solid 3px #ed863c;
   background-color: hsla(0 0% 0% / 0%);
   text-decoration-line: none;
 }
 .schedule-meeting-button:hover {
   /* border: solid 3px #1C6356; */
-  transition: background-color .1s linear;
-  background-color: #1C6356;
+  transition: background-color 0.1s linear;
+  background-color: #1c6356;
 }
 
 .contact-address {
@@ -1818,7 +1818,7 @@ summary::-webkit-details-marker {
   background-color: #bad8f5;
 }
 .article__company-logo-holder.hospital_review-article {
-  background-color: #E8F0F8;
+  background-color: #e8f0f8;
 }
 .article__company-logo-holder.denodo-article {
   background-color: #e2cccb;
@@ -1857,6 +1857,183 @@ summary::-webkit-details-marker {
   line-height: 1.2;
 }
 
+/************************************************
+-----------------------------------------------------
+#################################################
+      Careers Page
+
+***********************************************
+-----------------------------------------------------
+################################################# */
+
+.careers_page--title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+}
+.careers-page--hero-section {
+  margin: 4.5rem 0 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.careers_page--img-holder {
+  max-width: 60vw;
+  box-shadow: 4px 5px 8px hsla(0 0% 0% / 31%);
+}
+.careers_page--img-holder > img {
+  object-fit: cover;
+  width: 100%;
+}
+.hiring-notice-and-blurb {
+}
+.careers_page--hiring-announcement {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #0e3440 4.15%, #047ca3 91.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-bottom: 0.2rem;
+  margin-bottom: 1.8rem;
+}
+.careers--hiring-blurb {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: var(--contrast-color-medium);
+  font-size: 1.2rem;
+}
+.careers--hiring-blurb > span {
+  font-weight: 500;
+}
+.careers_page--invitation-section {
+}
+.hiring--invitation-blurb {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: var(--contrast-color-medium);
+  font-size: 1.2rem;
+}
+.invitation_section--media-holder {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 4rem 0;
+}
+.invitation-section--svg-bg {
+  grid-column: -1 / 1;
+  grid-row: -1 / 1;
+  height: 100%;
+}
+.invitation-images-holder {
+  grid-column: -1 / 1;
+  grid-row: -1 / 1;
+  display: flex;
+  padding: 2rem;
+}
+.image-divider-right,
+.image-divider-left {
+  display: flex;
+  flex-direction: column;
+}
+.image-divider-right {
+  align-items: flex-start;
+}
+.image-divider-left {
+  align-items: flex-end;
+}
+.polaroid-holder {
+  width: clamp(85px, 12vw, 170px);
+  aspect-ratio: 1;
+}
+
+.image-divider-left > *,
+.image-divider-right > * {
+  transform-origin: center center;
+}
+.careers-invitation-img-1--ws,
+.careers-invitation-img-4--ws {
+  transition: transform 1s linear;
+}
+
+.polaroid-holder {
+  position: relative;
+  transition: transform 1s 1.2s linear;
+}
+.polaroid-holder::after {
+  content: "";
+  position: absolute;
+  inset: -7% -7% -21% -7%;
+  background-color: #fff;
+  box-shadow: 1px 2px 5px hsla(0 0% 0% /25%);
+  opacity: 0;
+  transition: opacity 2s 2.2s linear;
+  z-index: -1;
+}
+.activated .careers-invitation-img-1--ws {
+  transform: scale(1.1, 1.1) translate(-20%, -20%);
+}
+.activated .careers-invitation-img-4--ws {
+  transform: scale(1.1, 1.1) translate(20%, 20%);
+}
+
+.activated .careers-invitation-img-3-holder--polaroid {
+  transform: scale(1.3, 1.3) translate(-50%, 50%);
+}
+.activated .careers-invitation-img-2-holder--polaroid {
+  transform: scale(1.3, 1.3) translate(50%, -50%);
+}
+.activated .polaroid-holder::after {
+  opacity: 1;
+}
+
+.current-openings-section {
+  --characteristic-orange-highlight: #feb578;
+  --characteristic-blue-highlight: #2d98ba;
+  margin: 4.5rem 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.current-openings-title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.job-descriptions-holder {
+  display: flex;
+  flex-direction: column;
+}
+.job-description-article {
+}
+.job-description--accordidan {
+}
+.job-description--summary-details {
+  padding: 1rem;
+  border-top: 5px solid var(--characteristic-blue-highlight);
+  border-radius: 0.4rem;
+  box-shadow: 2px 4px 6px hsl(0 0% 0% / 25%);
+}
+.job-description--title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.job-description--small-summary {
+}
+.job-description--key-responsibilities {
+}
+.full-job-description-holder {
+}
+.full-description--title {
+}
 /************************************************
 -----------------------------------------------------
 #################################################
@@ -1995,6 +2172,109 @@ summary::-webkit-details-marker {
   }
   .home-page__leadership-team-section .wide-screen-holder {
     padding: 0;
+  }
+
+  /************************************************
+        -----------------------------------------------------
+        #####
+              Careers Page
+
+        ***********************************************
+        -----------------------------------------------------
+        ##### */
+
+  .careers_page--title {
+  }
+  .careers-page--hero-section {
+    margin: 4.5rem 0 6rem;
+
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .careers_page--img-holder {
+    max-width: 60vw;
+    box-shadow: 5px 9px 8px hsla(0 0% 0% / 31%);
+  }
+  .careers_page--img-holder > img {
+  }
+  .hiring-notice-and-blurb {
+  }
+  .careers_page--hiring-announcement {
+    padding-bottom: 0.2rem;
+    margin-bottom: 1.8rem;
+  }
+  .careers--hiring-blurb {
+    font-size: 1.2rem;
+  }
+  .careers--hiring-blurb > span {
+  }
+  .careers_page--invitation-section {
+  }
+  .hiring--invitation-blurb {
+    font-size: 1.2rem;
+  }
+  .invitation_section--media-holder {
+    display: grid;
+    margin: 6rem 0;
+  }
+  .invitation-section--svg-bg {
+    height: 100%;
+  }
+  .invitation-images-holder {
+    padding: 2rem;
+  }
+  .image-divider-right,
+  .image-divider-left {
+  }
+  .image-divider-right {
+  }
+  .image-divider-left {
+    align-items: flex-end;
+  }
+  .polaroid-holder {
+    width: clamp(85px, 18vw, 250px);
+    aspect-ratio: 1;
+  }
+
+  .image-divider-left > *,
+  .image-divider-right > * {
+    transform-origin: center center;
+  }
+  .careers-invitation-img-1--ws,
+  .careers-invitation-img-4--ws {
+    transition: transform 1s linear;
+  }
+
+  .polaroid-holder {
+    position: relative;
+    transition: transform 1s 1.2s linear;
+  }
+  .polaroid-holder::after {
+    content: "";
+    position: absolute;
+    inset: -7% -7% -21% -7%;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px hsla(0 0% 0% /25%);
+    opacity: 0;
+    transition: opacity 2s 2.2s linear;
+    z-index: -1;
+  }
+  .activated .careers-invitation-img-1--ws {
+    transform: scale(1.1, 1.1) translate(-20%, -20%);
+  }
+  .activated .careers-invitation-img-4--ws {
+    transform: scale(1.1, 1.1) translate(20%, 20%);
+  }
+
+  .activated .careers-invitation-img-3-holder--polaroid {
+    transform: scale(1.3, 1.3) translate(-50%, 50%);
+  }
+  .activated .careers-invitation-img-2-holder--polaroid {
+    transform: scale(1.3, 1.3) translate(50%, -50%);
+  }
+  .activated .polaroid-holder::after {
+    opacity: 1;
   }
 }
 
@@ -2490,5 +2770,113 @@ summary::-webkit-details-marker {
   }
   .article__text-content-holder {
     padding: 0 1rem 3rem;
+  }
+
+  /************************************************
+  -----------------------------------------------------
+  #####
+        Careers Page
+
+  ***********************************************
+  -----------------------------------------------------
+  ##### */
+
+  .careers_page--title {
+  }
+  .careers-page--hero-section {
+    margin: 4.5rem 0 6rem;
+
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .careers_page--img-holder {
+    max-width: 60vw;
+    box-shadow: 5px 9px 8px hsla(0 0% 0% / 31%);
+  }
+  .careers_page--img-holder > img {
+  }
+  .hiring-notice-and-blurb {
+  }
+  .careers_page--hiring-announcement {
+    padding-bottom: 0.2rem;
+    margin-bottom: 1.8rem;
+  }
+  .careers--hiring-blurb {
+    font-size: 1.2rem;
+  }
+  .careers--hiring-blurb > span {
+  }
+  .careers_page--invitation-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .hiring--invitation-blurb {
+    font-size: 1.2rem;
+  }
+  .invitation_section--media-holder {
+    display: grid;
+    margin: 6rem 0;
+  }
+  .invitation-section--svg-bg {
+    height: 100%;
+  }
+  .invitation-images-holder {
+    padding: 2rem;
+  }
+  .image-divider-right,
+  .image-divider-left {
+  }
+  .image-divider-right {
+  }
+  .image-divider-left {
+    align-items: flex-end;
+  }
+  .polaroid-holder {
+    width: clamp(85px, 18vw, 140px);
+    aspect-ratio: 1;
+  }
+
+  .image-divider-left > *,
+  .image-divider-right > * {
+    transform-origin: center center;
+  }
+  .careers-invitation-img-1--ws,
+  .careers-invitation-img-4--ws {
+    transition: transform 1s linear;
+  }
+
+  .polaroid-holder {
+    position: relative;
+    transition: transform 1s 1.2s linear;
+  }
+  .polaroid-holder::after {
+    content: "";
+    position: absolute;
+    inset: -7% -7% -21% -7%;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px hsla(0 0% 0% /25%);
+    opacity: 0;
+    transition: opacity 2s 2.2s linear;
+    z-index: -1;
+  }
+  .activated .careers-invitation-img-1--ws {
+    transform: scale(1.1, 1.1) translate(-20%, -20%);
+  }
+  .activated .careers-invitation-img-4--ws {
+    transform: scale(1.1, 1.1) translate(20%, 20%);
+  }
+
+  .activated .careers-invitation-img-3-holder--polaroid {
+    transform: scale(1.3, 1.3) translate(-30%, 50%);
+  }
+  .activated .careers-invitation-img-2-holder--polaroid {
+    transform: scale(1.3, 1.3) translate(10%, -50%);
+  }
+  .activated .polaroid-holder::after {
+    opacity: 1;
   }
 }
