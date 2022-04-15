@@ -1963,7 +1963,7 @@ summary::-webkit-details-marker {
 
 .polaroid-holder {
   position: relative;
-  transition: transform 1s 1.2s linear;
+  transition: transform 0.8s 0.4s linear;
 }
 .polaroid-holder::after {
   content: "";
@@ -1972,7 +1972,7 @@ summary::-webkit-details-marker {
   background-color: #fff;
   box-shadow: 1px 2px 5px hsla(0 0% 0% /25%);
   opacity: 0;
-  transition: opacity 1s 2.2s linear;
+  transition: opacity 1s 1.2s linear;
   z-index: -1;
 }
 .activated .careers-invitation-img-1--ws {
@@ -1996,10 +1996,14 @@ summary::-webkit-details-marker {
   font-weight: 300;
   color: var(--contrast-color-medium);
 }
+.career_page--benefits-blurb p {
+  max-width: 70ch;
+  margin: 0 auto;
+}
 
 .current-openings-section {
   --characteristic-orange-highlight: #feb578;
-  --characteristic-blue-highlight: #2d98ba;
+  --characteristic-blue-highlight: #1f657a;
   margin: 4.5rem 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
@@ -2019,13 +2023,15 @@ summary::-webkit-details-marker {
 .job-description-article {
 }
 .job-description--accordidan {
-  padding: 1rem;
   border-top: 8px solid var(--characteristic-blue-highlight);
   border-radius: 0.4rem;
   box-shadow: 2px 4px 6px hsl(0 0% 0% / 25%);
   position: relative;
+  padding: 0 1rem 1rem;
 }
 .job-description--summary-details {
+  padding: 1rem;
+  position: relative;
 }
 .job-description--title {
   font-family: "Open Sans", sans-serif;
@@ -2075,6 +2081,20 @@ summary::-webkit-details-marker {
 }
 .job-description--accordidan:not([open]):hover {
   background-color: #d4edf5;
+}
+.job-description--accordidan[open]:hover {
+  background-color: #eef4f6;
+}
+
+.job-description--accordidan[open] .job-description--summary-details::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  width: 30%;
+  transform: translate(-50%, 0);
+  background-image: linear-gradient(90deg, #71c9e5 0%, #136d8a 100%);
 }
 /************************************************
 -----------------------------------------------------
@@ -2825,7 +2845,7 @@ summary::-webkit-details-marker {
   .careers_page--title {
   }
   .careers-page--hero-section {
-    margin: 4.5rem 0 6rem;
+    margin: 4.5rem 0 3rem;
 
     flex-direction: row;
     gap: 2rem;
