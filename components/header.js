@@ -207,11 +207,7 @@ headerContent.innerHTML = `
                                     Solutions
                                 </a>
                             </li>                                      
-                            <li>
-                                <a href="/careers.html">
-                                    Careers
-                                </a>
-                            </li>                                      
+                                                                
                             <li>
                                 Case Studies (Coming Soon)
                             </li>
@@ -223,44 +219,6 @@ headerContent.innerHTML = `
                     </div>
                 </details>
             </li>
-
-
-
-
-            <li class="nav-list__list-item">
-                <details class="main-nav__list-item">
-                    <summary class="main-nav__list-item__title">                                        
-                        <p class="nav-top-level__no-link--mobile">
-                            Resources
-                        </p>
-                        <a class="nav-top-level__link--desktop" href="#">
-                            Resources
-                        </a>
-                    </summary>
-                    <div class="nav-item__sub-links resources-nav__sub-links">
-
-                        <div class="dropdown-media-content resources-menu__media-content">
-                            <img width="154" height="216" src="./assets/resources-dropdown-1.webp" alt="Portion of a library's bookshelves" class="resources-nav-dropdown__media-img">
-                            <img width="154" height="216" src="./assets/resources-dropdown-2.webp" alt="Computer and coffee in a coffee house" class="resources-nav-dropdown__media-img">
-                        </div>
-                        <ul>                                            
-                            <li>
-                                <a href="/resources-articles.html">
-                                Articles / White Papers
-                                </a>
-                            </li>
-                            <li>
-                                Blogs (Coming Soon)
-                            </li>
-                            <li>
-                                User Stories (Coming Soon)
-                            </li>
-                        </ul>
-                    </div>
-                </details>
-            </li>
-
-
 
 
             <li class="nav-list__list-item">
@@ -315,7 +273,36 @@ headerContent.innerHTML = `
                             </ul>
                         </div>
                     </div>
-</details>
+                </details>
+            </li>
+
+            
+
+            <li class="nav-list__list-item">
+                <details class="main-nav__list-item">
+                    <summary class="main-nav__list-item__title">                                        
+                        <p class="nav-top-level__no-link--mobile">
+                            Careers
+                        </p>
+                        <a class="nav-top-level__link--desktop" href="/careers.html">
+                            Careers
+                        </a>
+                    </summary>
+                    <div class="nav-item__sub-links resources-nav__sub-links">
+
+                        <div class="dropdown-media-content resources-menu__media-content">
+                            <img width="154" height="216" src="./assets/resources-dropdown-1.webp" alt="Portion of a library's bookshelves" class="resources-nav-dropdown__media-img">
+                            <img width="154" height="216" src="./assets/resources-dropdown-2.webp" alt="Computer and coffee in a coffee house" class="resources-nav-dropdown__media-img">
+                        </div>
+                        <ul>                                            
+                            <li>
+                                <a href="/careers.html">
+                                    Careers
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </details>
             </li>
 
 
@@ -329,5 +316,46 @@ headerContent.innerHTML = `
 </div>
 
 </div>`;
+
+// Top Level "Resources" Tab
+
+/* <li>
+    <a href="/careers.html">
+        Careers
+    </a>
+</li>   */
+
+/* <li class="nav-list__list-item">
+    <details class="main-nav__list-item">
+        <summary class="main-nav__list-item__title">                                        
+            <p class="nav-top-level__no-link--mobile">
+                Resources
+            </p>
+            <a class="nav-top-level__link--desktop" href="#">
+                Resources
+            </a>
+        </summary>
+        <div class="nav-item__sub-links resources-nav__sub-links">
+
+            <div class="dropdown-media-content resources-menu__media-content">
+                <img width="154" height="216" src="./assets/resources-dropdown-1.webp" alt="Portion of a library's bookshelves" class="resources-nav-dropdown__media-img">
+                <img width="154" height="216" src="./assets/resources-dropdown-2.webp" alt="Computer and coffee in a coffee house" class="resources-nav-dropdown__media-img">
+            </div>
+            <ul>                                            
+                <li>
+                    <a href="/resources-articles.html">
+                    Articles / White Papers
+                    </a>
+                </li>
+                <li>
+                    Blog (Coming Soon)
+                </li>
+                <li>
+                    User Stories (Coming Soon)
+                </li>
+            </ul>
+        </div>
+    </details>
+</li> */
 
 headerHolder.append(headerContent);
