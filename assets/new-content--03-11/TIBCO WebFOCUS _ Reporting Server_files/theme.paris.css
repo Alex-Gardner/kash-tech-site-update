@@ -1,0 +1,435 @@
+/*Copyright (c) 1996-2021 TIBCO Software Inc. All Rights Reserved.*/
+/* $Revision: 1.0 $: */
+
+ .wf-content-header .wf-content-header-item {
+   display: inline-block;
+   font-weight: 900;
+   color: #3455DB;
+   margin-left: 1.2em;
+   padding: .25em .75em;
+   border-radius: 10em;
+   cursor: pointer;
+   margin-top: .75em;
+   font-size: 14px;
+   line-height: 1.5;
+}
+
+.wf-content-header .wf-content-header-item:hover,
+.wf-content-header .wf-content-header-item:focus {
+    color: #1F3A93;
+    outline: 0;
+}
+
+.wf-content-header .wf-content-header-item.current {
+    color: #fff;
+    background: #01253D;
+    cursor: default;
+}
+
+.wf-count {
+    width: 1.25em;
+    height: 1.25em;
+    background: #DC143C;
+    color: #FFF;
+    position: absolute;
+    top: -.5em;
+    right: -.5em;
+    text-align: center;
+    line-height: 1.25;
+ }
+
+ .wf-circle {
+     border-radius: 100%;
+ }
+
+.wf-squre-count {
+  	margin-right: 4px;
+  	width: 24px;
+  	height: 24px;
+  	font-family: Roboto;
+  	font-size: 12px;
+  	font-weight: 900;
+  	font-style: normal;
+  	font-stretch: normal;
+  	letter-spacing: normal;
+  	text-align: center;
+	color: #ffffff;
+}
+
+.wf-count-squre {
+    margin-top: 5px;
+    width: 24px;
+    height: 16px;
+    border-radius: 2px;
+    background: #8a3afa;
+    color: #fff;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wf-va-squre-count {
+  margin-right: 16px;
+  width: 25px;
+  height: 18px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 14px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.wf-va-count-squre {
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 22px;
+    height: 14px;
+    border-radius: 2px;
+    background: #8a3afa;
+    color: #fff;
+    line-height: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wf-combined-Shape-left {
+  width: 16px;
+  height: 17px;
+  margin-top: 14px;
+  border-top:2px solid #eeeeee;	
+  margin-right: 2px;  
+}
+
+.wf-combined-Shape-middle {
+  flex: 1 1 auto;
+  height: 17px;
+  margin-top: 14px;
+  border-top:2px solid #eeeeee;
+  margin-left: 2px;
+}
+
+.wf-combined-Shape-middle-16 {
+  width: 16px;
+  height: 17px;
+  margin-top: 14px;
+  border-top:2px solid #eeeeee;
+}
+
+.wf-combined-Shape-middle-11 {
+  width: 11px;
+}
+
+.wf-combined-Shape {
+  flex: 1 1 auto;
+  height: 17px;
+  margin-top: 14px;
+  border-top:2px solid #eeeeee;
+  border-right:2px solid #eeeeee;
+  margin-right: 16px;
+  margin-left: 2px;
+}
+
+.wf-combined-Shape-16 {
+  width: 16px;
+  height: 17px;
+  margin-top: 14px;
+  border-top:2px solid #eeeeee;
+  border-right:2px solid #eeeeee;
+  margin-right: 16px;
+}
+
+.wf-search-results-reve {
+  height: 32px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 32px;
+  letter-spacing: normal;
+  color: #34515e;
+}
+
+.wf-search-results-reve-margin {
+  margin-left: 16px;
+}
+
+.wf-search-results-reve-result {
+  color: #912ca7;
+  margin-left:3px;
+}
+
+.wf-left-arrow {
+  margin-left: 16px;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 1;
+  font-size: 1em;
+  color: #3455db;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.wf-left-arrow:hover {
+  background: #f7f8fe;
+  color: #142772;
+  outline: none;
+}
+
+.wf-left-arrow:focus {
+  background: #142772;
+  color: #fff;
+  outline: none;
+}
+
+.wf-left-arrow[disabled=disabled] {
+  background: #eeeeee;
+  color: #cccccc;
+}
+
+.wf-left-arrow-small {
+    font-size: .5em;
+}
+
+.wf-left-arrow-medium {
+    font-size: .667em;
+}
+
+.wf-left-arrow-large {
+    font-size: .8345em;
+}
+
+.wf-left-arrow-x-large {
+  font-size: 1em;
+}
+
+.wf-blue-500 {
+	background-color: #03A6EC;
+}
+.wf-gray-500 {
+	background-color: #2B2D32;
+}
+
+.wf-primary-Bright-blue {
+	background-color: #3455db;
+}	
+
+.wf-primary-dark-blue {
+	background-color: #1f3a93;
+}
+
+.ibx-button.wf-button {
+	color: white;
+	background-color: #3455db;
+	height: 32px;
+}
+
+.ibx-button.wf-button:hover, .ibx-button.wf-button:focus {
+	color: white;
+	background-color: #1F3A93;
+	cursor: pointer;
+}
+
+.ibx-button-simple.wf-button {
+	color: white;
+	background-color: #3455db;
+	border-radius: 4px;
+	height: 32px;
+}
+
+.ibx-button-simple.wf-button:hover, .ibx-button-simple.wf-button:focus {
+	color: white;
+	background-color: #1F3A93;
+	cursor: pointer;
+}
+
+.wf-check-square {
+	color:#03A6EC;
+	font-size:16px;
+	user-select:none;
+}
+
+.wf-check-square .ibx-label-text {
+	color: rgb(51, 51, 51);	
+}
+
+
+/* switch class */
+.ibx-switch-ctrl {
+    position: relative;
+  	width: 42px;
+   	height: 24px;
+}
+
+.ibx-switch-ctrl > .ibx-switch-slider:before {
+    position: absolute;
+    content: "";
+  	height: 22px;
+   	width: 22px;
+  	left: 1px;
+  	bottom: 1px;
+    background-color: #ffffff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.ibx-switch.checked .ibx-switch-slider:before {
+	-webkit-transform: translateX(18px);
+	-ms-transform: translateX(18px);
+	transform: translateX(18px);
+}
+
+.ibx-switch .ibx-switch-slider {
+    background-color: #ccc;
+}
+
+.ibx-switch.checked .ibx-switch-slider {
+    background-color: #23b7e5;
+}
+
+/* Make the switch round */
+.ibx-switch-ctrl > .ibx-switch-slider.round {
+  border-radius: 20px;
+}
+
+/* accordion class */
+.ibx-accordion-pane {
+	border:hidden;
+	padding:0em;
+}
+
+.ibx-accordion-page-button {
+	height:30px;
+	box-sizing: border-box;
+}
+
+.ibx-accordion-button-text {
+	font-weight:normal;
+}
+
+/* label class */
+.ibx-label-glyph {
+	cursor:inherit;
+}
+
+.ds-icon-plus, .ds-icon-minus {
+    cursor: pointer;
+}
+
+.ibx-label,
+.ibx-label-text {
+    cursor: inherit;
+    -webkit-touch-callout: default; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+/** Grid **/
+.dgrid-grid:focus {
+  outline: none;
+}
+.dgrid-header-col-bar-group {
+}
+
+.dgrid-header-col {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px;
+  color: #3455db;
+  background-color: #f5fbfe;
+  border-right: 1px solid #eeeeee;
+  cursor: pointer;
+  align-self: stretch;
+}
+
+.dgrid-header-col.header-checkbox {
+  font-weight: 400;
+}
+
+.dgrid-header-col .ibx-label-glyph {
+	font-size: 16px;
+}
+
+.dgrid-header-col.ibx-button-simple:hover {
+	background-color: #f5fbfe;
+	color: #1f3a93;
+}
+
+.dgrid-header-col-bar {
+  border: 1px solid #eeeeee;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.dgrid-row {
+  flex: 0 0 auto;
+  border: 1px solid #eeeeee;
+  border-top: 0;
+  color: #34515e;
+  width: 100%;
+  height: 32px;
+}
+
+.dgrid-row:nth-child(odd) {
+  background: white;
+}
+
+.dgrid-row:nth-child(even) {
+  background: #f4f4f4;
+}
+
+.dgrid-row:last-child {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.dgrid-row:hover, .dgrid-row:focus {
+  background-color: #f7f8fe;
+  outline: 0;
+}
+
+.dgrid-row.ibx-sm-selected {
+  border: 1px solid rgb(52, 85, 219);
+  background-color: #f4f4ff;
+  color: inherit;
+  margin-top: -1px;
+  height: 33px;
+}
+
+.dgrid-row.ibx-sm-selected:first-of-type {
+  margin-top: 0;
+  height: 32px;
+}
+
+.dgrid-cell {
+  font-size: 12px;
+  border-right: 1px solid #eeeeee;
+  padding: 8px;
+  outline: 0;
+}
+
+.dgrid-cell:hover {
+	background-color: transparent;
+}
+
+ .dgrid-grid.dgrid-sm-row-select .dgrid-cell:hover {
+	background-color: transparent;
+}
+
+.dgrid-corner {
+	border-right: 0px;
+}
+
+.ibx-grid-cell .fa.fa-folder {
+	color: rgb(250, 215, 50);
+}
+

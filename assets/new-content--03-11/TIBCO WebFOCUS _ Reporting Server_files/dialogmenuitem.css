@@ -1,0 +1,17 @@
+/*Copyright (c) 1996-2021 TIBCO Software Inc. All Rights Reserved.*/
+/* $Revision: 1.2 $: */
+
+.ibx-menu.dialog-menu-item {
+    padding: 0;
+}
+.dmi-btn-box
+{
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.dmi-btn-box .ibx-button
+{
+	margin: 5px;
+	
+}

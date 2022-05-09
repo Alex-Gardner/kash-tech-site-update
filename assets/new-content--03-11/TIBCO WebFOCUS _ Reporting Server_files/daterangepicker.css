@@ -1,0 +1,66 @@
+/*Copyright (c) 1996-2021 TIBCO Software Inc. All Rights Reserved.*/
+/* $Revision: 1.3 $: */
+
+.ibx-dialog.date-range-picker.std
+{
+    width: auto;
+    min-width: none;
+    max-width: none;
+}
+
+.drp-date-picker .ui-widget {
+    font-size: 14px; 
+}
+
+.drp-range-list
+{
+    padding: 10px;
+}
+
+.date-range-picker .ibx-datepicker-input-wrapper
+{
+    border: none;
+}
+
+.drp-date-range{
+    min-width: 500px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .date-range-picker .ibx-dialog-content>.ibx-flexbox
+    {
+        flex-wrap: wrap;
+    }
+    .date-range-picker .drp-range-list-wrapper, .date-range-picker .drp-control-wrapper
+    {
+        flex: 1 1 auto;
+    }
+    .date-range-picker .ui-datepicker-multi-2 .ui-datepicker-group {
+        width: 100%;
+    }
+
+    .date-range-picker .ui-datepicker-inline.ui-datepicker
+    {
+        width: auto!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ibx-dialog.date-range-picker.std
+    {
+        max-height: 700px;
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .ibx-dialog.date-range-picker.std
+    {
+        max-height: 600px;
+        overflow: auto;
+    }
+}
+
+
+

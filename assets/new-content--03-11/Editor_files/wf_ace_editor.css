@@ -1,0 +1,291 @@
+/*Copyright (c) 1996-2021 TIBCO Software Inc. All Rights Reserved.*/
+/* $Revision: 1.17 $: */
+
+html, body
+{
+/*	width:100%;
+	height:100%;  */
+	margin:0px;
+	box-sizing:border-box;
+	overflow: hidden;
+}
+
+.main-box
+{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+
+.text-editor
+{
+	box-sizing:border-box;
+ 	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+.te-tab-pane 
+{
+	flex: 1 0 auto;
+	box-sizing:border-box;
+}
+
+.te-tab-pane>.ibx-tab-position-top {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+.te-tab-pane .ibx-tab-button
+{
+    font-size: 14px;
+}
+.te-tab-pane .ibx-tab-button:hover {
+    background-color: #ddd;
+    border-bottom: 1px solid #ccc;
+}
+.te-tab-pane .ibx-tab-button:focus {
+    border-color: #888;
+    background-color: inherit;
+}
+.te-tab-pane .ibx-tab-button.checked,
+.te-tab-pane .ibx-tab-button.checked:hover,
+.te-tab-pane .ibx-tab-button.checked:focus {
+    background-color: #fff;
+    border-bottom: 1px solid transparent;
+}
+.te-tab-pane .ibx-tab-button>.ibx-label-glyph
+{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.text-editor-tab-page
+{
+	display:flex;
+	flex-direction:column;
+	box-sizing:border-box;
+	position:relative;
+}
+
+.text-editor-tab-page-close-button.ibx-button-simple
+{
+	margin-left:10px;
+    opacity: .2;
+    font-size: 16px;
+}
+.text-editor-tab-page-close-button.ibx-button-simple:hover
+{
+    opacity: 1;
+    background-color: transparent;
+}
+
+.text-editor-tab-page-dirty_label
+{
+	margin-left:3px;
+}
+
+.te-tool-bar
+{
+	box-sizing:border-box;
+}
+
+.te-menu-bar {
+    background-color: #222;
+}
+
+.te-menu-bar .ibx-button-simple.te-menu-button,
+.te-menu-bar .ibx-button-simple.te-menu-button-help {
+    flex: 0 0 auto;
+    font-size: 16px;
+    color: #fff;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    width: 14px;
+    margin: 8px 1px;
+}
+.te-menu-bar .ibx-button-simple.te-menu-button:hover, 
+.te-menu-bar .ibx-button-simple.te-menu-button-help:hover, 
+.te-menu-bar .ibx-button-simple.te-menu-button:focus, 
+.te-menu-bar .ibx-button-simple.te-menu-button-help:focus {
+	color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.1);
+}
+.te-menu-bar .ibx-button-simple.te-menu-file,
+.te-menu-bar .ibx-button-simple.te-menu-file:hover {
+    background-color: #35b8fe;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    margin: 0 1em 0 0;
+}
+
+.te-menu-file .ibx-label-glyph 
+{    
+	width: 100%;
+}
+	
+.te-menu-item
+{
+	
+}
+.te-menu-separator
+{
+	
+}
+
+.te-search-panel
+{
+	position:relative;
+	 flex: 0 0 auto;
+	padding:5px;
+	/* background-color:gray; */
+	border-bottom: 1px solid #ccc;
+}
+.findLbl
+{
+	margin-left:15px;
+	margin-right:5px;
+}
+.findText
+{
+	width:200px;
+}
+.replaceLbl
+{
+	margin-left:20px;
+	margin-right:5px;
+}
+.replaceText
+{
+	width:200px;
+}
+.cbMatchCase
+{
+	margin-left:15px;
+}
+.cbMatchWholeWord
+{
+	margin-top:10px;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+.cbWrapAround
+{
+	margin-left:15px;
+}
+.btnFindNext
+{
+	
+}
+.btnReplaceNext
+{
+	margin-top:5px;
+	
+	margin-bottom:5px;	
+}
+.btnReplaceAll
+{
+	
+}
+.te-search-close-button-separator 
+{
+	flex : 1 1 auto;
+}
+.te-search-close-button 
+{	
+	flex: 0 0 auto;
+	margin: 5px 5px 5px 5px;
+    font-size: 16px;
+}
+
+.te-status-bar {
+    margin: 5px;
+}
+.te-sb-length-marker-label
+{
+	margin-left:10px;
+	margin-right:0px;
+}			
+.te-sb-length-marker-value
+{
+	margin-left:5px;
+	margin-right:50px;
+}
+.te-sb-lines-marker-label
+{
+	margin-right:0px;
+}			
+.te-sb-lines-marker-value
+{
+	margin-left:5px;
+	margin-right:50px;
+}
+.te-sb-line-marker-label
+{
+	margin-right:0px;
+}			
+.te-sb-line-marker-value
+{
+	margin-left:5px;
+	margin-right:50px;
+}			
+.te-sb-column-marker-label
+{
+	margin-right:0px;
+}			
+.te-sb-column-marker-value
+{
+	margin-left:5px;
+	margin-right:50px;
+}
+.te-sb-insert-marker-label
+{
+	margin-right:0px;
+}			
+.te-sb-insert-marker-value
+{
+	margin-left:5px;
+	margin-right:50px;
+}
+.te-sb-capslock-marker-label
+{
+	margin-right:0px;
+}			
+.te-sb-capslock-marker-value
+{
+	margin-left:5px;
+	margin-right:50px;
+}
+.te-sb-numlock-marker-label
+{
+	margin-right:0px;
+}			
+.te-sb-numlock-marker-value
+{
+	margin-left:5px;
+}
+.te-menu-separator4
+{
+	flex : 1 1 auto;
+}
+.editor-tb-separator {
+    align-self: stretch;
+    border-left: 1px solid #424242;
+    margin: 0 1em;
+}
+.te-tab-pane .ibx-tab-position-top .ibx-check-box {
+    padding: 6px 12px;
+}
+
+.ds-header .ds-btn-header.editor-btn-close,
+.ds-header .ds-btn-header.editor-btn-close:hover,
+.ds-header .ds-btn-header.editor-btn-close:focus {
+	color: #dc143c;
+}

@@ -352,3 +352,5 @@ Use Tabs in groups
 KPIs at top
 
 \*\*Need a more streamlined way to update live site - Integrate w/ version control?
+
+# We are an IT Solutions Provider
